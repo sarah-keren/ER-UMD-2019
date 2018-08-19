@@ -1,0 +1,489 @@
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/Code-AAAI-19/ER-UMD/umd-Benchmakrs-2019/vacuum-no-fuel-simple/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-1-design
+Solver :: LAO*
+Command type:: bfs_design
+Heuristic_name:: baod-heur
+ 
+ the queue in deterministic solver:
+            [ 4:(current-time t1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 0 and f: 0
+ - - - - 
+ 
+ the queue in deterministic solver:
+            [ 6:(current-time t2) 8:(enabled-remove-occupancy x1 y2) 10:(remove-occupancy-x x1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 0.0001 and f: 0.0001
+            [ 6:(current-time t2) 12:(enabled-remove-occupancy x2 y1) 14:(remove-occupancy-x x2) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 0.0001 and f: 0.0001
+            [ 2:(execution) 4:(current-time t1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 500 and f: 500
+ - - - - 
+ 
+ the queue in deterministic solver:
+            [ 6:(current-time t2) 12:(enabled-remove-occupancy x2 y1) 14:(remove-occupancy-x x2) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 0.0001 and f: 0.0001
+            [ 2:(execution) 6:(current-time t2) 8:(enabled-remove-occupancy x1 y2) 10:(remove-occupancy-x x1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 2.11121 and f: 2.11121
+            [ 2:(execution) 4:(current-time t1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 500 and f: 500
+ - - - - 
+ 
+ the queue in deterministic solver:
+            [ 2:(execution) 6:(current-time t2) 8:(enabled-remove-occupancy x1 y2) 10:(remove-occupancy-x x1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 2.11121 and f: 2.11121
+            [ 2:(execution) 4:(current-time t1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 500 and f: 500
+            [ 2:(execution) 6:(current-time t2) 12:(enabled-remove-occupancy x2 y1) 14:(remove-occupancy-x x2) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 500 and f: 500
+ - - - - 
+Expected cost (A*):: 2.11121
+Optimal action:: (design-remove-occupancy x1 y2 t1 t2)
+Initial state::[ 4:(current-time t1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]
+Expanded nodes:: Execution::32 Design::8 Total::40
+Calculate nodes::7
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::8 Expanded nodes::8
+Total time:: 0.011693
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/Code-AAAI-19/ER-UMD/umd-Benchmakrs-2019/vacuum-no-fuel-simple/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-1-design
+Solver :: LAO*
+Command type:: compilation
+Heuristic_name:: baod-heur
+Initial state:: [ 4:(current-time t1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]
+Expected cost:: 2.11131
+Best action:: (design-remove-occupancy x1 y2 t1 t2)
+Expanded nodes::44 
+Expanded Design nodes::13
+Calculate nodes::7
+Calculate design nodes::3
+Total time:: 0.00114
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/Code-AAAI-19/ER-UMD/umd-Benchmakrs-2019/vacuum-no-fuel-simple/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-1-design
+Solver :: LAO*
+Command type:: rel-env
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-1-design-relaxed
+ 
+ the queue in deterministic solver:
+            [ 4:(current-time t1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 0 and f: 2.0002
+ - - - - 
+ 
+ the queue in deterministic solver:
+            [ 6:(current-time t2) 8:(enabled-remove-occupancy x1 y2) 10:(remove-occupancy-x x1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 0.0001 and f: 2.0002
+            [ 6:(current-time t2) 12:(enabled-remove-occupancy x2 y1) 14:(remove-occupancy-x x2) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 0.0001 and f: 9.0002
+            [ 2:(execution) 4:(current-time t1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 500 and f: 500
+ - - - - 
+ 
+ the queue in deterministic solver:
+            [ 2:(execution) 6:(current-time t2) 8:(enabled-remove-occupancy x1 y2) 10:(remove-occupancy-x x1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 2.11121 and f: 2.11121
+            [ 6:(current-time t2) 12:(enabled-remove-occupancy x2 y1) 14:(remove-occupancy-x x2) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 0.0001 and f: 9.0002
+            [ 2:(execution) 4:(current-time t1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 500 and f: 500
+ - - - - 
+Expected cost (A*):: 2.11121
+Optimal action:: (design-remove-occupancy x1 y2 t1 t2)
+Initial state::[ 4:(current-time t1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]
+Expanded nodes:: Execution::23 Design::7 Total::30
+Calculate nodes::4
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::7 Expanded nodes::7
+Total time:: 0.001366
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/Code-AAAI-19/ER-UMD/umd-Benchmakrs-2019/vacuum-no-fuel-simple/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-1-design
+Solver :: LAO*
+Command type:: rel-mod
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-1-design-over
+ 
+ the queue in deterministic solver:
+            [ 4:(current-time t1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 0 and f: 2.0002
+ - - - - 
+ 
+ the queue in deterministic solver:
+            [ 6:(current-time t2) 8:(enabled-remove-occupancy x1 y2) 10:(remove-occupancy-x x1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 0.0001 and f: 2.0002
+            [ 6:(current-time t2) 12:(enabled-remove-occupancy x2 y1) 14:(remove-occupancy-x x2) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 0.0001 and f: 9.0002
+            [ 2:(execution) 4:(current-time t1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 500 and f: 500
+ - - - - 
+ 
+ the queue in deterministic solver:
+            [ 2:(execution) 6:(current-time t2) 8:(enabled-remove-occupancy x1 y2) 10:(remove-occupancy-x x1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 2.11121 and f: 2.11121
+            [ 6:(current-time t2) 12:(enabled-remove-occupancy x2 y1) 14:(remove-occupancy-x x2) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 0.0001 and f: 9.0002
+            [ 2:(execution) 4:(current-time t1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 500 and f: 500
+ - - - - 
+Expected cost (A*):: 2.11121
+Optimal action:: (design-remove-occupancy x1 y2 t1 t2)
+Initial state::[ 4:(current-time t1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]
+Expanded nodes:: Execution::23 Design::7 Total::30
+Calculate nodes::4
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::7 Expanded nodes::7
+Total time:: 0.001017
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/Code-AAAI-19/ER-UMD/umd-Benchmakrs-2019/vacuum-no-fuel-simple/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-1-design
+Solver :: LAO*
+Command type:: rel-combined
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-1-design-over-relaxed
+ 
+ the queue in deterministic solver:
+            [ 4:(current-time t1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 0 and f: 2.0002
+ - - - - 
+ 
+ the queue in deterministic solver:
+            [ 6:(current-time t2) 8:(enabled-remove-occupancy x1 y2) 10:(remove-occupancy-x x1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 0.0001 and f: 2.0002
+            [ 6:(current-time t2) 12:(enabled-remove-occupancy x2 y1) 14:(remove-occupancy-x x2) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 0.0001 and f: 9.0002
+            [ 2:(execution) 4:(current-time t1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 500 and f: 500
+ - - - - 
+ 
+ the queue in deterministic solver:
+            [ 2:(execution) 6:(current-time t2) 8:(enabled-remove-occupancy x1 y2) 10:(remove-occupancy-x x1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 2.11121 and f: 2.11121
+            [ 6:(current-time t2) 12:(enabled-remove-occupancy x2 y1) 14:(remove-occupancy-x x2) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 0.0001 and f: 9.0002
+            [ 2:(execution) 4:(current-time t1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 500 and f: 500
+ - - - - 
+Expected cost (A*):: 2.11121
+Optimal action:: (design-remove-occupancy x1 y2 t1 t2)
+Initial state::[ 4:(current-time t1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]
+Expanded nodes:: Execution::23 Design::7 Total::30
+Calculate nodes::4
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::7 Expanded nodes::7
+Total time:: 0.001287
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/Code-AAAI-19/ER-UMD/umd-Benchmakrs-2019/vacuum-no-fuel-simple/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-1-design
+Solver :: LAO*
+Command type:: rel-proc
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-1-design-over
+ 
+ the queue in deterministic solver:
+            [ 4:(current-time t1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 0 and f: 2.0002
+ - - - - 
+ 
+ the queue in deterministic solver:
+            [ 6:(current-time t2) 8:(enabled-remove-occupancy x1 y2) 10:(remove-occupancy-x x1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 0.0001 and f: 2.0002
+            [ 6:(current-time t2) 12:(enabled-remove-occupancy x2 y1) 14:(remove-occupancy-x x2) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 0.0001 and f: 9.0002
+            [ 2:(execution) 4:(current-time t1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 500 and f: 500
+ - - - - 
+ 
+ the queue in deterministic solver:
+            [ 2:(execution) 6:(current-time t2) 8:(enabled-remove-occupancy x1 y2) 10:(remove-occupancy-x x1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 2.11121 and f: 2.11121
+            [ 6:(current-time t2) 12:(enabled-remove-occupancy x2 y1) 14:(remove-occupancy-x x2) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 0.0001 and f: 9.0002
+            [ 2:(execution) 4:(current-time t1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 500 and f: 500
+ - - - - 
+Expected cost (A*):: 2.11121
+Optimal action:: (design-remove-occupancy x1 y2 t1 t2)
+Initial state::[ 4:(current-time t1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]
+Expanded nodes:: Execution::23 Design::3 Total::26
+Calculate nodes::4
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::7 Expanded nodes::3
+Total time:: 0.001038
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/Code-AAAI-19/ER-UMD/umd-Benchmakrs-2019/vacuum-no-fuel-simple/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-1-design
+Solver :: LAO*
+Command type:: rel-combined-proc
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-1-design-over-relaxed
+ 
+ the queue in deterministic solver:
+            [ 4:(current-time t1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 0 and f: 2.0002
+ - - - - 
+ 
+ the queue in deterministic solver:
+            [ 6:(current-time t2) 8:(enabled-remove-occupancy x1 y2) 10:(remove-occupancy-x x1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 0.0001 and f: 2.0002
+            [ 6:(current-time t2) 12:(enabled-remove-occupancy x2 y1) 14:(remove-occupancy-x x2) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 0.0001 and f: 9.0002
+            [ 2:(execution) 4:(current-time t1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 500 and f: 500
+ - - - - 
+ 
+ the queue in deterministic solver:
+            [ 2:(execution) 6:(current-time t2) 8:(enabled-remove-occupancy x1 y2) 10:(remove-occupancy-x x1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 2.11121 and f: 2.11121
+            [ 6:(current-time t2) 12:(enabled-remove-occupancy x2 y1) 14:(remove-occupancy-x x2) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 0.0001 and f: 9.0002
+            [ 2:(execution) 4:(current-time t1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 500 and f: 500
+ - - - - 
+Expected cost (A*):: 2.11121
+Optimal action:: (design-remove-occupancy x1 y2 t1 t2)
+Initial state::[ 4:(current-time t1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]
+Expanded nodes:: Execution::23 Design::3 Total::26
+Calculate nodes::4
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::7 Expanded nodes::3
+Total time:: 0.001326
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/Code-AAAI-19/ER-UMD/umd-Benchmakrs-2019/vacuum-no-fuel-simple/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-1-design
+Solver :: LAO*
+Command type:: bfs_design
+Heuristic_name:: hmin-heur
+ 
+ the queue in deterministic solver:
+            [ 4:(current-time t1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 0 and f: 0
+ - - - - 
+ 
+ the queue in deterministic solver:
+            [ 6:(current-time t2) 8:(enabled-remove-occupancy x1 y2) 10:(remove-occupancy-x x1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 0.0001 and f: 0.0001
+            [ 6:(current-time t2) 12:(enabled-remove-occupancy x2 y1) 14:(remove-occupancy-x x2) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 0.0001 and f: 0.0001
+            [ 2:(execution) 4:(current-time t1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 500 and f: 500
+ - - - - 
+ 
+ the queue in deterministic solver:
+            [ 6:(current-time t2) 12:(enabled-remove-occupancy x2 y1) 14:(remove-occupancy-x x2) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 0.0001 and f: 0.0001
+            [ 2:(execution) 6:(current-time t2) 8:(enabled-remove-occupancy x1 y2) 10:(remove-occupancy-x x1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 2.11121 and f: 2.11121
+            [ 2:(execution) 4:(current-time t1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 500 and f: 500
+ - - - - 
+ 
+ the queue in deterministic solver:
+            [ 2:(execution) 6:(current-time t2) 8:(enabled-remove-occupancy x1 y2) 10:(remove-occupancy-x x1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 2.11121 and f: 2.11121
+            [ 2:(execution) 4:(current-time t1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 500 and f: 500
+            [ 2:(execution) 6:(current-time t2) 12:(enabled-remove-occupancy x2 y1) 14:(remove-occupancy-x x2) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 500 and f: 500
+ - - - - 
+Expected cost (A*):: 2.11121
+Optimal action:: (design-remove-occupancy x1 y2 t1 t2)
+Initial state::[ 4:(current-time t1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]
+Expanded nodes:: Execution::34 Design::8 Total::42
+Calculate nodes::3
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::8 Expanded nodes::8
+Total time:: 0.034717
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/Code-AAAI-19/ER-UMD/umd-Benchmakrs-2019/vacuum-no-fuel-simple/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-1-design
+Solver :: LAO*
+Command type:: compilation
+Heuristic_name:: hmin-heur
+Initial state:: [ 4:(current-time t1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]
+Expected cost:: 2.11131
+Best action:: (design-remove-occupancy x1 y2 t1 t2)
+Expanded nodes::40 
+Expanded Design nodes::12
+Calculate nodes::4
+Calculate design nodes::3
+Total time:: 0.034648
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/Code-AAAI-19/ER-UMD/umd-Benchmakrs-2019/vacuum-no-fuel-simple/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-1-design
+Solver :: LAO*
+Command type:: rel-env
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-1-design-relaxed
+ 
+ the queue in deterministic solver:
+            [ 4:(current-time t1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 0 and f: 2.0002
+ - - - - 
+ 
+ the queue in deterministic solver:
+            [ 6:(current-time t2) 8:(enabled-remove-occupancy x1 y2) 10:(remove-occupancy-x x1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 0.0001 and f: 2.0002
+            [ 2:(execution) 4:(current-time t1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 500 and f: 500
+            [ 6:(current-time t2) 12:(enabled-remove-occupancy x2 y1) 14:(remove-occupancy-x x2) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 0.0001 and f: 500
+ - - - - 
+ 
+ the queue in deterministic solver:
+            [ 2:(execution) 6:(current-time t2) 8:(enabled-remove-occupancy x1 y2) 10:(remove-occupancy-x x1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 2.11121 and f: 2.11121
+            [ 2:(execution) 4:(current-time t1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 500 and f: 500
+            [ 6:(current-time t2) 12:(enabled-remove-occupancy x2 y1) 14:(remove-occupancy-x x2) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 0.0001 and f: 500
+ - - - - 
+Expected cost (A*):: 2.11121
+Optimal action:: (design-remove-occupancy x1 y2 t1 t2)
+Initial state::[ 4:(current-time t1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]
+Expanded nodes:: Execution::25 Design::7 Total::32
+Calculate nodes::2
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::7 Expanded nodes::7
+Total time:: 0.036395
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/Code-AAAI-19/ER-UMD/umd-Benchmakrs-2019/vacuum-no-fuel-simple/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-1-design
+Solver :: LAO*
+Command type:: rel-mod
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-1-design-over
+ 
+ the queue in deterministic solver:
+            [ 4:(current-time t1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 0 and f: 2.0002
+ - - - - 
+ 
+ the queue in deterministic solver:
+            [ 6:(current-time t2) 8:(enabled-remove-occupancy x1 y2) 10:(remove-occupancy-x x1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 0.0001 and f: 2.0002
+            [ 6:(current-time t2) 12:(enabled-remove-occupancy x2 y1) 14:(remove-occupancy-x x2) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 0.0001 and f: 499
+            [ 2:(execution) 4:(current-time t1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 500 and f: 500
+ - - - - 
+ 
+ the queue in deterministic solver:
+            [ 2:(execution) 6:(current-time t2) 8:(enabled-remove-occupancy x1 y2) 10:(remove-occupancy-x x1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 2.11121 and f: 2.11121
+            [ 6:(current-time t2) 12:(enabled-remove-occupancy x2 y1) 14:(remove-occupancy-x x2) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 0.0001 and f: 499
+            [ 2:(execution) 4:(current-time t1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 500 and f: 500
+ - - - - 
+Expected cost (A*):: 2.11121
+Optimal action:: (design-remove-occupancy x1 y2 t1 t2)
+Initial state::[ 4:(current-time t1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]
+Expanded nodes:: Execution::25 Design::7 Total::32
+Calculate nodes::2
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::7 Expanded nodes::7
+Total time:: 0.023496
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/Code-AAAI-19/ER-UMD/umd-Benchmakrs-2019/vacuum-no-fuel-simple/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-1-design
+Solver :: LAO*
+Command type:: rel-combined
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-1-design-over-relaxed
+ 
+ the queue in deterministic solver:
+            [ 4:(current-time t1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 0 and f: 2.0002
+ - - - - 
+ 
+ the queue in deterministic solver:
+            [ 6:(current-time t2) 8:(enabled-remove-occupancy x1 y2) 10:(remove-occupancy-x x1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 0.0001 and f: 2.0002
+            [ 2:(execution) 4:(current-time t1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 500 and f: 500
+            [ 6:(current-time t2) 12:(enabled-remove-occupancy x2 y1) 14:(remove-occupancy-x x2) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 0.0001 and f: 500
+ - - - - 
+ 
+ the queue in deterministic solver:
+            [ 2:(execution) 6:(current-time t2) 8:(enabled-remove-occupancy x1 y2) 10:(remove-occupancy-x x1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 2.11121 and f: 2.11121
+            [ 2:(execution) 4:(current-time t1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 500 and f: 500
+            [ 6:(current-time t2) 12:(enabled-remove-occupancy x2 y1) 14:(remove-occupancy-x x2) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 0.0001 and f: 500
+ - - - - 
+Expected cost (A*):: 2.11121
+Optimal action:: (design-remove-occupancy x1 y2 t1 t2)
+Initial state::[ 4:(current-time t1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]
+Expanded nodes:: Execution::25 Design::7 Total::32
+Calculate nodes::2
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::7 Expanded nodes::7
+Total time:: 0.036665
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/Code-AAAI-19/ER-UMD/umd-Benchmakrs-2019/vacuum-no-fuel-simple/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-1-design
+Solver :: LAO*
+Command type:: rel-proc
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-1-design-over
+ 
+ the queue in deterministic solver:
+            [ 4:(current-time t1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 0 and f: 2.0002
+ - - - - 
+ 
+ the queue in deterministic solver:
+            [ 6:(current-time t2) 8:(enabled-remove-occupancy x1 y2) 10:(remove-occupancy-x x1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 0.0001 and f: 2.0002
+            [ 6:(current-time t2) 12:(enabled-remove-occupancy x2 y1) 14:(remove-occupancy-x x2) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 0.0001 and f: 499
+            [ 2:(execution) 4:(current-time t1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 500 and f: 500
+ - - - - 
+ 
+ the queue in deterministic solver:
+            [ 2:(execution) 6:(current-time t2) 8:(enabled-remove-occupancy x1 y2) 10:(remove-occupancy-x x1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 2.11121 and f: 2.11121
+            [ 6:(current-time t2) 12:(enabled-remove-occupancy x2 y1) 14:(remove-occupancy-x x2) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 0.0001 and f: 499
+            [ 2:(execution) 4:(current-time t1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 500 and f: 500
+ - - - - 
+Expected cost (A*):: 2.11121
+Optimal action:: (design-remove-occupancy x1 y2 t1 t2)
+Initial state::[ 4:(current-time t1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]
+Expanded nodes:: Execution::25 Design::3 Total::28
+Calculate nodes::2
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::7 Expanded nodes::3
+Total time:: 0.023125
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/Code-AAAI-19/ER-UMD/umd-Benchmakrs-2019/vacuum-no-fuel-simple/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-1-design
+Solver :: LAO*
+Command type:: rel-combined-proc
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-1-design-over-relaxed
+ 
+ the queue in deterministic solver:
+            [ 4:(current-time t1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 0 and f: 2.0002
+ - - - - 
+ 
+ the queue in deterministic solver:
+            [ 6:(current-time t2) 8:(enabled-remove-occupancy x1 y2) 10:(remove-occupancy-x x1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 0.0001 and f: 2.0002
+            [ 2:(execution) 4:(current-time t1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 500 and f: 500
+            [ 6:(current-time t2) 12:(enabled-remove-occupancy x2 y1) 14:(remove-occupancy-x x2) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 0.0001 and f: 500
+ - - - - 
+ 
+ the queue in deterministic solver:
+            [ 2:(execution) 6:(current-time t2) 8:(enabled-remove-occupancy x1 y2) 10:(remove-occupancy-x x1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 2.11121 and f: 2.11121
+            [ 2:(execution) 4:(current-time t1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 500 and f: 500
+            [ 6:(current-time t2) 12:(enabled-remove-occupancy x2 y1) 14:(remove-occupancy-x x2) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 0.0001 and f: 500
+ - - - - 
+Expected cost (A*):: 2.11121
+Optimal action:: (design-remove-occupancy x1 y2 t1 t2)
+Initial state::[ 4:(current-time t1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]
+Expanded nodes:: Execution::25 Design::3 Total::28
+Calculate nodes::2
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::7 Expanded nodes::3
+Total time:: 0.03632
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/Code-AAAI-19/ER-UMD/umd-Benchmakrs-2019/vacuum-no-fuel-simple/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-1-design
+Solver :: FLARES
+Command type:: bfs_design
+Heuristic_name:: baod-heur
+ 
+ the queue in deterministic solver:
+            [ 4:(current-time t1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 0 and f: 0
+ - - - - 
+ 
+ the queue in deterministic solver:
+            [ 6:(current-time t2) 8:(enabled-remove-occupancy x1 y2) 10:(remove-occupancy-x x1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 0.0001 and f: 0.0001
+            [ 6:(current-time t2) 12:(enabled-remove-occupancy x2 y1) 14:(remove-occupancy-x x2) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 0.0001 and f: 0.0001
+            [ 2:(execution) 4:(current-time t1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 2.2102 and f: 2.2102
+ - - - - 
+ 
+ the queue in deterministic solver:
+            [ 6:(current-time t2) 12:(enabled-remove-occupancy x2 y1) 14:(remove-occupancy-x x2) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 0.0001 and f: 0.0001
+            [ 2:(execution) 6:(current-time t2) 8:(enabled-remove-occupancy x1 y2) 10:(remove-occupancy-x x1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 2.1002 and f: 2.1002
+            [ 2:(execution) 4:(current-time t1) 24:(robot-at x1 y1) 30:(dirt-at d1 x1 y2) ]with value g: 2.2102 and f: 2.2102
+ - - - - 
