@@ -41,13 +41,6 @@
    )
 
 
-  (:action move-robot-y-safely
-    :parameters(?x - location ?y_from - location ?y_to - location)
-    :precondition (and(robot-at ?x ?y_from)(not(occupied ?x ?y_to))(prox ?y_from ?y_to)
-                  (enabled-safety-move ?x ?y_from ?x ?y_to))
-    :effect (and (not(robot-at ?x ?y_from))(robot-at ?x ?y_to))        	    
-   )
-
 
  (:action loaddirt
     :parameters(?x_loc - location ?y_loc - location ?dirt -dirt)

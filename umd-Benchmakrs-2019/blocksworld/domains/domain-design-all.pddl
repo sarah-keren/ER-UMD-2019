@@ -9,13 +9,16 @@
 	(execution)
 	(current-time ?t - time)
 	(next ?t1 - time ?t2 - time)	
+	(enabled-put-on-table ?b - block)
+	(put-on-table)
+	
 )
 
   (:action pick-tower-safely
     :parameters (?b1 ?b2 ?b3 - block)
     :precondition (and (emptyhand) (clear ?b1) (on ?b1 ?b2) (on ?b2 ?b3)(execution)(enabled-safety-pickup-tower ?b1 ?b2 ?b3))
     :effect
-      (probabilistic 1.0 (and (holding ?b2) (clear ?b3) (not (emptyhand)) (not (on ?b2 ?b3))))
+      (probabilistic 0.5 (and (holding ?b2) (clear ?b3) (not (emptyhand)) (not (on ?b2 ?b3))))
   )
 
 
@@ -23,15 +26,16 @@
     :parameters (?b1 ?b2 - block)
     :precondition (and (emptyhand) (clear ?b1) (on ?b1 ?b2)(enabled-safety-pickup ?b1)(execution))
     :effect
-      (probabilistic
-        1.0 (and (holding ?b1) (clear ?b2) (not (emptyhand)) (not (on ?b1 ?b2)))
-      )
+        (probabilistic
+        0.9 (and (holding ?b1) (clear ?b2) (not (emptyhand)) (not (on ?b1 ?b2)))
+        0.1 (and (clear ?b2) (on-table ?b1) (not (on ?b1 ?b2))))
+
   )
   (:action pick-up-from-table-safely
     :parameters (?b - block)
     :precondition (and (emptyhand) (clear ?b) (on-table ?b)(enabled-safety-pickup ?b)(execution))
     :effect
-      (probabilistic 1.0 (and (holding ?b) (not (emptyhand)) (not (on-table ?b))))
+     (probabilistic 0.9 (and (holding ?b) (not (emptyhand)) (not (on-table ?b))))
   )
 
   (:action pick-up
@@ -79,14 +83,7 @@
 
 
 ;Design actions
-
- (:action design-idle
-    :parameters ( ?t - time ?tnext - time )
-    :precondition (and (not (execution)) (current-time ?t ) (next ?t ?tnext))
-    :effect (and (current-time ?tnext ) (not (current-time ?t)))
-  )
-
-
+ 
   (:action design-start-execution
     :parameters ()
     :precondition (and (not (execution)))
@@ -104,6 +101,13 @@
     :precondition (and (not (execution))(next ?t ?tnext)(current-time ?t ))
     :effect (and (enabled-safety-pickup ?b )(safety-pickup)(current-time ?tnext )(not (current-time ?t )))
   )
+
+  (:action design-put-on-table
+    :parameters (?b1 - block ?b2 - block ?t - time ?tnext - time)
+    :precondition (and (not (execution))(next ?t ?tnext)(current-time ?t )(on ?b1 ?b2))
+    :effect (and (enabled-put-on-table ?b1)(on-table ?b1)(clear ?b2)(current-time ?tnext )(not (current-time ?t ))(put-on-table))
+  )
+
 
 )
 

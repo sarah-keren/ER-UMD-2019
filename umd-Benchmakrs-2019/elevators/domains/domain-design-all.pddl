@@ -83,12 +83,7 @@
 
 ;Design actions
 
- (:action design-idle
-    :parameters ( ?t - time ?tnext - time )
-    :precondition (and (not (execution)) (current-time ?t ) (next ?t ?tnext))
-    :effect (and (current-time ?tnext ) (not (current-time ?t)))
-  )
-
+ 
  (:action design-start-execution
     :parameters ()
     :precondition (not(execution))

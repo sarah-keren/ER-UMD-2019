@@ -1,0 +1,10 @@
+
+To compile mini-gpt you need libsocket (I didn't have it on my computer). Here is the list of steps I just went through to compile my code:
+
+1) Unzip mini-gpt
+2) Install libsocket (in Ubuntu I got it doing sudo apt-get install happycoders-libsocket-dev)
+3) Compile mini-gpt (A simple "make")
+4) Run ar rvs libminigpt.a *.o
+5) Copy libminigpt.a to the lib folder in my code
+6) Copy all the headers in mini-gpt to the folder include/ppddl/mini-gpt
+7) Run make ppddl in my code

@@ -35,13 +35,13 @@
 
 (:action move-truck-enabled
     :parameters (?t - truck ?src - city ?dst - city)
-    :precondition (and (truck-at-city ?t ?src) (enabled-move-truck-to-city ?t ?dst)(execution))
+    :precondition (and (truck-at-city ?t ?src) (move-truck-to-city ?t)(execution))
     :effect (and (truck-at-city ?t ?dst) )
 )
 
 (:action drive-truck-safe-enabled
   :parameters (?t - truck ?src - city ?dst - city)
-  :precondition (and (truck-at-city ?t ?src)(enabled-safety-drive ?t ?src ?dst) (execution))
+  :precondition (and (truck-at-city ?t ?src)(safety-drive ?t) (execution))
   :effect (and 
                (probabilistic
                 0.1 (forall (?wrongdst1 - city)
@@ -64,7 +64,7 @@
   :parameters (?b - box ?t - truck ?c - city)
   :precondition (and (execution))
   :effect (when (and (box-at-city ?b ?c)
-                               (not (destination ?b ?c))
+                               
                                (truck-at-city ?t ?c)
                           )
 (and (box-on-truck ?b ?t)
@@ -87,7 +87,7 @@
   :parameters (?b - box ?p - plane ?c - city)
   :precondition (and (execution))
   :effect (when (and (box-at-city ?b ?c)
-                     (not (destination ?b ?c))
+                     
                      (plane-at-city ?p ?c)
                 )
                 (and (box-on-plane ?b ?p)
@@ -137,7 +137,7 @@
   :effect (when (and (plane-at-city ?p ?src)
                      (can-fly ?src ?dst)
                 )
-(and (not (plane-at-city ?p ?src))
+(and 
                (plane-at-city ?p ?dst)
           )
  )
@@ -146,13 +146,7 @@
 
 ;Design actions
 
- (:action design-idle
-    :parameters ( ?t - time ?tnext - time )
-    :precondition (and (not (execution)) (current-time ?t ) (next ?t ?tnext))
-    :effect (and (current-time ?tnext ) (not (current-time ?t)))
-  )
-
-
+ 
  (:action design-start-execution
     :parameters ()
     :precondition (and (not(execution)))

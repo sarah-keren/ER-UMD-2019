@@ -1,0 +1,1686 @@
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-4-design
+Solver :: LAO*
+Command type:: compilation
+Heuristic_name:: baod-heur
+---->Initial state:: [ 6:(not-flattire) 8:(current-time t1) 42:(vehicle-at l-1-1) 54:(spare-in l-2-1) 58:(spare-in l-2-2) 66:(spare-in l-3-1) ]
+Expected cost:: 1.0002
+Best action:: (design-add-road l-1-1 l-1-3 l-1-2 t1 t2)
+Expanded nodes::5141 
+Expanded Design nodes::3105
+Calculate nodes::1006
+Calculate design nodes::303
+Total time:: 0.262267
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-4-design
+Solver :: LAO*
+Command type:: rel-env
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-4-design-relaxed
+Expected cost (A*):: 1.0001
+Optimal action:: (design-add-road l-1-1 l-1-3 l-1-2 t1 t2)
+Initial state::[ 6:(not-flattire) 8:(current-time t1) 42:(vehicle-at l-1-1) 54:(spare-in l-2-1) 58:(spare-in l-2-2) 66:(spare-in l-3-1) ]
+Expanded nodes:: Execution::808 Design::192 Total::1000
+Calculate nodes::164
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::192 Expanded nodes::192
+Total time:: 0.117764
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-4-design
+Solver :: LAO*
+Command type:: rel-mod
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-4-design-over
+Expected cost (A*):: 1.0001
+Optimal action:: (design-add-road l-1-1 l-1-3 l-1-2 t1 t2)
+Initial state::[ 6:(not-flattire) 8:(current-time t1) 42:(vehicle-at l-1-1) 54:(spare-in l-2-1) 58:(spare-in l-2-2) 66:(spare-in l-3-1) ]
+Expanded nodes:: Execution::1311 Design::364 Total::1675
+Calculate nodes::269
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::364 Expanded nodes::364
+Total time:: 0.103698
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-4-design
+Solver :: LAO*
+Command type:: rel-combined
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-4-design-over-relaxed
+Expected cost (A*):: 1.0001
+Optimal action:: (design-add-road l-1-1 l-1-3 l-1-2 t1 t2)
+Initial state::[ 6:(not-flattire) 8:(current-time t1) 42:(vehicle-at l-1-1) 54:(spare-in l-2-1) 58:(spare-in l-2-2) 66:(spare-in l-3-1) ]
+Expanded nodes:: Execution::1311 Design::364 Total::1675
+Calculate nodes::269
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::364 Expanded nodes::364
+Total time:: 0.146429
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-4-design
+Solver :: LAO*
+Command type:: rel-proc
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-4-design-over
+Expected cost (A*):: 1.0001
+Optimal action:: (design-add-road l-1-1 l-1-3 l-1-2 t1 t2)
+Initial state::[ 6:(not-flattire) 8:(current-time t1) 42:(vehicle-at l-1-1) 54:(spare-in l-2-1) 58:(spare-in l-2-2) 66:(spare-in l-3-1) ]
+Expanded nodes:: Execution::849 Design::8 Total::857
+Calculate nodes::165
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::127 Expanded nodes::8
+Total time:: 0.035829
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-4-design
+Solver :: LAO*
+Command type:: rel-combined-proc
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-4-design-over-relaxed
+Expected cost (A*):: 1.0001
+Optimal action:: (design-add-road l-1-1 l-1-3 l-1-2 t1 t2)
+Initial state::[ 6:(not-flattire) 8:(current-time t1) 42:(vehicle-at l-1-1) 54:(spare-in l-2-1) 58:(spare-in l-2-2) 66:(spare-in l-3-1) ]
+Expanded nodes:: Execution::849 Design::8 Total::857
+Calculate nodes::165
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::127 Expanded nodes::8
+Total time:: 0.038916
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-4-design
+Solver :: LAO*
+Command type:: bfs_design
+Heuristic_name:: baod-heur
+Expected cost (A*):: 1.0001
+Optimal action:: (design-add-road l-1-1 l-1-3 l-1-2 t1 t2)
+Initial state::[ 6:(not-flattire) 8:(current-time t1) 42:(vehicle-at l-1-1) 54:(spare-in l-2-1) 58:(spare-in l-2-2) 66:(spare-in l-3-1) ]
+Expanded nodes:: Execution::23714 Design::3104 Total::26818
+Calculate nodes::4834
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::3104 Expanded nodes::3104
+Total time:: 0.703444
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-4-design
+Solver :: LAO*
+Command type:: compilation
+Heuristic_name:: hmin-heur
+---->Initial state:: [ 6:(not-flattire) 8:(current-time t1) 42:(vehicle-at l-1-1) 54:(spare-in l-2-1) 58:(spare-in l-2-2) 66:(spare-in l-3-1) ]
+Expected cost:: 1.0002
+Best action:: (design-add-road l-1-1 l-1-3 l-1-2 t1 t2)
+Expanded nodes::113 
+Expanded Design nodes::88
+Calculate nodes::11
+Calculate design nodes::10
+Total time:: 0.176922
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-4-design
+Solver :: LAO*
+Command type:: rel-env
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-4-design-relaxed
+Expected cost (A*):: 1.0001
+Optimal action:: (design-add-road l-1-1 l-1-3 l-1-2 t1 t2)
+Initial state::[ 6:(not-flattire) 8:(current-time t1) 42:(vehicle-at l-1-1) 54:(spare-in l-2-1) 58:(spare-in l-2-2) 66:(spare-in l-3-1) ]
+Expanded nodes:: Execution::493 Design::64 Total::557
+Calculate nodes::19
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::64 Expanded nodes::64
+Total time:: 0.244125
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-4-design
+Solver :: LAO*
+Command type:: rel-mod
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-4-design-over
+Expected cost (A*):: 1.0001
+Optimal action:: (design-add-road l-1-1 l-1-3 l-1-2 t1 t2)
+Initial state::[ 6:(not-flattire) 8:(current-time t1) 42:(vehicle-at l-1-1) 54:(spare-in l-2-1) 58:(spare-in l-2-2) 66:(spare-in l-3-1) ]
+Expanded nodes:: Execution::690 Design::106 Total::796
+Calculate nodes::31
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::106 Expanded nodes::106
+Total time:: 0.173953
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-4-design
+Solver :: LAO*
+Command type:: rel-combined
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-4-design-over-relaxed
+Expected cost (A*):: 1.0001
+Optimal action:: (design-add-road l-1-1 l-1-3 l-1-2 t1 t2)
+Initial state::[ 6:(not-flattire) 8:(current-time t1) 42:(vehicle-at l-1-1) 54:(spare-in l-2-1) 58:(spare-in l-2-2) 66:(spare-in l-3-1) ]
+Expanded nodes:: Execution::690 Design::106 Total::796
+Calculate nodes::31
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::106 Expanded nodes::106
+Total time:: 0.320306
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-4-design
+Solver :: LAO*
+Command type:: rel-proc
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-4-design-over
+Expected cost (A*):: 1.0001
+Optimal action:: (design-add-road l-1-1 l-1-3 l-1-2 t1 t2)
+Initial state::[ 6:(not-flattire) 8:(current-time t1) 42:(vehicle-at l-1-1) 54:(spare-in l-2-1) 58:(spare-in l-2-2) 66:(spare-in l-3-1) ]
+Expanded nodes:: Execution::931 Design::8 Total::939
+Calculate nodes::38
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::127 Expanded nodes::8
+Total time:: 0.188401
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-4-design
+Solver :: LAO*
+Command type:: rel-combined-proc
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-4-design-over-relaxed
+Expected cost (A*):: 1.0001
+Optimal action:: (design-add-road l-1-1 l-1-3 l-1-2 t1 t2)
+Initial state::[ 6:(not-flattire) 8:(current-time t1) 42:(vehicle-at l-1-1) 54:(spare-in l-2-1) 58:(spare-in l-2-2) 66:(spare-in l-3-1) ]
+Expanded nodes:: Execution::931 Design::8 Total::939
+Calculate nodes::38
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::127 Expanded nodes::8
+Total time:: 0.332609
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-4-design
+Solver :: LAO*
+Command type:: bfs_design
+Heuristic_name:: hmin-heur
+Expected cost (A*):: 1.0001
+Optimal action:: (design-add-road l-1-1 l-1-3 l-1-2 t1 t2)
+Initial state::[ 6:(not-flattire) 8:(current-time t1) 42:(vehicle-at l-1-1) 54:(spare-in l-2-1) 58:(spare-in l-2-2) 66:(spare-in l-3-1) ]
+Expanded nodes:: Execution::25724 Design::3104 Total::28828
+Calculate nodes::1595
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::3104 Expanded nodes::3104
+Total time:: 0.87264
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-4-design
+Solver :: FLARES
+Command type:: compilation
+Heuristic_name:: baod-heur
+Initial state::[ 6:(not-flattire) 8:(current-time t1) 42:(vehicle-at l-1-1) 54:(spare-in l-2-1) 58:(spare-in l-2-2) 66:(spare-in l-3-1) ]Expanded nodes::0
+Estimated cost::1.0002
+ExpectedCost::1.0002 +/- ::1e-06
+Best action::(design-add-road l-1-1 l-1-3 l-1-2 t1 t2)
+Expanded nodes::13761 Expanded Design nodes::4933
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 1.0002 stderr: 1e-06 averageCost_solved::1.0002 stderr_solved::1e-06
+Calculate nodes::2187
+Calculate design nodes::303
+Total time:: 0.417847
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-4-design
+Solver :: FLARES
+Command type:: rel-env
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-4-design-relaxed
+Expected cost (A*):: 1.0001
+Optimal action:: (design-add-road l-1-1 l-1-3 l-1-2 t1 t2)
+Simulated expected cost::1 +/- ::0
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 1 stderr: 0 averageCost_solved::1 stderr_solved::0
+Calculate nodes::2256
+Calculate design nodes::302
+Expanded nodes:: Execution::14227 Design::3155 Total::17382
+Calculate nodes::2256
+Calculate design nodes::302
+UMD heuristic:: Examined nodes::3155 Expanded nodes::3155
+Total time:: 0.684987
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-4-design
+Solver :: FLARES
+Command type:: rel-mod
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-4-design-over
+Expected cost (A*):: 1.0001
+Optimal action:: (design-add-road l-1-1 l-1-3 l-1-2 t1 t2)
+Simulated expected cost::1 +/- ::0
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 1 stderr: 0 averageCost_solved::1 stderr_solved::0
+Calculate nodes::3062
+Calculate design nodes::302
+Expanded nodes:: Execution::20332 Design::4042 Total::24374
+Calculate nodes::3062
+Calculate design nodes::302
+UMD heuristic:: Examined nodes::4042 Expanded nodes::4042
+Total time:: 0.806084
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-4-design
+Solver :: FLARES
+Command type:: rel-combined
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-4-design-over-relaxed
+Expected cost (A*):: 1.0001
+Optimal action:: (design-add-road l-1-1 l-1-3 l-1-2 t1 t2)
+Simulated expected cost::1 +/- ::0
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 1 stderr: 0 averageCost_solved::1 stderr_solved::0
+Calculate nodes::3042
+Calculate design nodes::302
+Expanded nodes:: Execution::20345 Design::4042 Total::24387
+Calculate nodes::3042
+Calculate design nodes::302
+UMD heuristic:: Examined nodes::4042 Expanded nodes::4042
+Total time:: 0.965951
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-4-design
+Solver :: FLARES
+Command type:: rel-proc
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-4-design-over
+Expected cost (A*):: 1.0001
+Optimal action:: (design-add-road l-1-1 l-1-3 l-1-2 t1 t2)
+Simulated expected cost::1 +/- ::0
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 1 stderr: 0 averageCost_solved::1 stderr_solved::0
+Calculate nodes::2409
+Calculate design nodes::302
+Expanded nodes:: Execution::14984 Design::8 Total::14992
+Calculate nodes::2409
+Calculate design nodes::302
+UMD heuristic:: Examined nodes::233 Expanded nodes::8
+Total time:: 0.496268
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-4-design
+Solver :: FLARES
+Command type:: rel-combined-proc
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-4-design-over-relaxed
+Expected cost (A*):: 1.0001
+Optimal action:: (design-add-road l-1-1 l-1-3 l-1-2 t1 t2)
+Simulated expected cost::1 +/- ::0
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 1 stderr: 0 averageCost_solved::1 stderr_solved::0
+Calculate nodes::2394
+Calculate design nodes::302
+Expanded nodes:: Execution::14911 Design::8 Total::14919
+Calculate nodes::2394
+Calculate design nodes::302
+UMD heuristic:: Examined nodes::233 Expanded nodes::8
+Total time:: 0.472475
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-4-design
+Solver :: FLARES
+Command type:: bfs_design
+Heuristic_name:: baod-heur
+Expected cost (A*):: 1.0001
+Optimal action:: (design-add-road l-1-1 l-1-3 l-1-2 t1 t2)
+Simulated expected cost::1 +/- ::0
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 1 stderr: 0 averageCost_solved::1 stderr_solved::0
+Calculate nodes::4129
+Calculate design nodes::302
+Expanded nodes:: Execution::29996 Design::6208 Total::36204
+Calculate nodes::4129
+Calculate design nodes::302
+UMD heuristic:: Examined nodes::6208 Expanded nodes::6208
+Total time:: 1.3242
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-4-design
+Solver :: FLARES
+Command type:: compilation
+Heuristic_name:: hmin-heur
+Initial state::[ 6:(not-flattire) 8:(current-time t1) 42:(vehicle-at l-1-1) 54:(spare-in l-2-1) 58:(spare-in l-2-2) 66:(spare-in l-3-1) ]Expanded nodes::0
+Estimated cost::1.0002
+ExpectedCost::1.0002 +/- ::2.23163e-16
+Best action::(design-add-road l-1-1 l-1-3 l-1-2 t1 t2)
+Expanded nodes::108 Expanded Design nodes::66
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 1.0002 stderr: 2.23163e-16 averageCost_solved::1.0002 stderr_solved::2.23163e-16
+Calculate nodes::11
+Calculate design nodes::10
+Total time:: 0.175894
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-4-design
+Solver :: FLARES
+Command type:: rel-env
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-4-design-relaxed
+Expected cost (A*):: 6.16
+Optimal action:: (design-start-execution)
+Simulated expected cost::6.14 +/- ::0.178671
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 6.14 stderr: 0.178671 averageCost_solved::6.14 stderr_solved::0.178671
+Calculate nodes::16
+Calculate design nodes::9
+Expanded nodes:: Execution::593 Design::128 Total::721
+Calculate nodes::16
+Calculate design nodes::9
+UMD heuristic:: Examined nodes::128 Expanded nodes::128
+Total time:: 0.451598
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-4-design
+Solver :: FLARES
+Command type:: rel-mod
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-4-design-over
+Expected cost (A*):: 6.35
+Optimal action:: (design-start-execution)
+Simulated expected cost::6.76 +/- ::0.217479
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 6.76 stderr: 0.217479 averageCost_solved::6.76 stderr_solved::0.217479
+Calculate nodes::17
+Calculate design nodes::9
+Expanded nodes:: Execution::750 Design::191 Total::941
+Calculate nodes::17
+Calculate design nodes::9
+UMD heuristic:: Examined nodes::191 Expanded nodes::191
+Total time:: 0.413829
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-4-design
+Solver :: FLARES
+Command type:: rel-combined
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-4-design-over-relaxed
+Expected cost (A*):: 6.43
+Optimal action:: (design-start-execution)
+Simulated expected cost::6.66 +/- ::0.209964
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 6.66 stderr: 0.209964 averageCost_solved::6.66 stderr_solved::0.209964
+Calculate nodes::15
+Calculate design nodes::9
+Expanded nodes:: Execution::702 Design::191 Total::893
+Calculate nodes::15
+Calculate design nodes::9
+UMD heuristic:: Examined nodes::191 Expanded nodes::191
+Total time:: 0.591125
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-4-design
+Solver :: FLARES
+Command type:: rel-proc
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-4-design-over
+Expected cost (A*):: 113.66
+Optimal action:: (design-start-execution)
+Simulated expected cost::6.03 +/- ::0.208629
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 6.03 stderr: 0.208629 averageCost_solved::6.03 stderr_solved::0.208629
+Calculate nodes::14
+Calculate design nodes::9
+Expanded nodes:: Execution::751 Design::8 Total::759
+Calculate nodes::14
+Calculate design nodes::9
+UMD heuristic:: Examined nodes::233 Expanded nodes::8
+Total time:: 0.388043
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-4-design
+Solver :: FLARES
+Command type:: rel-combined-proc
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-4-design-over-relaxed
+Expected cost (A*):: 6.22
+Optimal action:: (design-start-execution)
+Simulated expected cost::5.95 +/- ::0.203691
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 5.95 stderr: 0.203691 averageCost_solved::5.95 stderr_solved::0.203691
+Calculate nodes::14
+Calculate design nodes::9
+Expanded nodes:: Execution::771 Design::8 Total::779
+Calculate nodes::14
+Calculate design nodes::9
+UMD heuristic:: Examined nodes::233 Expanded nodes::8
+Total time:: 0.553988
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-4-design
+Solver :: FLARES
+Command type:: bfs_design
+Heuristic_name:: hmin-heur
+Expected cost (A*):: 7.1
+Optimal action:: (design-start-execution)
+Simulated expected cost::6.29 +/- ::0.208067
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 6.29 stderr: 0.208067 averageCost_solved::6.29 stderr_solved::0.208067
+Calculate nodes::445
+Calculate design nodes::9
+Expanded nodes:: Execution::31798 Design::6208 Total::38006
+Calculate nodes::445
+Calculate design nodes::9
+UMD heuristic:: Examined nodes::6208 Expanded nodes::6208
+Total time:: 1.24629
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-5-design
+Solver :: LAO*
+Command type:: compilation
+Heuristic_name:: baod-heur
+---->Initial state:: [ 6:(not-flattire) 8:(current-time t1) 44:(vehicle-at l-1-1) 56:(spare-in l-2-1) 60:(spare-in l-2-2) 68:(spare-in l-3-1) ]
+Expected cost:: 1.0002
+Best action:: (design-add-road l-1-1 l-1-3 l-1-2 t1 t2)
+Expanded nodes::11870 
+Expanded Design nodes::6391
+Calculate nodes::2195
+Calculate design nodes::522
+Total time:: 0.674171
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-5-design
+Solver :: LAO*
+Command type:: rel-env
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-5-design-relaxed
+Expected cost (A*):: 1.0001
+Optimal action:: (design-add-road l-1-1 l-1-3 l-1-2 t1 t2)
+Initial state::[ 6:(not-flattire) 8:(current-time t1) 44:(vehicle-at l-1-1) 56:(spare-in l-2-1) 60:(spare-in l-2-2) 68:(spare-in l-3-1) ]
+Expanded nodes:: Execution::1001 Design::255 Total::1256
+Calculate nodes::204
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::255 Expanded nodes::255
+Total time:: 0.118355
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-5-design
+Solver :: LAO*
+Command type:: rel-mod
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-5-design-over
+Expected cost (A*):: 1.0001
+Optimal action:: (design-add-road l-1-1 l-1-3 l-1-2 t1 t2)
+Initial state::[ 6:(not-flattire) 8:(current-time t1) 44:(vehicle-at l-1-1) 56:(spare-in l-2-1) 60:(spare-in l-2-2) 68:(spare-in l-3-1) ]
+Expanded nodes:: Execution::4206 Design::939 Total::5145
+Calculate nodes::798
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::939 Expanded nodes::939
+Total time:: 0.273741
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-5-design
+Solver :: LAO*
+Command type:: rel-combined
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-5-design-over-relaxed
+Expected cost (A*):: 1.0001
+Optimal action:: (design-add-road l-1-1 l-1-3 l-1-2 t1 t2)
+Initial state::[ 6:(not-flattire) 8:(current-time t1) 44:(vehicle-at l-1-1) 56:(spare-in l-2-1) 60:(spare-in l-2-2) 68:(spare-in l-3-1) ]
+Expanded nodes:: Execution::4206 Design::939 Total::5145
+Calculate nodes::798
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::939 Expanded nodes::939
+Total time:: 0.336607
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-5-design
+Solver :: LAO*
+Command type:: rel-proc
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-5-design-over
+Expected cost (A*):: 1.0001
+Optimal action:: (design-add-road l-1-1 l-1-3 l-1-2 t1 t2)
+Initial state::[ 6:(not-flattire) 8:(current-time t1) 44:(vehicle-at l-1-1) 56:(spare-in l-2-1) 60:(spare-in l-2-2) 68:(spare-in l-3-1) ]
+Expanded nodes:: Execution::849 Design::8 Total::857
+Calculate nodes::165
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::127 Expanded nodes::8
+Total time:: 0.038818
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-5-design
+Solver :: LAO*
+Command type:: rel-combined-proc
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-5-design-over-relaxed
+Expected cost (A*):: 1.0001
+Optimal action:: (design-add-road l-1-1 l-1-3 l-1-2 t1 t2)
+Initial state::[ 6:(not-flattire) 8:(current-time t1) 44:(vehicle-at l-1-1) 56:(spare-in l-2-1) 60:(spare-in l-2-2) 68:(spare-in l-3-1) ]
+Expanded nodes:: Execution::849 Design::8 Total::857
+Calculate nodes::165
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::127 Expanded nodes::8
+Total time:: 0.043152
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-5-design
+Solver :: LAO*
+Command type:: bfs_design
+Heuristic_name:: baod-heur
+Expected cost (A*):: 1.0001
+Optimal action:: (design-add-road l-1-1 l-1-3 l-1-2 t1 t2)
+Initial state::[ 6:(not-flattire) 8:(current-time t1) 44:(vehicle-at l-1-1) 56:(spare-in l-2-1) 60:(spare-in l-2-2) 68:(spare-in l-3-1) ]
+Expanded nodes:: Execution::37655 Design::6583 Total::44238
+Calculate nodes::7727
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::6583 Expanded nodes::6583
+Total time:: 1.27767
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-5-design
+Solver :: LAO*
+Command type:: compilation
+Heuristic_name:: hmin-heur
+---->Initial state:: [ 6:(not-flattire) 8:(current-time t1) 44:(vehicle-at l-1-1) 56:(spare-in l-2-1) 60:(spare-in l-2-2) 68:(spare-in l-3-1) ]
+Expected cost:: 1.0002
+Best action:: (design-add-road l-1-1 l-1-3 l-1-2 t1 t2)
+Expanded nodes::113 
+Expanded Design nodes::88
+Calculate nodes::11
+Calculate design nodes::10
+Total time:: 0.30927
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-5-design
+Solver :: LAO*
+Command type:: rel-env
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-5-design-relaxed
+Expected cost (A*):: 1.0001
+Optimal action:: (design-add-road l-1-1 l-1-3 l-1-2 t1 t2)
+Initial state::[ 6:(not-flattire) 8:(current-time t1) 44:(vehicle-at l-1-1) 56:(spare-in l-2-1) 60:(spare-in l-2-2) 68:(spare-in l-3-1) ]
+Expanded nodes:: Execution::493 Design::64 Total::557
+Calculate nodes::19
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::64 Expanded nodes::64
+Total time:: 0.488895
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-5-design
+Solver :: LAO*
+Command type:: rel-mod
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-5-design-over
+Expected cost (A*):: 1.0001
+Optimal action:: (design-add-road l-1-1 l-1-3 l-1-2 t1 t2)
+Initial state::[ 6:(not-flattire) 8:(current-time t1) 44:(vehicle-at l-1-1) 56:(spare-in l-2-1) 60:(spare-in l-2-2) 68:(spare-in l-3-1) ]
+Expanded nodes:: Execution::690 Design::106 Total::796
+Calculate nodes::31
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::106 Expanded nodes::106
+Total time:: 0.355646
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-5-design
+Solver :: LAO*
+Command type:: rel-combined
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-5-design-over-relaxed
+Expected cost (A*):: 1.0001
+Optimal action:: (design-add-road l-1-1 l-1-3 l-1-2 t1 t2)
+Initial state::[ 6:(not-flattire) 8:(current-time t1) 44:(vehicle-at l-1-1) 56:(spare-in l-2-1) 60:(spare-in l-2-2) 68:(spare-in l-3-1) ]
+Expanded nodes:: Execution::690 Design::106 Total::796
+Calculate nodes::31
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::106 Expanded nodes::106
+Total time:: 0.590461
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-5-design
+Solver :: LAO*
+Command type:: rel-proc
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-5-design-over
+Expected cost (A*):: 1.0001
+Optimal action:: (design-add-road l-1-1 l-1-3 l-1-2 t1 t2)
+Initial state::[ 6:(not-flattire) 8:(current-time t1) 44:(vehicle-at l-1-1) 56:(spare-in l-2-1) 60:(spare-in l-2-2) 68:(spare-in l-3-1) ]
+Expanded nodes:: Execution::931 Design::8 Total::939
+Calculate nodes::38
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::127 Expanded nodes::8
+Total time:: 0.366004
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-5-design
+Solver :: LAO*
+Command type:: rel-combined-proc
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-5-design-over-relaxed
+Expected cost (A*):: 1.0001
+Optimal action:: (design-add-road l-1-1 l-1-3 l-1-2 t1 t2)
+Initial state::[ 6:(not-flattire) 8:(current-time t1) 44:(vehicle-at l-1-1) 56:(spare-in l-2-1) 60:(spare-in l-2-2) 68:(spare-in l-3-1) ]
+Expanded nodes:: Execution::931 Design::8 Total::939
+Calculate nodes::38
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::127 Expanded nodes::8
+Total time:: 0.561595
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-5-design
+Solver :: LAO*
+Command type:: bfs_design
+Heuristic_name:: hmin-heur
+Expected cost (A*):: 1.0001
+Optimal action:: (design-add-road l-1-1 l-1-3 l-1-2 t1 t2)
+Initial state::[ 6:(not-flattire) 8:(current-time t1) 44:(vehicle-at l-1-1) 56:(spare-in l-2-1) 60:(spare-in l-2-2) 68:(spare-in l-3-1) ]
+Expanded nodes:: Execution::40663 Design::6583 Total::47246
+Calculate nodes::2714
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::6583 Expanded nodes::6583
+Total time:: 1.46229
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-5-design
+Solver :: FLARES
+Command type:: compilation
+Heuristic_name:: baod-heur
+Initial state::[ 6:(not-flattire) 8:(current-time t1) 44:(vehicle-at l-1-1) 56:(spare-in l-2-1) 60:(spare-in l-2-2) 68:(spare-in l-3-1) ]Expanded nodes::0
+Estimated cost::1.0002
+ExpectedCost::1.0002 +/- ::2.22702e-06
+Best action::(design-add-road l-1-1 l-1-3 l-1-2 t1 t2)
+Expanded nodes::27408 Expanded Design nodes::10291
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 1.0002 stderr: 2.22702e-06 averageCost_solved::1.0002 stderr_solved::2.22702e-06
+Calculate nodes::4132
+Calculate design nodes::522
+Total time:: 0.895592
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-5-design
+Solver :: FLARES
+Command type:: rel-env
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-5-design-relaxed
+Expected cost (A*):: 1.0001
+Optimal action:: (design-add-road l-1-1 l-1-3 l-1-2 t1 t2)
+Simulated expected cost::1 +/- ::0
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 1 stderr: 0 averageCost_solved::1 stderr_solved::0
+Calculate nodes::4253
+Calculate design nodes::521
+Expanded nodes:: Execution::28033 Design::6655 Total::34688
+Calculate nodes::4253
+Calculate design nodes::521
+UMD heuristic:: Examined nodes::6655 Expanded nodes::6655
+Total time:: 1.39448
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-5-design
+Solver :: FLARES
+Command type:: rel-mod
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-5-design-over
+Expected cost (A*):: 1.0001
+Optimal action:: (design-add-road l-1-1 l-1-3 l-1-2 t1 t2)
+Simulated expected cost::1 +/- ::0
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 1 stderr: 0 averageCost_solved::1 stderr_solved::0
+Calculate nodes::5026
+Calculate design nodes::521
+Expanded nodes:: Execution::34269 Design::8131 Total::42400
+Calculate nodes::5026
+Calculate design nodes::521
+UMD heuristic:: Examined nodes::8131 Expanded nodes::8131
+Total time:: 1.61027
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-5-design
+Solver :: FLARES
+Command type:: rel-combined
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-5-design-over-relaxed
+Expected cost (A*):: 1.0001
+Optimal action:: (design-add-road l-1-1 l-1-3 l-1-2 t1 t2)
+Simulated expected cost::1 +/- ::0
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 1 stderr: 0 averageCost_solved::1 stderr_solved::0
+Calculate nodes::5114
+Calculate design nodes::521
+Expanded nodes:: Execution::34584 Design::8131 Total::42715
+Calculate nodes::5114
+Calculate design nodes::521
+UMD heuristic:: Examined nodes::8131 Expanded nodes::8131
+Total time:: 1.6866
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-5-design
+Solver :: FLARES
+Command type:: rel-proc
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-5-design-over
+Expected cost (A*):: 1.0001
+Optimal action:: (design-add-road l-1-1 l-1-3 l-1-2 t1 t2)
+Simulated expected cost::1 +/- ::0
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 1 stderr: 0 averageCost_solved::1 stderr_solved::0
+Calculate nodes::4304
+Calculate design nodes::521
+Expanded nodes:: Execution::28318 Design::8 Total::28326
+Calculate nodes::4304
+Calculate design nodes::521
+UMD heuristic:: Examined nodes::233 Expanded nodes::8
+Total time:: 0.939296
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-5-design
+Solver :: FLARES
+Command type:: rel-combined-proc
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-5-design-over-relaxed
+Expected cost (A*):: 1.0001
+Optimal action:: (design-add-road l-1-1 l-1-3 l-1-2 t1 t2)
+Simulated expected cost::1 +/- ::0
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 1 stderr: 0 averageCost_solved::1 stderr_solved::0
+Calculate nodes::4315
+Calculate design nodes::521
+Expanded nodes:: Execution::28241 Design::8 Total::28249
+Calculate nodes::4315
+Calculate design nodes::521
+UMD heuristic:: Examined nodes::233 Expanded nodes::8
+Total time:: 0.948979
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-5-design
+Solver :: FLARES
+Command type:: bfs_design
+Heuristic_name:: baod-heur
+Expected cost (A*):: 1.0001
+Optimal action:: (design-add-road l-1-1 l-1-3 l-1-2 t1 t2)
+Simulated expected cost::1 +/- ::0
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 1 stderr: 0 averageCost_solved::1 stderr_solved::0
+Calculate nodes::6452
+Calculate design nodes::521
+Expanded nodes:: Execution::46645 Design::13166 Total::59811
+Calculate nodes::6452
+Calculate design nodes::521
+UMD heuristic:: Examined nodes::13166 Expanded nodes::13166
+Total time:: 2.05076
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-5-design
+Solver :: FLARES
+Command type:: compilation
+Heuristic_name:: hmin-heur
+Initial state::[ 6:(not-flattire) 8:(current-time t1) 44:(vehicle-at l-1-1) 56:(spare-in l-2-1) 60:(spare-in l-2-2) 68:(spare-in l-3-1) ]Expanded nodes::0
+Estimated cost::1.0002
+ExpectedCost::1.0002 +/- ::2.23163e-16
+Best action::(design-add-road l-1-1 l-1-3 l-1-2 t1 t2)
+Expanded nodes::108 Expanded Design nodes::66
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 1.0002 stderr: 2.23163e-16 averageCost_solved::1.0002 stderr_solved::2.23163e-16
+Calculate nodes::11
+Calculate design nodes::10
+Total time:: 0.293079
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-5-design
+Solver :: FLARES
+Command type:: rel-env
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-5-design-relaxed
+Expected cost (A*):: 6.12
+Optimal action:: (design-start-execution)
+Simulated expected cost::6.25 +/- ::0.205173
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 6.25 stderr: 0.205173 averageCost_solved::6.25 stderr_solved::0.205173
+Calculate nodes::16
+Calculate design nodes::9
+Expanded nodes:: Execution::600 Design::128 Total::728
+Calculate nodes::16
+Calculate design nodes::9
+UMD heuristic:: Examined nodes::128 Expanded nodes::128
+Total time:: 0.743785
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-5-design
+Solver :: FLARES
+Command type:: rel-mod
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-5-design-over
+Expected cost (A*):: 6.54
+Optimal action:: (design-start-execution)
+Simulated expected cost::7.1 +/- ::0.157954
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 7.1 stderr: 0.157954 averageCost_solved::7.1 stderr_solved::0.157954
+Calculate nodes::16
+Calculate design nodes::9
+Expanded nodes:: Execution::730 Design::191 Total::921
+Calculate nodes::16
+Calculate design nodes::9
+UMD heuristic:: Examined nodes::191 Expanded nodes::191
+Total time:: 0.629696
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-5-design
+Solver :: FLARES
+Command type:: rel-combined
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-5-design-over-relaxed
+Expected cost (A*):: 5.98
+Optimal action:: (design-start-execution)
+Simulated expected cost::5.88 +/- ::0.206598
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 5.88 stderr: 0.206598 averageCost_solved::5.88 stderr_solved::0.206598
+Calculate nodes::16
+Calculate design nodes::9
+Expanded nodes:: Execution::766 Design::191 Total::957
+Calculate nodes::16
+Calculate design nodes::9
+UMD heuristic:: Examined nodes::191 Expanded nodes::191
+Total time:: 0.846834
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-5-design
+Solver :: FLARES
+Command type:: rel-proc
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-5-design-over
+Expected cost (A*):: 6.19
+Optimal action:: (design-start-execution)
+Simulated expected cost::6.09 +/- ::0.205035
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 6.09 stderr: 0.205035 averageCost_solved::6.09 stderr_solved::0.205035
+Calculate nodes::16
+Calculate design nodes::9
+Expanded nodes:: Execution::797 Design::8 Total::805
+Calculate nodes::16
+Calculate design nodes::9
+UMD heuristic:: Examined nodes::233 Expanded nodes::8
+Total time:: 0.842258
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-5-design
+Solver :: FLARES
+Command type:: rel-combined-proc
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-5-design-over-relaxed
+Expected cost (A*):: 6.49
+Optimal action:: (design-start-execution)
+Simulated expected cost::6.28 +/- ::0.205028
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 6.28 stderr: 0.205028 averageCost_solved::6.28 stderr_solved::0.205028
+Calculate nodes::14
+Calculate design nodes::9
+Expanded nodes:: Execution::763 Design::8 Total::771
+Calculate nodes::14
+Calculate design nodes::9
+UMD heuristic:: Examined nodes::233 Expanded nodes::8
+Total time:: 1.28059
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-5-design
+Solver :: FLARES
+Command type:: bfs_design
+Heuristic_name:: hmin-heur
+Expected cost (A*):: 6.15
+Optimal action:: (design-start-execution)
+Simulated expected cost::5.93 +/- ::0.189233
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 5.93 stderr: 0.189233 averageCost_solved::5.93 stderr_solved::0.189233
+Calculate nodes::630
+Calculate design nodes::9
+Expanded nodes:: Execution::52023 Design::13166 Total::65189
+Calculate nodes::630
+Calculate design nodes::9
+UMD heuristic:: Examined nodes::13166 Expanded nodes::13166
+Total time:: 2.83559
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-6-design
+Solver :: LAO*
+Command type:: compilation
+Heuristic_name:: baod-heur
+---->Initial state:: [ 6:(not-flattire) 8:(current-time t1) 46:(vehicle-at l-1-1) 58:(spare-in l-2-1) 62:(spare-in l-2-2) 70:(spare-in l-3-1) ]
+Expected cost:: 1.0002
+Best action:: (design-add-road l-1-1 l-1-3 l-1-2 t1 t2)
+Expanded nodes::21366 
+Expanded Design nodes::10324
+Calculate nodes::3797
+Calculate design nodes::769
+Total time:: 1.74939
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-6-design
+Solver :: LAO*
+Command type:: rel-env
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-6-design-relaxed
+Expected cost (A*):: 1.0001
+Optimal action:: (design-add-road l-1-1 l-1-3 l-1-2 t1 t2)
+Initial state::[ 6:(not-flattire) 8:(current-time t1) 46:(vehicle-at l-1-1) 58:(spare-in l-2-1) 62:(spare-in l-2-2) 70:(spare-in l-3-1) ]
+Expanded nodes:: Execution::1194 Design::318 Total::1512
+Calculate nodes::244
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::318 Expanded nodes::318
+Total time:: 0.23889
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-6-design
+Solver :: LAO*
+Command type:: rel-mod
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-6-design-over
+Expected cost (A*):: 1.0001
+Optimal action:: (design-add-road l-1-1 l-1-3 l-1-2 t1 t2)
+Initial state::[ 6:(not-flattire) 8:(current-time t1) 46:(vehicle-at l-1-1) 58:(spare-in l-2-1) 62:(spare-in l-2-2) 70:(spare-in l-3-1) ]
+Expanded nodes:: Execution::5186 Design::1254 Total::6440
+Calculate nodes::985
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::1254 Expanded nodes::1254
+Total time:: 0.614878
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-6-design
+Solver :: LAO*
+Command type:: rel-combined
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-6-design-over-relaxed
+Expected cost (A*):: 1.0001
+Optimal action:: (design-add-road l-1-1 l-1-3 l-1-2 t1 t2)
+Initial state::[ 6:(not-flattire) 8:(current-time t1) 46:(vehicle-at l-1-1) 58:(spare-in l-2-1) 62:(spare-in l-2-2) 70:(spare-in l-3-1) ]
+Expanded nodes:: Execution::5186 Design::1254 Total::6440
+Calculate nodes::985
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::1254 Expanded nodes::1254
+Total time:: 0.648005
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-6-design
+Solver :: LAO*
+Command type:: rel-proc
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-6-design-over
+Expected cost (A*):: 1.0001
+Optimal action:: (design-add-road l-1-1 l-1-3 l-1-2 t1 t2)
+Initial state::[ 6:(not-flattire) 8:(current-time t1) 46:(vehicle-at l-1-1) 58:(spare-in l-2-1) 62:(spare-in l-2-2) 70:(spare-in l-3-1) ]
+Expanded nodes:: Execution::849 Design::8 Total::857
+Calculate nodes::165
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::127 Expanded nodes::8
+Total time:: 0.06364
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-6-design
+Solver :: LAO*
+Command type:: rel-combined-proc
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-6-design-over-relaxed
+Expected cost (A*):: 1.0001
+Optimal action:: (design-add-road l-1-1 l-1-3 l-1-2 t1 t2)
+Initial state::[ 6:(not-flattire) 8:(current-time t1) 46:(vehicle-at l-1-1) 58:(spare-in l-2-1) 62:(spare-in l-2-2) 70:(spare-in l-3-1) ]
+Expanded nodes:: Execution::849 Design::8 Total::857
+Calculate nodes::165
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::127 Expanded nodes::8
+Total time:: 0.066746
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-6-design
+Solver :: LAO*
+Command type:: bfs_design
+Heuristic_name:: baod-heur
+Expected cost (A*):: 1.0001
+Optimal action:: (design-add-road l-1-1 l-1-3 l-1-2 t1 t2)
+Initial state::[ 6:(not-flattire) 8:(current-time t1) 46:(vehicle-at l-1-1) 58:(spare-in l-2-1) 62:(spare-in l-2-2) 70:(spare-in l-3-1) ]
+Expanded nodes:: Execution::52867 Design::11210 Total::64077
+Calculate nodes::10901
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::11210 Expanded nodes::11210
+Total time:: 1.71525
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-6-design
+Solver :: LAO*
+Command type:: compilation
+Heuristic_name:: hmin-heur
+---->Initial state:: [ 6:(not-flattire) 8:(current-time t1) 46:(vehicle-at l-1-1) 58:(spare-in l-2-1) 62:(spare-in l-2-2) 70:(spare-in l-3-1) ]
+Expected cost:: 1.0002
+Best action:: (design-add-road l-1-1 l-1-3 l-1-2 t1 t2)
+Expanded nodes::113 
+Expanded Design nodes::88
+Calculate nodes::11
+Calculate design nodes::10
+Total time:: 0.465808
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-6-design
+Solver :: LAO*
+Command type:: rel-env
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-6-design-relaxed
+Expected cost (A*):: 1.0001
+Optimal action:: (design-add-road l-1-1 l-1-3 l-1-2 t1 t2)
+Initial state::[ 6:(not-flattire) 8:(current-time t1) 46:(vehicle-at l-1-1) 58:(spare-in l-2-1) 62:(spare-in l-2-2) 70:(spare-in l-3-1) ]
+Expanded nodes:: Execution::493 Design::64 Total::557
+Calculate nodes::19
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::64 Expanded nodes::64
+Total time:: 0.693953
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-6-design
+Solver :: LAO*
+Command type:: rel-mod
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-6-design-over
+Expected cost (A*):: 1.0001
+Optimal action:: (design-add-road l-1-1 l-1-3 l-1-2 t1 t2)
+Initial state::[ 6:(not-flattire) 8:(current-time t1) 46:(vehicle-at l-1-1) 58:(spare-in l-2-1) 62:(spare-in l-2-2) 70:(spare-in l-3-1) ]
+Expanded nodes:: Execution::690 Design::106 Total::796
+Calculate nodes::31
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::106 Expanded nodes::106
+Total time:: 0.746549
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-6-design
+Solver :: LAO*
+Command type:: rel-combined
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-6-design-over-relaxed
+Expected cost (A*):: 1.0001
+Optimal action:: (design-add-road l-1-1 l-1-3 l-1-2 t1 t2)
+Initial state::[ 6:(not-flattire) 8:(current-time t1) 46:(vehicle-at l-1-1) 58:(spare-in l-2-1) 62:(spare-in l-2-2) 70:(spare-in l-3-1) ]
+Expanded nodes:: Execution::690 Design::106 Total::796
+Calculate nodes::31
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::106 Expanded nodes::106
+Total time:: 1.22524
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-6-design
+Solver :: LAO*
+Command type:: rel-proc
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-6-design-over
+Expected cost (A*):: 1.0001
+Optimal action:: (design-add-road l-1-1 l-1-3 l-1-2 t1 t2)
+Initial state::[ 6:(not-flattire) 8:(current-time t1) 46:(vehicle-at l-1-1) 58:(spare-in l-2-1) 62:(spare-in l-2-2) 70:(spare-in l-3-1) ]
+Expanded nodes:: Execution::931 Design::8 Total::939
+Calculate nodes::38
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::127 Expanded nodes::8
+Total time:: 0.821096
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-6-design
+Solver :: LAO*
+Command type:: rel-combined-proc
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-6-design-over-relaxed
+Expected cost (A*):: 1.0001
+Optimal action:: (design-add-road l-1-1 l-1-3 l-1-2 t1 t2)
+Initial state::[ 6:(not-flattire) 8:(current-time t1) 46:(vehicle-at l-1-1) 58:(spare-in l-2-1) 62:(spare-in l-2-2) 70:(spare-in l-3-1) ]
+Expanded nodes:: Execution::931 Design::8 Total::939
+Calculate nodes::38
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::127 Expanded nodes::8
+Total time:: 1.25936
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-6-design
+Solver :: LAO*
+Command type:: bfs_design
+Heuristic_name:: hmin-heur
+Expected cost (A*):: 1.0001
+Optimal action:: (design-add-road l-1-1 l-1-3 l-1-2 t1 t2)
+Initial state::[ 6:(not-flattire) 8:(current-time t1) 46:(vehicle-at l-1-1) 58:(spare-in l-2-1) 62:(spare-in l-2-2) 70:(spare-in l-3-1) ]
+Expanded nodes:: Execution::57020 Design::11210 Total::68230
+Calculate nodes::3973
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::11210 Expanded nodes::11210
+Total time:: 3.25325
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-6-design
+Solver :: FLARES
+Command type:: compilation
+Heuristic_name:: baod-heur
+Initial state::[ 6:(not-flattire) 8:(current-time t1) 46:(vehicle-at l-1-1) 58:(spare-in l-2-1) 62:(spare-in l-2-2) 70:(spare-in l-3-1) ]Expanded nodes::0
+Estimated cost::1.0002
+ExpectedCost::1.0002 +/- ::2.8511e-06
+Best action::(design-add-road l-1-1 l-1-3 l-1-2 t1 t2)
+Expanded nodes::44529 Expanded Design nodes::17130
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 1.0002 stderr: 2.8511e-06 averageCost_solved::1.0002 stderr_solved::2.8511e-06
+Calculate nodes::6508
+Calculate design nodes::769
+Total time:: 1.65354
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-6-design
+Solver :: FLARES
+Command type:: rel-env
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-6-design-relaxed
+Expected cost (A*):: 1.0001
+Optimal action:: (design-add-road l-1-1 l-1-3 l-1-2 t1 t2)
+Simulated expected cost::1 +/- ::0
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 1 stderr: 0 averageCost_solved::1 stderr_solved::0
+Calculate nodes::6588
+Calculate design nodes::768
+Expanded nodes:: Execution::45001 Design::11317 Total::56318
+Calculate nodes::6588
+Calculate design nodes::768
+UMD heuristic:: Examined nodes::11317 Expanded nodes::11317
+Total time:: 2.50859
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-6-design
+Solver :: FLARES
+Command type:: rel-mod
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-6-design-over
+Expected cost (A*):: 1.0001
+Optimal action:: (design-add-road l-1-1 l-1-3 l-1-2 t1 t2)
+Simulated expected cost::1 +/- ::0
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 1 stderr: 0 averageCost_solved::1 stderr_solved::0
+Calculate nodes::7444
+Calculate design nodes::768
+Expanded nodes:: Execution::51382 Design::13388 Total::64770
+Calculate nodes::7444
+Calculate design nodes::768
+UMD heuristic:: Examined nodes::13388 Expanded nodes::13388
+Total time:: 3.64354
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-6-design
+Solver :: FLARES
+Command type:: rel-combined
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-6-design-over-relaxed
+Expected cost (A*):: 1.0001
+Optimal action:: (design-add-road l-1-1 l-1-3 l-1-2 t1 t2)
+Simulated expected cost::1 +/- ::0
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 1 stderr: 0 averageCost_solved::1 stderr_solved::0
+Calculate nodes::7412
+Calculate design nodes::768
+Expanded nodes:: Execution::51438 Design::13388 Total::64826
+Calculate nodes::7412
+Calculate design nodes::768
+UMD heuristic:: Examined nodes::13388 Expanded nodes::13388
+Total time:: 2.81014
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-6-design
+Solver :: FLARES
+Command type:: rel-proc
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-6-design-over
+Expected cost (A*):: 1.0001
+Optimal action:: (design-add-road l-1-1 l-1-3 l-1-2 t1 t2)
+Simulated expected cost::1 +/- ::0
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 1 stderr: 0 averageCost_solved::1 stderr_solved::0
+Calculate nodes::6645
+Calculate design nodes::768
+Expanded nodes:: Execution::45387 Design::8 Total::45395
+Calculate nodes::6645
+Calculate design nodes::768
+UMD heuristic:: Examined nodes::233 Expanded nodes::8
+Total time:: 2.39525
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-6-design
+Solver :: FLARES
+Command type:: rel-combined-proc
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-6-design-over-relaxed
+Expected cost (A*):: 1.0001
+Optimal action:: (design-add-road l-1-1 l-1-3 l-1-2 t1 t2)
+Simulated expected cost::1 +/- ::0
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 1 stderr: 0 averageCost_solved::1 stderr_solved::0
+Calculate nodes::6653
+Calculate design nodes::768
+Expanded nodes:: Execution::45392 Design::8 Total::45400
+Calculate nodes::6653
+Calculate design nodes::768
+UMD heuristic:: Examined nodes::233 Expanded nodes::8
+Total time:: 1.58855
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-6-design
+Solver :: FLARES
+Command type:: bfs_design
+Heuristic_name:: baod-heur
+Expected cost (A*):: 1.0001
+Optimal action:: (design-add-road l-1-1 l-1-3 l-1-2 t1 t2)
+Simulated expected cost::1 +/- ::0
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 1 stderr: 0 averageCost_solved::1 stderr_solved::0
+Calculate nodes::8972
+Calculate design nodes::768
+Expanded nodes:: Execution::65621 Design::22420 Total::88041
+Calculate nodes::8972
+Calculate design nodes::768
+UMD heuristic:: Examined nodes::22420 Expanded nodes::22420
+Total time:: 4.02673
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-6-design
+Solver :: FLARES
+Command type:: compilation
+Heuristic_name:: hmin-heur
+Initial state::[ 6:(not-flattire) 8:(current-time t1) 46:(vehicle-at l-1-1) 58:(spare-in l-2-1) 62:(spare-in l-2-2) 70:(spare-in l-3-1) ]Expanded nodes::0
+Estimated cost::1.0002
+ExpectedCost::1.0002 +/- ::2.23163e-16
+Best action::(design-add-road l-1-1 l-1-3 l-1-2 t1 t2)
+Expanded nodes::108 Expanded Design nodes::66
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 1.0002 stderr: 2.23163e-16 averageCost_solved::1.0002 stderr_solved::2.23163e-16
+Calculate nodes::11
+Calculate design nodes::10
+Total time:: 0.700454
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-6-design
+Solver :: FLARES
+Command type:: rel-env
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-6-design-relaxed
+Expected cost (A*):: 6.94
+Optimal action:: (design-start-execution)
+Simulated expected cost::6.3 +/- ::0.208651
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 6.3 stderr: 0.208651 averageCost_solved::6.3 stderr_solved::0.208651
+Calculate nodes::16
+Calculate design nodes::9
+Expanded nodes:: Execution::612 Design::128 Total::740
+Calculate nodes::16
+Calculate design nodes::9
+UMD heuristic:: Examined nodes::128 Expanded nodes::128
+Total time:: 1.76189
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-6-design
+Solver :: FLARES
+Command type:: rel-mod
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-6-design-over
+Expected cost (A*):: 5.98
+Optimal action:: (design-start-execution)
+Simulated expected cost::6.19 +/- ::0.208261
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 6.19 stderr: 0.208261 averageCost_solved::6.19 stderr_solved::0.208261
+Calculate nodes::16
+Calculate design nodes::9
+Expanded nodes:: Execution::801 Design::191 Total::992
+Calculate nodes::16
+Calculate design nodes::9
+UMD heuristic:: Examined nodes::191 Expanded nodes::191
+Total time:: 1.48754
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-6-design
+Solver :: FLARES
+Command type:: rel-combined
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-6-design-over-relaxed
+Expected cost (A*):: 6.49
+Optimal action:: (design-start-execution)
+Simulated expected cost::6.37 +/- ::0.199826
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 6.37 stderr: 0.199826 averageCost_solved::6.37 stderr_solved::0.199826
+Calculate nodes::14
+Calculate design nodes::9
+Expanded nodes:: Execution::789 Design::191 Total::980
+Calculate nodes::14
+Calculate design nodes::9
+UMD heuristic:: Examined nodes::191 Expanded nodes::191
+Total time:: 1.91782
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-6-design
+Solver :: FLARES
+Command type:: rel-proc
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-6-design-over
+Expected cost (A*):: 6.11
+Optimal action:: (design-start-execution)
+Simulated expected cost::6.46 +/- ::0.20222
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 6.46 stderr: 0.20222 averageCost_solved::6.46 stderr_solved::0.20222
+Calculate nodes::17
+Calculate design nodes::9
+Expanded nodes:: Execution::786 Design::8 Total::794
+Calculate nodes::17
+Calculate design nodes::9
+UMD heuristic:: Examined nodes::233 Expanded nodes::8
+Total time:: 1.01383
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-6-design
+Solver :: FLARES
+Command type:: rel-combined-proc
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-6-design-over-relaxed
+Expected cost (A*):: 6.11
+Optimal action:: (design-start-execution)
+Simulated expected cost::6.04 +/- ::0.217386
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 6.04 stderr: 0.217386 averageCost_solved::6.04 stderr_solved::0.217386
+Calculate nodes::16
+Calculate design nodes::9
+Expanded nodes:: Execution::826 Design::8 Total::834
+Calculate nodes::16
+Calculate design nodes::9
+UMD heuristic:: Examined nodes::233 Expanded nodes::8
+Total time:: 1.27641
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-6-design
+Solver :: FLARES
+Command type:: bfs_design
+Heuristic_name:: hmin-heur
+Expected cost (A*):: 6.49
+Optimal action:: (design-start-execution)
+Simulated expected cost::5.91 +/- ::0.198018
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 5.91 stderr: 0.198018 averageCost_solved::5.91 stderr_solved::0.198018
+Calculate nodes::882
+Calculate design nodes::9
+Expanded nodes:: Execution::76529 Design::22420 Total::98949
+Calculate nodes::882
+Calculate design nodes::9
+UMD heuristic:: Examined nodes::22420 Expanded nodes::22420
+Total time:: 4.14532
+
+* * *
+

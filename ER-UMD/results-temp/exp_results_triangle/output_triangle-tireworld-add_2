@@ -1,0 +1,27 @@
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p2/p2-domain-design-all.pddl
+Problem:: p2-4-design
+Solver :: LAO*
+Command type:: compilation
+Heuristic_name:: baod-heur
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p2/p2-domain-design-all.pddl
+Problem:: p2-4-design
+Solver :: LAO*
+Command type:: rel-env
+Heuristic_name:: baod-heur
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/triangle-tireworld-add/simplified_joint/p2/p2-domain-design-all.pddl
+Problem:: p2-4-design
+Solver :: LAO*
+Command type:: rel-mod
+Heuristic_name:: baod-heur

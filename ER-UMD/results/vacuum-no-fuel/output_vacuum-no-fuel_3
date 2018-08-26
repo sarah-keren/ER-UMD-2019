@@ -1,0 +1,1298 @@
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-1-design
+Solver :: LAO*
+Command type:: bfs_design
+Heuristic_name:: baod-heur
+Expected cost (A*):: 5.5001
+Optimal action:: (design-reduce-friction-x x2 y1 x3 t1 t2)
+Initial state::[ 6:(current-time t1) 240:(robot-at x1 y1) 242:(dirt-at d1 x1 y1) 322:(dirt-at d2 x3 y2) ]
+Nodes Examined: 11413
+Design Nodes Examined: 296
+Nodes Calculated: 1095
+Design Nodes Calculated: 0
+Total time:: 3.04221
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-1-design
+Solver :: LAO*
+Command type:: compilation
+Heuristic_name:: baod-heur
+Initial state:: [ 6:(current-time t1) 240:(robot-at x1 y1) 242:(dirt-at d1 x1 y1) 322:(dirt-at d2 x3 y2) ]
+Expected cost:: 5.5002
+Best action:: (design-reduce-friction-x x2 y1 x3 t1 t2)
+Nodes Examined: 9448
+Design Nodes Examined: 5048
+Nodes Calculated: 1194
+Design Nodes Calculated: 99
+Total time:: 3.14406
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-1-design
+Solver :: LAO*
+Command type:: rel-env
+Heuristic_name:: baod-heur
+Relaxed problem:: p3-1-design-relaxed
+Expected cost (A*):: 5.5001
+Optimal action:: (design-reduce-friction-x x2 y1 x3 t1 t2)
+Initial state::[ 6:(current-time t1) 240:(robot-at x1 y1) 242:(dirt-at d1 x1 y1) 322:(dirt-at d2 x3 y2) ]
+Nodes Examined: 11413
+Design Nodes Examined: 296
+Nodes Calculated: 1194
+Design Nodes Calculated: 99
+Total time:: 3.11751
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-1-design
+Solver :: LAO*
+Command type:: rel-mod
+Heuristic_name:: baod-heur
+Relaxed problem:: p3-1-design-over
+Expected cost (A*):: 5.5001
+Optimal action:: (design-reduce-friction-x x2 y1 x3 t1 t2)
+Initial state::[ 6:(current-time t1) 240:(robot-at x1 y1) 242:(dirt-at d1 x1 y1) 322:(dirt-at d2 x3 y2) ]
+Nodes Examined: 11413
+Design Nodes Examined: 296
+Nodes Calculated: 1194
+Design Nodes Calculated: 99
+Total time:: 3.15014
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-1-design
+Solver :: LAO*
+Command type:: rel-combined
+Heuristic_name:: baod-heur
+Relaxed problem:: p3-1-design-over-relaxed
+Expected cost (A*):: 5.5001
+Optimal action:: (design-reduce-friction-x x2 y1 x3 t1 t2)
+Initial state::[ 6:(current-time t1) 240:(robot-at x1 y1) 242:(dirt-at d1 x1 y1) 322:(dirt-at d2 x3 y2) ]
+Nodes Examined: 11413
+Design Nodes Examined: 296
+Nodes Calculated: 1194
+Design Nodes Calculated: 99
+Total time:: 3.81465
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-1-design
+Solver :: LAO*
+Command type:: rel-proc
+Heuristic_name:: baod-heur
+Relaxed problem:: p3-1-design-over
+Expected cost (A*):: 5.5001
+Optimal action:: (design-reduce-friction-x x2 y1 x3 t1 t2)
+Initial state::[ 6:(current-time t1) 240:(robot-at x1 y1) 242:(dirt-at d1 x1 y1) 322:(dirt-at d2 x3 y2) ]
+Nodes Examined: 11132
+Design Nodes Examined: 15
+Nodes Calculated: 1110
+Design Nodes Calculated: 15
+Total time:: 2.84949
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-1-design
+Solver :: LAO*
+Command type:: rel-combined-proc
+Heuristic_name:: baod-heur
+Relaxed problem:: p3-1-design-over-relaxed
+Expected cost (A*):: 5.5001
+Optimal action:: (design-reduce-friction-x x2 y1 x3 t1 t2)
+Initial state::[ 6:(current-time t1) 240:(robot-at x1 y1) 242:(dirt-at d1 x1 y1) 322:(dirt-at d2 x3 y2) ]
+Nodes Examined: 11132
+Design Nodes Examined: 15
+Nodes Calculated: 1110
+Design Nodes Calculated: 15
+Total time:: 3.03478
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-1-design
+Solver :: LAO*
+Command type:: bfs_design
+Heuristic_name:: hmin-heur
+Expected cost (A*):: 5.5001
+Optimal action:: (design-reduce-friction-x x1 y1 x2 t1 t2)
+Initial state::[ 6:(current-time t1) 240:(robot-at x1 y1) 242:(dirt-at d1 x1 y1) 322:(dirt-at d2 x3 y2) ]
+Nodes Examined: 9884
+Design Nodes Examined: 296
+Nodes Calculated: 99
+Design Nodes Calculated: 0
+Total time:: 8.68838
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-1-design
+Solver :: LAO*
+Command type:: compilation
+Heuristic_name:: hmin-heur
+Initial state:: [ 6:(current-time t1) 240:(robot-at x1 y1) 242:(dirt-at d1 x1 y1) 322:(dirt-at d2 x3 y2) ]
+Expected cost:: 5.5002
+Best action:: (design-reduce-friction-x x2 y1 x3 t1 t2)
+Nodes Examined: 18052
+Design Nodes Examined: 14655
+Nodes Calculated: 100
+Design Nodes Calculated: 99
+Total time:: 7.83966
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-1-design
+Solver :: LAO*
+Command type:: rel-env
+Heuristic_name:: hmin-heur
+Relaxed problem:: p3-1-design-relaxed
+Expected cost (A*):: 5.5001
+Optimal action:: (design-reduce-friction-x x1 y1 x2 t1 t2)
+Initial state::[ 6:(current-time t1) 240:(robot-at x1 y1) 242:(dirt-at d1 x1 y1) 322:(dirt-at d2 x3 y2) ]
+Nodes Examined: 9884
+Design Nodes Examined: 296
+Nodes Calculated: 100
+Design Nodes Calculated: 1
+Total time:: 20.415
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-1-design
+Solver :: LAO*
+Command type:: rel-mod
+Heuristic_name:: hmin-heur
+Relaxed problem:: p3-1-design-over
+Expected cost (A*):: 5.5001
+Optimal action:: (design-reduce-friction-x x1 y1 x2 t1 t2)
+Initial state::[ 6:(current-time t1) 240:(robot-at x1 y1) 242:(dirt-at d1 x1 y1) 322:(dirt-at d2 x3 y2) ]
+Nodes Examined: 9884
+Design Nodes Examined: 296
+Nodes Calculated: 100
+Design Nodes Calculated: 1
+Total time:: 23.2866
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-1-design
+Solver :: LAO*
+Command type:: rel-combined
+Heuristic_name:: hmin-heur
+Relaxed problem:: p3-1-design-over-relaxed
+Expected cost (A*):: 5.5001
+Optimal action:: (design-reduce-friction-x x1 y1 x2 t1 t2)
+Initial state::[ 6:(current-time t1) 240:(robot-at x1 y1) 242:(dirt-at d1 x1 y1) 322:(dirt-at d2 x3 y2) ]
+Nodes Examined: 9884
+Design Nodes Examined: 296
+Nodes Calculated: 100
+Design Nodes Calculated: 1
+Total time:: 24.9385
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-1-design
+Solver :: LAO*
+Command type:: rel-proc
+Heuristic_name:: hmin-heur
+Relaxed problem:: p3-1-design-over
+Expected cost (A*):: 5.5001
+Optimal action:: (design-reduce-friction-x x1 y1 x2 t1 t2)
+Initial state::[ 6:(current-time t1) 240:(robot-at x1 y1) 242:(dirt-at d1 x1 y1) 322:(dirt-at d2 x3 y2) ]
+Nodes Examined: 9603
+Design Nodes Examined: 15
+Nodes Calculated: 100
+Design Nodes Calculated: 1
+Total time:: 21.5584
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-1-design
+Solver :: LAO*
+Command type:: rel-combined-proc
+Heuristic_name:: hmin-heur
+Relaxed problem:: p3-1-design-over-relaxed
+Expected cost (A*):: 5.5001
+Optimal action:: (design-reduce-friction-x x1 y1 x2 t1 t2)
+Initial state::[ 6:(current-time t1) 240:(robot-at x1 y1) 242:(dirt-at d1 x1 y1) 322:(dirt-at d2 x3 y2) ]
+Nodes Examined: 9603
+Design Nodes Examined: 15
+Nodes Calculated: 100
+Design Nodes Calculated: 1
+Total time:: 24.9619
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-1-design
+Solver :: FLARES
+Command type:: bfs_design
+Heuristic_name:: baod-heur
+Expected cost (A*):: 5.4801
+Optimal action:: (design-reduce-friction-x x2 y1 x3 t1 t2)
+Simulated expected cost::5.33 +/- ::0.0636515
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 5.33 stderr: 0.0636515 averageCost_solved::5.33 stderr_solved::0.0636515
+Nodes Examined: 25299
+Design Nodes Examined: 592
+Nodes Calculated: 1193
+Design Nodes Calculated: 0
+Total time:: 3.9107
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-1-design
+Solver :: FLARES
+Command type:: compilation
+Heuristic_name:: baod-heur
+Initial state::[ 6:(current-time t1) 240:(robot-at x1 y1) 242:(dirt-at d1 x1 y1) 322:(dirt-at d2 x3 y2) ]Expanded nodes::0
+Estimated cost::5.49913
+ExpectedCost::5.5002 +/- ::0.0810287
+Best action::(design-reduce-friction-x x2 y1 x3 t1 t2)
+Nodes Examined: 24608
+Design Nodes Examined: 14852
+Nodes Calculated: 1194
+Design Nodes Calculated: 99
+Total time:: 3.38012
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-1-design
+Solver :: FLARES
+Command type:: rel-env
+Heuristic_name:: baod-heur
+Relaxed problem:: p3-1-design-relaxed
+Expected cost (A*):: 5.4701
+Optimal action:: (design-reduce-friction-x x2 y1 x3 t1 t2)
+Simulated expected cost::5.62 +/- ::0.0850193
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 5.62 stderr: 0.0850193 averageCost_solved::5.62 stderr_solved::0.0850193
+Nodes Examined: 25268
+Design Nodes Examined: 592
+Nodes Calculated: 1292
+Design Nodes Calculated: 99
+Total time:: 4.36191
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-1-design
+Solver :: FLARES
+Command type:: rel-mod
+Heuristic_name:: baod-heur
+Relaxed problem:: p3-1-design-over
+Expected cost (A*):: 5.53
+Optimal action:: (design-start-execution)
+Simulated expected cost::5.72 +/- ::0.0888535
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 5.72 stderr: 0.0888535 averageCost_solved::5.72 stderr_solved::0.0888535
+Nodes Examined: 25274
+Design Nodes Examined: 592
+Nodes Calculated: 1292
+Design Nodes Calculated: 99
+Total time:: 5.06994
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-1-design
+Solver :: FLARES
+Command type:: rel-combined
+Heuristic_name:: baod-heur
+Relaxed problem:: p3-1-design-over-relaxed
+Expected cost (A*):: 5.4701
+Optimal action:: (design-reduce-friction-x x1 y1 x2 t1 t2)
+Simulated expected cost::5.42 +/- ::0.0669388
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 5.42 stderr: 0.0669388 averageCost_solved::5.42 stderr_solved::0.0669388
+Nodes Examined: 25257
+Design Nodes Examined: 592
+Nodes Calculated: 1292
+Design Nodes Calculated: 99
+Total time:: 5.73838
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-1-design
+Solver :: FLARES
+Command type:: rel-proc
+Heuristic_name:: baod-heur
+Relaxed problem:: p3-1-design-over
+Expected cost (A*):: 5.4501
+Optimal action:: (design-reduce-friction-x x2 y1 x3 t1 t2)
+Simulated expected cost::5.51 +/- ::0.0915578
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 5.51 stderr: 0.0915578 averageCost_solved::5.51 stderr_solved::0.0915578
+Nodes Examined: 24708
+Design Nodes Examined: 15
+Nodes Calculated: 1208
+Design Nodes Calculated: 15
+Total time:: 3.82061
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-1-design
+Solver :: FLARES
+Command type:: rel-combined-proc
+Heuristic_name:: baod-heur
+Relaxed problem:: p3-1-design-over-relaxed
+Expected cost (A*):: 5.5401
+Optimal action:: (design-reduce-friction-y y1 x1 x2 t1 t2)
+Simulated expected cost::5.88 +/- ::0.108507
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 5.88 stderr: 0.108507 averageCost_solved::5.88 stderr_solved::0.108507
+Nodes Examined: 24720
+Design Nodes Examined: 15
+Nodes Calculated: 1208
+Design Nodes Calculated: 15
+Total time:: 4.01511
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-1-design
+Solver :: FLARES
+Command type:: bfs_design
+Heuristic_name:: hmin-heur
+Expected cost (A*):: 5.5201
+Optimal action:: (design-reduce-friction-y x2 x2 x3 t1 t2)
+Simulated expected cost::5.58 +/- ::0.0806288
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 5.58 stderr: 0.0806288 averageCost_solved::5.58 stderr_solved::0.0806288
+Nodes Examined: 24629
+Design Nodes Examined: 592
+Nodes Calculated: 99
+Design Nodes Calculated: 0
+Total time:: 8.75001
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-1-design
+Solver :: FLARES
+Command type:: compilation
+Heuristic_name:: hmin-heur
+Initial state::[ 6:(current-time t1) 240:(robot-at x1 y1) 242:(dirt-at d1 x1 y1) 322:(dirt-at d2 x3 y2) ]Expanded nodes::0
+Estimated cost::5.49926
+ExpectedCost::5.4302 +/- ::0.0755518
+Best action::(design-reduce-friction-x x1 y1 x2 t1 t2)
+Nodes Examined: 24010
+Design Nodes Examined: 14852
+Nodes Calculated: 100
+Design Nodes Calculated: 99
+Total time:: 8.13808
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-1-design
+Solver :: FLARES
+Command type:: rel-env
+Heuristic_name:: hmin-heur
+Relaxed problem:: p3-1-design-relaxed
+Expected cost (A*):: 5.71
+Optimal action:: (design-start-execution)
+Simulated expected cost::5.7 +/- ::0.0904534
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 5.7 stderr: 0.0904534 averageCost_solved::5.7 stderr_solved::0.0904534
+Nodes Examined: 24563
+Design Nodes Examined: 494
+Nodes Calculated: 100
+Design Nodes Calculated: 1
+Total time:: 18.4027
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-1-design
+Solver :: FLARES
+Command type:: rel-mod
+Heuristic_name:: hmin-heur
+Relaxed problem:: p3-1-design-over
+Expected cost (A*):: 5.4601
+Optimal action:: (design-reduce-friction-x x2 y1 x3 t1 t2)
+Simulated expected cost::5.63 +/- ::0.10116
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 5.63 stderr: 0.10116 averageCost_solved::5.63 stderr_solved::0.10116
+Nodes Examined: 24543
+Design Nodes Examined: 494
+Nodes Calculated: 100
+Design Nodes Calculated: 1
+Total time:: 19.0888
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-1-design
+Solver :: FLARES
+Command type:: rel-combined
+Heuristic_name:: hmin-heur
+Relaxed problem:: p3-1-design-over-relaxed
+Expected cost (A*):: 5.3401
+Optimal action:: (design-reduce-friction-x x2 y1 x3 t1 t2)
+Simulated expected cost::5.5 +/- ::0.0822659
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 5.5 stderr: 0.0822659 averageCost_solved::5.5 stderr_solved::0.0822659
+Nodes Examined: 24542
+Design Nodes Examined: 494
+Nodes Calculated: 100
+Design Nodes Calculated: 1
+Total time:: 22.1489
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-1-design
+Solver :: FLARES
+Command type:: rel-proc
+Heuristic_name:: hmin-heur
+Relaxed problem:: p3-1-design-over
+Expected cost (A*):: 5.5301
+Optimal action:: (design-reduce-friction-x x2 y1 x3 t1 t2)
+Simulated expected cost::5.48 +/- ::0.0731402
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 5.48 stderr: 0.0731402 averageCost_solved::5.48 stderr_solved::0.0731402
+Nodes Examined: 24088
+Design Nodes Examined: 15
+Nodes Calculated: 100
+Design Nodes Calculated: 1
+Total time:: 16.83
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-1-design
+Solver :: FLARES
+Command type:: rel-combined-proc
+Heuristic_name:: hmin-heur
+Relaxed problem:: p3-1-design-over-relaxed
+Expected cost (A*):: 5.5201
+Optimal action:: (design-reduce-friction-x x2 y1 x3 t1 t2)
+Simulated expected cost::5.61 +/- ::0.0897753
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 5.61 stderr: 0.0897753 averageCost_solved::5.61 stderr_solved::0.0897753
+Nodes Examined: 24066
+Design Nodes Examined: 15
+Nodes Calculated: 100
+Design Nodes Calculated: 1
+Total time:: 22.1871
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-2-design
+Solver :: LAO*
+Command type:: bfs_design
+Heuristic_name:: baod-heur
+Expected cost (A*):: 5.2502
+Optimal action:: (design-reduce-friction-x x1 y1 x2 t1 t2)
+Initial state::[ 6:(current-time t1) 242:(robot-at x1 y1) 244:(dirt-at d1 x1 y1) 324:(dirt-at d2 x3 y2) ]
+Nodes Examined: 594558
+Design Nodes Examined: 24355
+Nodes Calculated: 55044
+Design Nodes Calculated: 0
+Total time:: 152.854
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-2-design
+Solver :: LAO*
+Command type:: compilation
+Heuristic_name:: baod-heur
+Initial state:: [ 6:(current-time t1) 242:(robot-at x1 y1) 244:(dirt-at d1 x1 y1) 324:(dirt-at d2 x3 y2) ]
+Expected cost:: 5.2503
+Best action:: (design-reduce-friction-x x2 y1 x3 t1 t2)
+Nodes Examined: 342824
+Design Nodes Examined: 181106
+Nodes Calculated: 55336
+Design Nodes Calculated: 4950
+Total time:: 199.743
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-2-design
+Solver :: LAO*
+Command type:: rel-env
+Heuristic_name:: baod-heur
+Relaxed problem:: p3-2-design-relaxed
+Expected cost (A*):: 5.2502
+Optimal action:: (design-reduce-friction-x x2 y1 x3 t1 t2)
+Initial state::[ 6:(current-time t1) 242:(robot-at x1 y1) 244:(dirt-at d1 x1 y1) 324:(dirt-at d2 x3 y2) ]
+Nodes Examined: 594558
+Design Nodes Examined: 24355
+Nodes Calculated: 59994
+Design Nodes Calculated: 4950
+Total time:: 205.126
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-2-design
+Solver :: LAO*
+Command type:: rel-mod
+Heuristic_name:: baod-heur
+Relaxed problem:: p3-2-design-over
+Expected cost (A*):: 5.2502
+Optimal action:: (design-reduce-friction-x x2 y1 x3 t1 t2)
+Initial state::[ 6:(current-time t1) 242:(robot-at x1 y1) 244:(dirt-at d1 x1 y1) 324:(dirt-at d2 x3 y2) ]
+Nodes Examined: 594558
+Design Nodes Examined: 24355
+Nodes Calculated: 59994
+Design Nodes Calculated: 4950
+Total time:: 202.568
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-2-design
+Solver :: LAO*
+Command type:: rel-combined
+Heuristic_name:: baod-heur
+Relaxed problem:: p3-2-design-over-relaxed
+Expected cost (A*):: 5.2502
+Optimal action:: (design-reduce-friction-x x2 y1 x3 t1 t2)
+Initial state::[ 6:(current-time t1) 242:(robot-at x1 y1) 244:(dirt-at d1 x1 y1) 324:(dirt-at d2 x3 y2) ]
+Nodes Examined: 594558
+Design Nodes Examined: 24355
+Nodes Calculated: 59994
+Design Nodes Calculated: 4950
+Total time:: 269.052
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-2-design
+Solver :: LAO*
+Command type:: rel-proc
+Heuristic_name:: baod-heur
+Relaxed problem:: p3-2-design-over
+Expected cost (A*):: 5.2502
+Optimal action:: (design-reduce-friction-x x1 y1 x2 t1 t2)
+Initial state::[ 6:(current-time t1) 242:(robot-at x1 y1) 244:(dirt-at d1 x1 y1) 324:(dirt-at d2 x3 y2) ]
+Nodes Examined: 570321
+Design Nodes Examined: 118
+Nodes Calculated: 55162
+Design Nodes Calculated: 118
+Total time:: 177.031
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-2-design
+Solver :: LAO*
+Command type:: rel-combined-proc
+Heuristic_name:: baod-heur
+Relaxed problem:: p3-2-design-over-relaxed
+Expected cost (A*):: 5.2502
+Optimal action:: (design-reduce-friction-x x1 y1 x2 t1 t2)
+Initial state::[ 6:(current-time t1) 242:(robot-at x1 y1) 244:(dirt-at d1 x1 y1) 324:(dirt-at d2 x3 y2) ]
+Nodes Examined: 570321
+Design Nodes Examined: 118
+Nodes Calculated: 55162
+Design Nodes Calculated: 118
+Total time:: 179.287
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-2-design
+Solver :: LAO*
+Command type:: bfs_design
+Heuristic_name:: hmin-heur
+Expected cost (A*):: 5.2502
+Optimal action:: (design-reduce-friction-x x1 y1 x2 t1 t2)
+Initial state::[ 6:(current-time t1) 242:(robot-at x1 y1) 244:(dirt-at d1 x1 y1) 324:(dirt-at d2 x3 y2) ]
+Nodes Examined: 511559
+Design Nodes Examined: 24355
+Nodes Calculated: 4950
+Design Nodes Calculated: 0
+Total time:: 487.472
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-2-design
+Solver :: LAO*
+Command type:: compilation
+Heuristic_name:: hmin-heur
+Initial state:: [ 6:(current-time t1) 242:(robot-at x1 y1) 244:(dirt-at d1 x1 y1) 324:(dirt-at d2 x3 y2) ]
+Expected cost:: 5.2503
+Best action:: (design-reduce-friction-x x2 y1 x3 t1 t2)
+Nodes Examined: 638553
+Design Nodes Examined: 524010
+Nodes Calculated: 100
+Design Nodes Calculated: 99
+Total time:: 468.399
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-2-design
+Solver :: LAO*
+Command type:: rel-env
+Heuristic_name:: hmin-heur
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-2-design
+Solver :: LAO*
+Command type:: rel-mod
+Heuristic_name:: hmin-heur
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-2-design
+Solver :: LAO*
+Command type:: rel-combined
+Heuristic_name:: hmin-heur
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-2-design
+Solver :: LAO*
+Command type:: rel-proc
+Heuristic_name:: hmin-heur
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-2-design
+Solver :: LAO*
+Command type:: rel-combined-proc
+Heuristic_name:: hmin-heur
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-2-design
+Solver :: FLARES
+Command type:: bfs_design
+Heuristic_name:: baod-heur
+Expected cost (A*):: 5.2502
+Optimal action:: (design-reduce-friction-x x1 y1 x2 t1 t2)
+Simulated expected cost::5.25 +/- ::0.05
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 5.25 stderr: 0.05 averageCost_solved::5.25 stderr_solved::0.05
+Nodes Examined: 1056916
+Design Nodes Examined: 48710
+Nodes Calculated: 59993
+Design Nodes Calculated: 0
+Total time:: 244.996
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-2-design
+Solver :: FLARES
+Command type:: compilation
+Heuristic_name:: baod-heur
+Initial state::[ 6:(current-time t1) 242:(robot-at x1 y1) 244:(dirt-at d1 x1 y1) 324:(dirt-at d2 x3 y2) ]Expanded nodes::0
+Estimated cost::4.2003
+ExpectedCost::5.7603 +/- ::0.107422
+Best action::(design-reduce-friction-x y1 y2 y2 t1 t2)
+Nodes Examined: 958979
+Design Nodes Examined: 518811
+Nodes Calculated: 59994
+Design Nodes Calculated: 4950
+Total time:: 211.247
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-2-design
+Solver :: FLARES
+Command type:: rel-env
+Heuristic_name:: baod-heur
+Relaxed problem:: p3-2-design-relaxed
+Expected cost (A*):: 5.2202
+Optimal action:: (design-reduce-friction-x x2 y1 x3 t1 t2)
+Simulated expected cost::5.28 +/- ::0.0667878
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 5.28 stderr: 0.0667878 averageCost_solved::5.28 stderr_solved::0.0667878
+Nodes Examined: 1057173
+Design Nodes Examined: 48710
+Nodes Calculated: 64943
+Design Nodes Calculated: 4950
+Total time:: 296.144
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-2-design
+Solver :: FLARES
+Command type:: rel-mod
+Heuristic_name:: baod-heur
+Relaxed problem:: p3-2-design-over
+Expected cost (A*):: 5.4301
+Optimal action:: (design-reduce-friction-x x1 y1 x2 t1 t2)
+Simulated expected cost::5.53 +/- ::0.0797154
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 5.53 stderr: 0.0797154 averageCost_solved::5.53 stderr_solved::0.0797154
+Nodes Examined: 1057071
+Design Nodes Examined: 48710
+Nodes Calculated: 64943
+Design Nodes Calculated: 4950
+Total time:: 294.163
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-2-design
+Solver :: FLARES
+Command type:: rel-combined
+Heuristic_name:: baod-heur
+Relaxed problem:: p3-2-design-over-relaxed
+Expected cost (A*):: 5.4401
+Optimal action:: (design-reduce-friction-x x1 y1 x2 t1 t2)
+Simulated expected cost::5.55 +/- ::0.0857233
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 5.55 stderr: 0.0857233 averageCost_solved::5.55 stderr_solved::0.0857233
+Nodes Examined: 1057452
+Design Nodes Examined: 48710
+Nodes Calculated: 64943
+Design Nodes Calculated: 4950
+Total time:: 355.726
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-2-design
+Solver :: FLARES
+Command type:: rel-proc
+Heuristic_name:: baod-heur
+Relaxed problem:: p3-2-design-over
+Expected cost (A*):: 5.2602
+Optimal action:: (design-reduce-friction-x x1 y1 x2 t1 t2)
+Simulated expected cost::5.25 +/- ::0.051981
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 5.25 stderr: 0.051981 averageCost_solved::5.25 stderr_solved::0.051981
+Nodes Examined: 1008582
+Design Nodes Examined: 118
+Nodes Calculated: 60111
+Design Nodes Calculated: 118
+Total time:: 242.516
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-2-design
+Solver :: FLARES
+Command type:: rel-combined-proc
+Heuristic_name:: baod-heur
+Relaxed problem:: p3-2-design-over-relaxed
+Expected cost (A*):: 5.2902
+Optimal action:: (design-reduce-friction-x x1 y1 x2 t1 t2)
+Simulated expected cost::5.26 +/- ::0.0543464
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 5.26 stderr: 0.0543464 averageCost_solved::5.26 stderr_solved::0.0543464
+Nodes Examined: 1008703
+Design Nodes Examined: 118
+Nodes Calculated: 60111
+Design Nodes Calculated: 118
+Total time:: 253.718
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-2-design
+Solver :: FLARES
+Command type:: bfs_design
+Heuristic_name:: hmin-heur
+Expected cost (A*):: 5.6301
+Optimal action:: (design-reduce-friction-x x2 y1 x3 t1 t2)
+Simulated expected cost::5.58 +/- ::0.0889671
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 5.58 stderr: 0.0889671 averageCost_solved::5.58 stderr_solved::0.0889671
+Nodes Examined: 1100827
+Design Nodes Examined: 48710
+Nodes Calculated: 99
+Design Nodes Calculated: 0
+Total time:: 526.918
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-2-design
+Solver :: FLARES
+Command type:: compilation
+Heuristic_name:: hmin-heur
+Initial state::[ 6:(current-time t1) 242:(robot-at x1 y1) 244:(dirt-at d1 x1 y1) 324:(dirt-at d2 x3 y2) ]Expanded nodes::0
+Estimated cost::5.2003
+ExpectedCost::5.6803 +/- ::0.0827312
+Best action::(design-reduce-friction-x y2 x1 y3 t1 t2)
+Nodes Examined: 1029242
+Design Nodes Examined: 528506
+Nodes Calculated: 100
+Design Nodes Calculated: 99
+Total time:: 491.369
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-2-design
+Solver :: FLARES
+Command type:: rel-env
+Heuristic_name:: hmin-heur
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-2-design
+Solver :: FLARES
+Command type:: rel-mod
+Heuristic_name:: hmin-heur
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-2-design
+Solver :: FLARES
+Command type:: rel-combined
+Heuristic_name:: hmin-heur
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-2-design
+Solver :: FLARES
+Command type:: rel-proc
+Heuristic_name:: hmin-heur
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-2-design
+Solver :: FLARES
+Command type:: rel-combined-proc
+Heuristic_name:: hmin-heur
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-3-design
+Solver :: LAO*
+Command type:: bfs_design
+Heuristic_name:: baod-heur
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-3-design
+Solver :: LAO*
+Command type:: compilation
+Heuristic_name:: baod-heur
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-3-design
+Solver :: LAO*
+Command type:: rel-env
+Heuristic_name:: baod-heur
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-3-design
+Solver :: LAO*
+Command type:: rel-mod
+Heuristic_name:: baod-heur
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-3-design
+Solver :: LAO*
+Command type:: rel-combined
+Heuristic_name:: baod-heur
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-3-design
+Solver :: LAO*
+Command type:: rel-proc
+Heuristic_name:: baod-heur
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-3-design
+Solver :: LAO*
+Command type:: rel-combined-proc
+Heuristic_name:: baod-heur
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-3-design
+Solver :: LAO*
+Command type:: bfs_design
+Heuristic_name:: hmin-heur
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-3-design
+Solver :: LAO*
+Command type:: compilation
+Heuristic_name:: hmin-heur
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-3-design
+Solver :: LAO*
+Command type:: rel-env
+Heuristic_name:: hmin-heur
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-3-design
+Solver :: LAO*
+Command type:: rel-mod
+Heuristic_name:: hmin-heur
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-3-design
+Solver :: LAO*
+Command type:: rel-combined
+Heuristic_name:: hmin-heur
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-3-design
+Solver :: LAO*
+Command type:: rel-proc
+Heuristic_name:: hmin-heur
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-3-design
+Solver :: LAO*
+Command type:: rel-combined-proc
+Heuristic_name:: hmin-heur
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-3-design
+Solver :: FLARES
+Command type:: bfs_design
+Heuristic_name:: baod-heur
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-3-design
+Solver :: FLARES
+Command type:: compilation
+Heuristic_name:: baod-heur
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-3-design
+Solver :: FLARES
+Command type:: rel-env
+Heuristic_name:: baod-heur
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-3-design
+Solver :: FLARES
+Command type:: rel-mod
+Heuristic_name:: baod-heur
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-3-design
+Solver :: FLARES
+Command type:: rel-combined
+Heuristic_name:: baod-heur
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-3-design
+Solver :: FLARES
+Command type:: rel-proc
+Heuristic_name:: baod-heur
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-3-design
+Solver :: FLARES
+Command type:: rel-combined-proc
+Heuristic_name:: baod-heur
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-3-design
+Solver :: FLARES
+Command type:: bfs_design
+Heuristic_name:: hmin-heur
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-3-design
+Solver :: FLARES
+Command type:: compilation
+Heuristic_name:: hmin-heur
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-3-design
+Solver :: FLARES
+Command type:: rel-env
+Heuristic_name:: hmin-heur
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-3-design
+Solver :: FLARES
+Command type:: rel-mod
+Heuristic_name:: hmin-heur
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-3-design
+Solver :: FLARES
+Command type:: rel-combined
+Heuristic_name:: hmin-heur
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-3-design
+Solver :: FLARES
+Command type:: rel-proc
+Heuristic_name:: hmin-heur
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-3-design
+Solver :: FLARES
+Command type:: rel-combined-proc
+Heuristic_name:: hmin-heur
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-4-design
+Solver :: LAO*
+Command type:: bfs_design
+Heuristic_name:: baod-heur
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-4-design
+Solver :: LAO*
+Command type:: compilation
+Heuristic_name:: baod-heur
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-4-design
+Solver :: LAO*
+Command type:: rel-env
+Heuristic_name:: baod-heur
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl
+Problem:: p3-4-design
+Solver :: LAO*
+Command type:: rel-mod
+Heuristic_name:: baod-heur

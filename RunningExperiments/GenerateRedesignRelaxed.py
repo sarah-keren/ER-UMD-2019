@@ -175,12 +175,13 @@ if __name__ == '__main__' :
 
     domain_names = []
     #domain_names.append('vacuum-no-fuel')
-    #domain_names.append('triangle-tireworld')
     #domain_names.append('vacuum-no-fuel-running-example')
-    domain_names.append('vacuum-no-fuel')
+    #domain_names.append('vacuum-no-fuel')
     #domain_names.append('ex-blocksworld')
-    #domain_names.append('boxworld')
+    domain_names.append('boxworld')
     #domain_names.append('blocksworld')
+    #domain_names.append('blocksworld-test')
+    #domain_names.append('triangle-tireworld')
     #domain_names.append('elevators')
     #domain_names.append('vacuum-no-fuel-simple')
 
@@ -192,7 +193,7 @@ if __name__ == '__main__' :
 
 
 
-    benchmarks_location = '/home/sarah/Documents/GoalRecognitionDesign/Redesign/Code-IJCAI18/ER-UMD/umd-Benchmakrs-2019'
+    benchmarks_location = '/home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019'
 
 
     for domain_name in domain_names:

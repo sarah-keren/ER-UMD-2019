@@ -60,6 +60,8 @@ double PPDDLProblem::cost(mlcore::State* s, mlcore::Action* a) const
 {
 
 
+
+
     std::cout<< "cost for state: "<< state << "and action "<< action << " is: "<< cost<<std::endl;
     PPDDLAction* action = (PPDDLAction *) a;
     PPDDLState* state = (PPDDLState *) s;

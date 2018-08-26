@@ -1,7 +1,222 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3f096101-7708-464b-8b46-a83ac393e571" name="Default" comment="" />
+    <list default="true" id="e4218570-96ba-46b8-baab-8623e37c70c5" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ER-UMD/ER-UMD.cbp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ER-UMD/ER-UMD.depend" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ER-UMD/ER-UMD.layout" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ER-UMD/bin/Release/ER-UMD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ER-UMD/exp_results/output_vacuum-no-fuel-simple_1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GenerateRedesignRelaxed-old.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GenerateRedesignRelaxed-wtf.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestRedesign-new.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestRedesign.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/optimal_results_AM1F" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/optimal_results_hmin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/elevators/simplified_problems/p11.pddl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/elevators/simplified_problems/p12.pddl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/elevators/simplified_problems/p13.pddl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/elevators/simplified_problems/p14.pddl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/elevators/simplified_problems/p15.pddl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/triangle-tireworld/simplified_problems/p10.pddl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/triangle-tireworld/simplified_problems/p11.pddl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/triangle-tireworld/simplified_problems/p12.pddl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/triangle-tireworld/simplified_problems/p13.pddl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel-running-example/domains/domain-design-all-over-relaxed.pddl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel-running-example/domains/domain-design-all-over.pddl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel-running-example/domains/domain-design-all-relaxed.pddl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel-running-example/domains/domain-design-all.pddl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel-running-example/domains/domain.pddl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel-running-example/problems/p1.pddl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel-running-example/simplified_problems/p1.pddl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel-running-example/simplified_problems/p2.pddl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel-simple/domains/domain-design-all-over-relaxed.pddl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel-simple/domains/domain-design-all-over.pddl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel-simple/domains/domain-design-all-relaxed.pddl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel-simple/domains/domain-design-all.pddl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel-simple/domains/domain.pddl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel-simple/joint/p1/p1-domain-design-all.pddl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel-simple/joint/p10/p10-domain-design-all.pddl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel-simple/joint/p11/p11-domain-design-all.pddl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel-simple/joint/p12/p12-domain-design-all.pddl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel-simple/joint/p13/p13-domain-design-all.pddl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel-simple/joint/p14/p14-domain-design-all.pddl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel-simple/joint/p15/p15-domain-design-all.pddl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel-simple/joint/p16/p16-domain-design-all.pddl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel-simple/joint/p17/p17-domain-design-all.pddl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel-simple/joint/p18/p18-domain-design-all.pddl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel-simple/joint/p19/p19-domain-design-all.pddl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel-simple/joint/p2/p2-domain-design-all.pddl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel-simple/joint/p20/p20-domain-design-all.pddl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel-simple/joint/p3/p3-domain-design-all.pddl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel-simple/joint/p4/p4-domain-design-all.pddl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel-simple/joint/p5/p5-domain-design-all.pddl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel-simple/joint/p6/p6-domain-design-all.pddl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel-simple/joint/p7/p7-domain-design-all.pddl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel-simple/joint/p8/p8-domain-design-all.pddl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel-simple/joint/p9/p9-domain-design-all.pddl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel-simple/problems/p1.pddl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel-simple/problems/p10.pddl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel-simple/problems/p11.pddl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel-simple/problems/p12.pddl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel-simple/problems/p13.pddl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel-simple/problems/p14.pddl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel-simple/problems/p15.pddl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel-simple/problems/p16.pddl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel-simple/problems/p17.pddl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel-simple/problems/p18.pddl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel-simple/problems/p19.pddl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel-simple/problems/p2.pddl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel-simple/problems/p20.pddl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel-simple/problems/p3.pddl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel-simple/problems/p4.pddl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel-simple/problems/p5.pddl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel-simple/problems/p6.pddl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel-simple/problems/p7.pddl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel-simple/problems/p8.pddl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel-simple/problems/p9.pddl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel-simple/simplified_joint/p1/p1-domain-design-all.pddl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel-simple/simplified_joint/p2/p2-domain-design-all.pddl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel-simple/simplified_problems/p1.pddl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel-simple/simplified_problems/p2.pddl" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ER-UMD/obj/Debug/src/BAODHeuristic.o" afterPath="$PROJECT_DIR$/../ER-UMD/obj/Debug/src/BAODHeuristic.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ER-UMD/obj/Release/src/DeterministicSolver.o" afterPath="$PROJECT_DIR$/../ER-UMD/obj/Release/src/DeterministicSolver.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ER-UMD/obj/Debug/src/ErUmdProblem.o" afterPath="$PROJECT_DIR$/../ER-UMD/obj/Debug/src/ErUmdProblem.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ER-UMD/obj/Release/src/ErUmdProblem.o" afterPath="$PROJECT_DIR$/../ER-UMD/obj/Release/src/ErUmdProblem.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ER-UMD/obj/Debug/src/FLARESHeuristic.o" afterPath="$PROJECT_DIR$/../ER-UMD/obj/Debug/src/FLARESHeuristic.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ER-UMD/obj/Debug/src/GPTHeuristicsDesign.o" afterPath="$PROJECT_DIR$/../ER-UMD/obj/Debug/src/GPTHeuristicsDesign.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ER-UMD/obj/Debug/src/HminminHeuristic.o" afterPath="$PROJECT_DIR$/../ER-UMD/obj/Debug/src/HminminHeuristic.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ER-UMD/obj/Debug/src/MDPHeuristic.o" afterPath="$PROJECT_DIR$/../ER-UMD/obj/Debug/src/MDPHeuristic.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ER-UMD/obj/Debug/src/PDBHeuristic.o" afterPath="$PROJECT_DIR$/../ER-UMD/obj/Debug/src/PDBHeuristic.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ER-UMD/obj/Debug/src/UMDHeuristic.o" afterPath="$PROJECT_DIR$/../ER-UMD/obj/Debug/src/UMDHeuristic.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ER-UMD/obj/Debug/src/ZeroHeuristic.o" afterPath="$PROJECT_DIR$/../ER-UMD/obj/Debug/src/ZeroHeuristic.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ER-UMD/obj/Debug/src/main .o" afterPath="$PROJECT_DIR$/../ER-UMD/obj/Debug/src/main .o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ER-UMD/src/DeterministicSolver.cpp" afterPath="$PROJECT_DIR$/../ER-UMD/src/DeterministicSolver.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ER-UMD/include/DeterministicSolver.h" afterPath="$PROJECT_DIR$/../ER-UMD/include/DeterministicSolver.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ER-UMD/src/ErUmdProblem.cpp" afterPath="$PROJECT_DIR$/../ER-UMD/src/ErUmdProblem.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GenerateRedesignRelaxed.py" afterPath="$PROJECT_DIR$/GenerateRedesignRelaxed.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../non_deterministic/planners/mdp-lib-umd/src/ppddl/PPDDLProblem.cpp" afterPath="$PROJECT_DIR$/../non_deterministic/planners/mdp-lib-umd/src/ppddl/PPDDLProblem.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/blocksworld/domains/domain-design-all-over-relaxed.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/blocksworld/domains/domain-design-all-over-relaxed.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/boxworld/domains/domain-design-all-over-relaxed.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/boxworld/domains/domain-design-all-over-relaxed.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/ex-blocksworld/domains/domain-design-all-over-relaxed.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/ex-blocksworld/domains/domain-design-all-over-relaxed.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/triangle-tireworld/domains/domain-design-all-over-relaxed.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/triangle-tireworld/domains/domain-design-all-over-relaxed.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/domains/domain-design-all-over-relaxed.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/domains/domain-design-all-over-relaxed.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/blocksworld/domains/domain-design-all-over.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/blocksworld/domains/domain-design-all-over.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/ex-blocksworld/domains/domain-design-all-over.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/ex-blocksworld/domains/domain-design-all-over.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/triangle-tireworld/domains/domain-design-all-over.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/triangle-tireworld/domains/domain-design-all-over.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/domains/domain-design-all-over.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/domains/domain-design-all-over.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/blocksworld/domains/domain-design-all-relaxed.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/blocksworld/domains/domain-design-all-relaxed.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/boxworld/domains/domain-design-all-relaxed.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/boxworld/domains/domain-design-all-relaxed.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/ex-blocksworld/domains/domain-design-all-relaxed.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/ex-blocksworld/domains/domain-design-all-relaxed.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/triangle-tireworld/domains/domain-design-all-relaxed.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/triangle-tireworld/domains/domain-design-all-relaxed.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/domains/domain-design-all-relaxed.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/domains/domain-design-all-relaxed.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/blocksworld/domains/domain-design-all.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/blocksworld/domains/domain-design-all.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/elevators/domains/domain-design-all.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/elevators/domains/domain-design-all.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/ex-blocksworld/domains/domain-design-all.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/ex-blocksworld/domains/domain-design-all.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/triangle-tireworld/domains/domain-design-all.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/triangle-tireworld/domains/domain-design-all.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/domains/domain-design-all.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/domains/domain-design-all.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/domains/domain.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/domains/domain.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/blocksworld/joint/p01/p01-domain-design-all.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/blocksworld/joint/p01/p01-domain-design-all.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/blocksworld/joint/p02/p02-domain-design-all.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/blocksworld/joint/p02/p02-domain-design-all.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/blocksworld/joint/p03/p03-domain-design-all.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/blocksworld/joint/p03/p03-domain-design-all.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/blocksworld/joint/p04/p04-domain-design-all.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/blocksworld/joint/p04/p04-domain-design-all.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/blocksworld/joint/p05/p05-domain-design-all.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/blocksworld/joint/p05/p05-domain-design-all.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/blocksworld/joint/p06/p06-domain-design-all.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/blocksworld/joint/p06/p06-domain-design-all.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/blocksworld/joint/p07/p07-domain-design-all.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/blocksworld/joint/p07/p07-domain-design-all.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/blocksworld/joint/p08/p08-domain-design-all.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/blocksworld/joint/p08/p08-domain-design-all.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/blocksworld/joint/p09/p09-domain-design-all.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/blocksworld/joint/p09/p09-domain-design-all.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/blocksworld/simplified_joint/p1/p1-domain-design-all.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/blocksworld/simplified_joint/p1/p1-domain-design-all.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/joint/p1/p1-domain-design-all.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/joint/p1/p1-domain-design-all.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p1/p1-domain-design-all.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p1/p1-domain-design-all.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/boxworld/simplified_problems/p1.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/boxworld/simplified_problems/p1.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/elevators/simplified_problems/p1.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/elevators/simplified_problems/p1.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/triangle-tireworld/simplified_problems/p1.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/triangle-tireworld/simplified_problems/p1.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/blocksworld/joint/p10/p10-domain-design-all.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/blocksworld/joint/p10/p10-domain-design-all.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/blocksworld/simplified_joint/p10/p10-domain-design-all.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/blocksworld/simplified_joint/p10/p10-domain-design-all.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/joint/p10/p10-domain-design-all.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/joint/p10/p10-domain-design-all.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p10/p10-domain-design-all.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p10/p10-domain-design-all.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/elevators/simplified_problems/p10.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/elevators/simplified_problems/p10.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/blocksworld/simplified_joint/p11/p11-domain-design-all.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/blocksworld/simplified_joint/p11/p11-domain-design-all.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/joint/p11/p11-domain-design-all.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/joint/p11/p11-domain-design-all.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p11/p11-domain-design-all.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p11/p11-domain-design-all.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/blocksworld/simplified_joint/p12/p12-domain-design-all.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/blocksworld/simplified_joint/p12/p12-domain-design-all.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/joint/p12/p12-domain-design-all.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/joint/p12/p12-domain-design-all.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p12/p12-domain-design-all.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p12/p12-domain-design-all.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/blocksworld/simplified_joint/p13/p13-domain-design-all.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/blocksworld/simplified_joint/p13/p13-domain-design-all.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/joint/p13/p13-domain-design-all.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/joint/p13/p13-domain-design-all.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p13/p13-domain-design-all.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p13/p13-domain-design-all.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/blocksworld/simplified_joint/p14/p14-domain-design-all.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/blocksworld/simplified_joint/p14/p14-domain-design-all.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/joint/p14/p14-domain-design-all.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/joint/p14/p14-domain-design-all.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p14/p14-domain-design-all.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p14/p14-domain-design-all.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/blocksworld/simplified_joint/p15/p15-domain-design-all.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/blocksworld/simplified_joint/p15/p15-domain-design-all.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/joint/p15/p15-domain-design-all.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/joint/p15/p15-domain-design-all.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p15/p15-domain-design-all.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p15/p15-domain-design-all.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/joint/p16/p16-domain-design-all.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/joint/p16/p16-domain-design-all.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p16/p16-domain-design-all.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p16/p16-domain-design-all.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/joint/p17/p17-domain-design-all.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/joint/p17/p17-domain-design-all.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p17/p17-domain-design-all.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p17/p17-domain-design-all.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/joint/p18/p18-domain-design-all.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/joint/p18/p18-domain-design-all.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p18/p18-domain-design-all.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p18/p18-domain-design-all.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/joint/p19/p19-domain-design-all.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/joint/p19/p19-domain-design-all.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p19/p19-domain-design-all.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p19/p19-domain-design-all.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/blocksworld/simplified_joint/p2/p2-domain-design-all.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/blocksworld/simplified_joint/p2/p2-domain-design-all.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/joint/p2/p2-domain-design-all.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/joint/p2/p2-domain-design-all.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p2/p2-domain-design-all.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p2/p2-domain-design-all.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/boxworld/simplified_problems/p2.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/boxworld/simplified_problems/p2.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/elevators/simplified_problems/p2.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/elevators/simplified_problems/p2.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/triangle-tireworld/simplified_problems/p2.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/triangle-tireworld/simplified_problems/p2.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/joint/p20/p20-domain-design-all.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/joint/p20/p20-domain-design-all.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p20/p20-domain-design-all.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p20/p20-domain-design-all.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p21/p21-domain-design-all.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p21/p21-domain-design-all.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p22/p22-domain-design-all.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p22/p22-domain-design-all.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/blocksworld/simplified_joint/p3/p3-domain-design-all.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/blocksworld/simplified_joint/p3/p3-domain-design-all.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/joint/p3/p3-domain-design-all.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/joint/p3/p3-domain-design-all.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p3/p3-domain-design-all.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/boxworld/simplified_problems/p3.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/boxworld/simplified_problems/p3.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/elevators/simplified_problems/p3.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/elevators/simplified_problems/p3.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/triangle-tireworld/simplified_problems/p3.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/triangle-tireworld/simplified_problems/p3.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/blocksworld/simplified_joint/p4/p4-domain-design-all.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/blocksworld/simplified_joint/p4/p4-domain-design-all.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/joint/p4/p4-domain-design-all.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/joint/p4/p4-domain-design-all.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p4/p4-domain-design-all.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p4/p4-domain-design-all.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/boxworld/simplified_problems/p4.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/boxworld/simplified_problems/p4.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/elevators/simplified_problems/p4.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/elevators/simplified_problems/p4.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/triangle-tireworld/simplified_problems/p4.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/triangle-tireworld/simplified_problems/p4.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/blocksworld/simplified_joint/p5/p5-domain-design-all.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/blocksworld/simplified_joint/p5/p5-domain-design-all.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/joint/p5/p5-domain-design-all.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/joint/p5/p5-domain-design-all.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p5/p5-domain-design-all.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p5/p5-domain-design-all.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/boxworld/simplified_problems/p5.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/boxworld/simplified_problems/p5.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/elevators/simplified_problems/p5.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/elevators/simplified_problems/p5.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/triangle-tireworld/simplified_problems/p5.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/triangle-tireworld/simplified_problems/p5.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/blocksworld/simplified_joint/p6/p6-domain-design-all.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/blocksworld/simplified_joint/p6/p6-domain-design-all.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/joint/p6/p6-domain-design-all.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/joint/p6/p6-domain-design-all.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p6/p6-domain-design-all.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p6/p6-domain-design-all.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/boxworld/simplified_problems/p6.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/boxworld/simplified_problems/p6.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/elevators/simplified_problems/p6.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/elevators/simplified_problems/p6.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/triangle-tireworld/simplified_problems/p6.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/triangle-tireworld/simplified_problems/p6.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/blocksworld/simplified_joint/p7/p7-domain-design-all.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/blocksworld/simplified_joint/p7/p7-domain-design-all.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/joint/p7/p7-domain-design-all.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/joint/p7/p7-domain-design-all.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p7/p7-domain-design-all.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p7/p7-domain-design-all.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/boxworld/simplified_problems/p7.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/boxworld/simplified_problems/p7.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/elevators/simplified_problems/p7.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/elevators/simplified_problems/p7.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/triangle-tireworld/simplified_problems/p7.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/triangle-tireworld/simplified_problems/p7.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/simplified_problems/p7.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/simplified_problems/p7.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/blocksworld/simplified_joint/p8/p8-domain-design-all.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/blocksworld/simplified_joint/p8/p8-domain-design-all.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/joint/p8/p8-domain-design-all.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/joint/p8/p8-domain-design-all.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p8/p8-domain-design-all.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p8/p8-domain-design-all.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/elevators/simplified_problems/p8.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/elevators/simplified_problems/p8.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/triangle-tireworld/simplified_problems/p8.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/triangle-tireworld/simplified_problems/p8.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/blocksworld/simplified_joint/p9/p9-domain-design-all.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/blocksworld/simplified_joint/p9/p9-domain-design-all.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/joint/p9/p9-domain-design-all.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/joint/p9/p9-domain-design-all.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p9/p9-domain-design-all.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p9/p9-domain-design-all.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/elevators/simplified_problems/p9.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/elevators/simplified_problems/p9.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../umd-Benchmakrs-2019/triangle-tireworld/simplified_problems/p9.pddl" afterPath="$PROJECT_DIR$/../umd-Benchmakrs-2019/triangle-tireworld/simplified_problems/p9.pddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parse_results.py" afterPath="$PROJECT_DIR$/parse_results.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ER-UMD/scripts/run_experiments-single-problem-short" afterPath="$PROJECT_DIR$/../ER-UMD/scripts/run_experiments-single-problem-short" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ER-UMD/scripts/run_experiments-single-problem" afterPath="$PROJECT_DIR$/../ER-UMD/scripts/run_experiments-single-problem" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="RunningExperiments.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,48 +236,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="_pydev_execfile.py" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <file leaf-file-name="parse_results.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/parse_results.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GenerateRedesignRelaxed.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/GenerateRedesignRelaxed.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.23413567">
-              <caret line="179" column="4" selection-start-line="179" selection-start-column="4" selection-end-line="179" selection-end-column="4" />
-              <folding />
+            <state vertical-scroll-proportion="0.33195877">
+              <caret line="230" column="0" selection-start-line="230" selection-start-column="0" selection-end-line="230" selection-end-column="0" />
+              <folding>
+                <element signature="e#6404#7614#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Python Script" />
-      </list>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/output_p5" />
-        <option value="$PROJECT_DIR$/output_p10" />
-        <option value="$PROJECT_DIR$/output_p2" />
-        <option value="$PROJECT_DIR$/output_p6" />
-        <option value="$PROJECT_DIR$/output_p4" />
-        <option value="$PROJECT_DIR$/output_p1" />
-        <option value="$PROJECT_DIR$/TestRedesign-new.py" />
-        <option value="$PROJECT_DIR$/TestRedesign.py" />
         <option value="$PROJECT_DIR$/parse_results.py" />
-        <option value="$PROJECT_DIR$/GenerateRedesignRelaxed.py" />
       </list>
     </option>
   </component>
@@ -71,11 +265,11 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="55" />
-    <option name="y" value="-4" />
+    <option name="y" value="24" />
     <option name="width" value="1545" />
-    <option name="height" value="904" />
+    <option name="height" value="876" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -98,8 +292,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -125,44 +319,9 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="recentsLimit" value="5" />
-    <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
   </component>
-  <component name="RunManager" selected="Python.GenerateRedesignRelaxed">
-    <configuration default="false" name="TestRedesign" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="RunningExperiments" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TestRedesign.py" />
-      <option name="PARAMETERS" value="triangle-tireworld" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="GenerateRedesignRelaxed" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="RunningExperiments" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GenerateRedesignRelaxed.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.parse_results">
     <configuration default="false" name="parse_results" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -302,16 +461,12 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="Python.TestRedesign" />
-      <item index="1" class="java.lang.String" itemvalue="Python.GenerateRedesignRelaxed" />
-      <item index="2" class="java.lang.String" itemvalue="Python.parse_results" />
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Python.parse_results" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.GenerateRedesignRelaxed" />
-        <item index="1" class="java.lang.String" itemvalue="Python.parse_results" />
-        <item index="2" class="java.lang.String" itemvalue="Python.TestRedesign" />
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Python.parse_results" />
       </list>
     </recent_temporary>
   </component>
@@ -321,44 +476,35 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3f096101-7708-464b-8b46-a83ac393e571" name="Default" comment="" />
-      <created>1471078780955</created>
+      <changelist id="e4218570-96ba-46b8-baab-8623e37c70c5" name="Default" comment="" />
+      <created>1535127250484</created>
       <option name="number" value="Default" />
-      <updated>1471078780955</updated>
+      <updated>1535127250484</updated>
     </task>
     <servers />
   </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
   <component name="ToolWindowManager">
-    <frame x="55" y="-4" width="1545" height="904" extended-state="6" />
+    <frame x="55" y="24" width="1545" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20367937" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948717" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32820514" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37564102" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24967149" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948717" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18791065" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39950064" sideWeight="0.5022654" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948717" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18430884" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3679487" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22135922" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.53333336" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33974358" sideWeight="0.49773464" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948717" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24983819" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -377,29 +523,14 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/TestRedesign.py</url>
-          <line>332</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/TestRedesign.py</url>
-          <line>257</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/GenerateRedesignRelaxed.py</url>
-          <line>158</line>
-          <option name="timeStamp" value="16" />
+          <url>file://$PROJECT_DIR$/parse_results.py</url>
+          <line>265</line>
+          <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/parse_results.py</url>
-          <line>224</line>
-          <option name="timeStamp" value="48" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/parse_results.py</url>
-          <line>125</line>
-          <option name="timeStamp" value="51" />
+          <line>230</line>
+          <option name="timeStamp" value="39" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -409,499 +540,17 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="53" />
+      <option name="time" value="40" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/GenerateRedesignRelaxed.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GenerateRedesignRelaxed.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GenerateRedesignRelaxed.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GenerateRedesignRelaxed.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GenerateRedesignRelaxed.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GenerateRedesignRelaxed.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GenerateRedesignRelaxed.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GenerateRedesignRelaxed.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GenerateRedesignRelaxed-old.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="158" column="0" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GenerateRedesignRelaxed.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GenerateRedesignRelaxed-old.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="150" column="32" selection-start-line="150" selection-start-column="19" selection-end-line="150" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GenerateRedesignRelaxed.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GenerateRedesignRelaxed-old.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="150" column="32" selection-start-line="150" selection-start-column="19" selection-end-line="150" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GenerateRedesignRelaxed.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GenerateRedesignRelaxed-old.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="150" column="32" selection-start-line="150" selection-start-column="19" selection-end-line="150" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestRedesign-new.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="205" column="0" selection-start-line="205" selection-start-column="0" selection-end-line="205" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestRedesign.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="325" column="5" selection-start-line="325" selection-start-column="5" selection-end-line="325" selection-end-column="5" />
-          <folding>
-            <element signature="e#464#927#0" expanded="false" />
-            <element signature="e#2908#5971#0" expanded="false" />
-            <element signature="e#6009#6129#0" expanded="false" />
-            <element signature="e#6230#8341#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestRedesign-new.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="205" column="0" selection-start-line="205" selection-start-column="0" selection-end-line="205" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestRedesign.py">
+    <entry file="file://$PROJECT_DIR$/parse_results.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#464#927#0" expanded="false" />
-            <element signature="e#2908#5971#0" expanded="false" />
-            <element signature="e#6009#6129#0" expanded="false" />
-            <element signature="e#6230#8341#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestRedesign-new.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="205" column="0" selection-start-line="205" selection-start-column="0" selection-end-line="205" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestRedesign.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#464#927#0" expanded="false" />
-            <element signature="e#2908#5971#0" expanded="false" />
-            <element signature="e#6009#6129#0" expanded="false" />
-            <element signature="e#6230#8341#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestRedesign.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#464#927#0" expanded="false" />
-            <element signature="e#2908#5971#0" expanded="false" />
-            <element signature="e#6009#6129#0" expanded="false" />
-            <element signature="e#6230#8341#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestRedesign.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#464#927#0" expanded="false" />
-            <element signature="e#2908#5971#0" expanded="false" />
-            <element signature="e#6009#6129#0" expanded="false" />
-            <element signature="e#6230#8341#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestRedesign.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#464#927#0" expanded="false" />
-            <element signature="e#2908#5971#0" expanded="false" />
-            <element signature="e#6009#6129#0" expanded="false" />
-            <element signature="e#6230#8341#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestRedesign.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="232" column="4" selection-start-line="232" selection-start-column="4" selection-end-line="232" selection-end-column="4" />
-          <folding>
-            <element signature="e#464#927#0" expanded="false" />
-            <element signature="e#2908#5971#0" expanded="false" />
-            <element signature="e#6009#6129#0" expanded="false" />
-            <element signature="e#6230#8341#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestRedesign.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="232" column="4" selection-start-line="232" selection-start-column="4" selection-end-line="232" selection-end-column="4" />
-          <folding>
-            <element signature="e#464#927#0" expanded="false" />
-            <element signature="e#2908#5971#0" expanded="false" />
-            <element signature="e#6009#6129#0" expanded="false" />
-            <element signature="e#6230#8341#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestRedesign.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="231" column="4" selection-start-line="231" selection-start-column="4" selection-end-line="231" selection-end-column="4" />
-          <folding>
-            <element signature="e#464#927#0" expanded="false" />
-            <element signature="e#2908#5971#0" expanded="false" />
-            <element signature="e#6009#6129#0" expanded="false" />
-            <element signature="e#6230#8341#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestRedesign.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="120" column="1" selection-start-line="120" selection-start-column="1" selection-end-line="120" selection-end-column="1" />
-          <folding>
-            <element signature="e#464#927#0" expanded="false" />
-            <element signature="e#2908#5971#0" expanded="false" />
-            <element signature="e#6009#6129#0" expanded="false" />
-            <element signature="e#6230#8341#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestRedesign.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#464#927#0" expanded="false" />
-            <element signature="e#2908#5971#0" expanded="false" />
-            <element signature="e#6009#6129#0" expanded="false" />
-            <element signature="e#6230#8341#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestRedesign.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#464#927#0" expanded="false" />
-            <element signature="e#2908#5971#0" expanded="false" />
-            <element signature="e#6009#6129#0" expanded="false" />
-            <element signature="e#6230#8341#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestRedesign.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#464#927#0" expanded="false" />
-            <element signature="e#2908#5971#0" expanded="false" />
-            <element signature="e#6009#6129#0" expanded="false" />
-            <element signature="e#6230#8341#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestRedesign.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#464#927#0" expanded="false" />
-            <element signature="e#2908#5971#0" expanded="false" />
-            <element signature="e#6009#6129#0" expanded="false" />
-            <element signature="e#6230#8341#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestRedesign.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="214" column="1" selection-start-line="214" selection-start-column="1" selection-end-line="214" selection-end-column="1" />
-          <folding>
-            <element signature="e#464#927#0" expanded="false" />
-            <element signature="e#2908#5971#0" expanded="false" />
-            <element signature="e#6009#6129#0" expanded="false" />
-            <element signature="e#6230#8341#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestRedesign.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="214" column="4" selection-start-line="214" selection-start-column="4" selection-end-line="214" selection-end-column="4" />
-          <folding>
-            <element signature="e#464#927#0" expanded="false" />
-            <element signature="e#2908#5971#0" expanded="false" />
-            <element signature="e#6009#6129#0" expanded="false" />
-            <element signature="e#6230#8341#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestRedesign.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="227" column="5" selection-start-line="227" selection-start-column="5" selection-end-line="227" selection-end-column="5" />
-          <folding>
-            <element signature="e#464#927#0" expanded="false" />
-            <element signature="e#2908#5971#0" expanded="false" />
-            <element signature="e#6009#6129#0" expanded="false" />
-            <element signature="e#6230#8341#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestRedesign.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#464#927#0" expanded="false" />
-            <element signature="e#2908#5971#0" expanded="false" />
-            <element signature="e#6009#6129#0" expanded="false" />
-            <element signature="e#6230#8341#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestRedesign.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#464#927#0" expanded="false" />
-            <element signature="e#2908#5971#0" expanded="false" />
-            <element signature="e#6009#6129#0" expanded="false" />
-            <element signature="e#6230#8341#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestRedesign.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#464#927#0" expanded="false" />
-            <element signature="e#2908#5971#0" expanded="false" />
-            <element signature="e#6009#6129#0" expanded="false" />
-            <element signature="e#6230#8341#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/lib/python3.4/ntpath.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="245" column="0" selection-start-line="245" selection-start-column="0" selection-end-line="245" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestRedesign.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#464#927#0" expanded="false" />
-            <element signature="e#2908#5971#0" expanded="false" />
-            <element signature="e#6009#6129#0" expanded="false" />
-            <element signature="e#6230#8341#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestRedesign.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#464#927#0" expanded="false" />
-            <element signature="e#2908#5971#0" expanded="false" />
-            <element signature="e#6009#6129#0" expanded="false" />
-            <element signature="e#6230#8341#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestRedesign.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#464#927#0" expanded="false" />
-            <element signature="e#2908#5971#0" expanded="false" />
-            <element signature="e#6009#6129#0" expanded="false" />
-            <element signature="e#6230#8341#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/lib/python3.4/ntpath.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="245" column="0" selection-start-line="245" selection-start-column="0" selection-end-line="245" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestRedesign-new.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="205" column="0" selection-start-line="205" selection-start-column="0" selection-end-line="205" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GenerateRedesignRelaxed-wtf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="202" column="0" selection-start-line="202" selection-start-column="0" selection-end-line="202" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GenerateRedesignRelaxed-old.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17475729">
-          <caret line="79" column="46" selection-start-line="79" selection-start-column="46" selection-end-line="79" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestRedesign.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="315" column="0" selection-start-line="313" selection-start-column="0" selection-end-line="315" selection-end-column="0" />
-          <folding>
-            <element signature="e#464#927#0" expanded="false" />
-            <element signature="e#2908#5971#0" expanded="false" />
-            <element signature="e#6009#6129#0" expanded="false" />
-            <element signature="e#6230#8341#0" expanded="false" />
+            <element signature="e#6404#7614#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -909,24 +558,20 @@
     <entry file="file://$PROJECT_DIR$/parse_results.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#6404#7614#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+    <entry file="file://$PROJECT_DIR$/parse_results.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GenerateRedesignRelaxed.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23413567">
-          <caret line="179" column="4" selection-start-line="179" selection-start-column="4" selection-end-line="179" selection-end-column="4" />
-          <folding />
+        <state vertical-scroll-proportion="0.33195877">
+          <caret line="230" column="0" selection-start-line="230" selection-start-column="0" selection-end-line="230" selection-end-column="0" />
+          <folding>
+            <element signature="e#6404#7614#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

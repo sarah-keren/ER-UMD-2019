@@ -13,20 +13,26 @@
 	       (prox ?coordinate - location ?coordinate_next - location)	
 	       (enabled-remove-occupancy ?x - location ?y - location)
 	       (remove-occupancy-x ?x - location)
+	       (enabled-move-safely-x ?x - location ?y - location ?x_to - location)
+	       (enabled-move-safely-y ?x - location ?y - location ?y_to - location)
+	       (safety-x ?x - location)
   )
 
 ;; enabled actions 
 
   (:action move-robot-x-enabled
     :parameters (?x_from - location ?x_to - location ?y - location)
-    :precondition (and (execution) (robot-at ?x_from ?y) (prox ?x_from ?x_to) (remove-occupancy-x ?x_to) (occupied ?x_to ?y))
-    :effect (and (probabilistic 1.0 (and (robot-at ?x_to ?y))))	    
+    :precondition (and (execution) (robot-at ?x_from ?y) (prox ?x_from ?x_to) (remove-occupancy-x ?x_from) (occupied ?x_to ?y))
+    :effect (and (probabilistic 0.8 (and (robot-at ?x_to ?y))
+				0.2 (robot-at ?x_from ?y)))
+	    
    )
 
  (:action move-robot-y-enabled
     :parameters (?x - location ?y_from - location ?y_to - location )
     :precondition (and (execution) (robot-at ?x ?y_from) (prox ?y_from ?y_to) (remove-occupancy-x ?x) (occupied ?x ?y_to))
-    :effect (and (probabilistic 1.0 (and (robot-at ?x ?y_to))))	    
+    :effect (and(probabilistic 0.8 (and (robot-at ?x ?y_to))
+  		               0.2 (robot-at ?x ?y_from)))	    
    )
 
 
@@ -34,20 +40,31 @@
     :parameters (?x_from - location ?x_to - location ?y - location)
     :precondition (and (execution) (robot-at ?x_from ?y) (not (occupied ?x_to ?y)) (prox ?x_from ?x_to))
     :effect (and (probabilistic 0.8 (and (robot-at ?x_to ?y))
-				0.2 (robot-at ?x_from ?y)))
-	    
+		                0.2 (robot-at ?x_from ?y)))
+  		 
    )
 
+
+
+  (:action move-robot-x-safe
+    :parameters (?x_from - location ?x_to - location ?y - location)
+    :precondition (and (execution) (robot-at ?x_from ?y) (not (occupied ?x_to ?y)) (prox ?x_from ?x_to)(safety-x ?x_to))
+    :effect (and (robot-at ?x_to ?y))  		 
+   )
 
 
  (:action move-robot-y
     :parameters (?x - location ?y_from - location ?y_to - location )
     :precondition (and (execution) (robot-at ?x ?y_from) (not (occupied ?x ?y_to)) (prox ?y_from ?y_to))
     :effect (and (probabilistic 0.8 (and (robot-at ?x ?y_to))
-				0.2 (robot-at ?x ?y_from)))
-           	    
+		                0.2 (robot-at ?x ?y_from)))
    )
 
+  (:action move-robot-x-safe
+    :parameters (?x - location ?y_from - location ?y_to - location )
+    :precondition (and (execution) (robot-at ?x ?y_from) (not (occupied ?x ?y_to)) (prox ?y_from ?y_to)(safety-x ?x))
+    :effect (and (robot-at ?x ?y_to))  		 
+   )
 
 
 
@@ -55,20 +72,20 @@
  (:action loaddirt
     :parameters (?x_loc - location ?y_loc - location ?dirt -dirt)
     :precondition (and (execution) (robot-at ?x_loc ?y_loc) (dirt-at ?dirt ?x_loc ?y_loc))
-    :effect (and (dirt-in-robot ?dirt) (not (dirt-at ?dirt ?x_loc ?y_loc))))
+    :effect (and (dirt-in-robot ?dirt) ))
 
 
  (:action unloaddirt
     :parameters (?x_loc - location ?y_loc - location ?dirt -dirt)
     :precondition (and (execution) (robot-at ?x_loc ?y_loc) (dirt-in-robot ?dirt))
-    :effect (and (not (dirt-in-robot ?dirt)) (dirt-at ?dirt ?x_loc ?y_loc)))
+    :effect (and (dirt-at ?dirt ?x_loc ?y_loc)))
 
 
  
 
 ;Design actions
 
- 
+
   (:action design-start-execution
     :parameters ()
     :precondition (and (not (execution)))
@@ -77,13 +94,29 @@
 
 
 
-;remove furniture
+  ;remove furniture
   (:action design-remove-occupancy
     :parameters (?x - location ?y - location ?t - time ?tnext - time)
     :precondition (and (not (execution)) (next ?t ?tnext) (current-time ?t ) (occupied ?x ?y))
     :effect (and (current-time ?tnext ) (not (current-time ?t )) (enabled-remove-occupancy ?x ?y) (remove-occupancy-x ?x))
   )
 
+  ;reduce friction
+
+  (:action design-reduce-friction-x
+    :parameters (?x - location ?y - location ?x_to - location ?t - time ?tnext - time)
+    :precondition (and (not (execution)) (next ?t ?tnext) (current-time ?t ) (prox ?x ?x_to))
+    :effect (and (current-time ?tnext ) (not (current-time ?t )) (enabled-move-safely-x ?x ?y ?x_to)(safety-x ?x_to))
+  )
+
+
+  (:action design-reduce-friction-y
+    :parameters (?x - location ?y - location ?y_to - location ?t - time ?tnext - time)
+    :precondition (and (not (execution)) (next ?t ?tnext) (current-time ?t ) (prox ?y ?y_to))
+    :effect (and (current-time ?tnext ) (not (current-time ?t )) (enabled-move-safely-y ?x ?y ?y_to)(safety-x ?x))
+  )
+
+	       
 
 )
 

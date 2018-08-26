@@ -41,13 +41,10 @@
          (wrong-drive1 city3 city0)
          (wrong-drive2 city3 city1)
   )
-  (:goal (forall (?b - box)
-                 (exists (?c - city)
-                         (and (destination ?b ?c)
-                              (box-at-city ?b ?c)
-                         )
-                 )
-         )
+  (:goal 
+         (box-at-city box0 city2)
+
+
   )
   (:goal-reward 1)
   (:metric maximize (reward))

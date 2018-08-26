@@ -2,27 +2,19 @@ __author__ = 'sarah'
 __author__ = 'sarah'
 import sys, os
 
-BFD_HEURISTIC_TYPES = {'combined-rel-proc','rel-proc','rel-combined','rel-mod','rel-env','compilation','bfs_design'}
-MDP_HEURISTIC_TYPES = {'hmin-heur-false','AM1F'}
-BUDGET_ARRAY = {0,1,2,3,4,5,6}
-NEW_BM_DELIMINATOR = '- - - -'
-#NEW_BM_DELIMINATOR = '---/home/'
-NEW_BM_DELIMINATOR = '---../umd-Benchm'
+SOLVERS= {'LAO*', 'FLARES'}
+BFD_HEURISTIC_TYPES = {'rel-combined-proc','rel-proc','rel-combined','rel-mod','rel-env','compilation','bfs_design'}
+MDP_HEURISTIC_TYPES = {'baod-heur','hmin-heur'}
 
-#---../umd-B
-NUMBER_OF_STEPS_TO_JUMP = 3
+BUDGET_ARRAY = {1,2,3,4,5}
+NEW_BM_DELIMINATOR = 'File::'
+NUMBER_OF_STEPS_TO_JUMP = 1
 
-def parse_result_file(results_folder_name, output_file,domain, is_optimal):
+def parse_result_file(results_folder_name, output_file_name,domain, parse_nodes = True):
 
-    # initialize
-    heuristic_dictionary = {}
-    for mdp_heur in MDP_HEURISTIC_TYPES:
-        heuristic_dictionary[mdp_heur] = {}
-        for budget in BUDGET_ARRAY:
-            heuristic_dictionary.get(mdp_heur)[int(budget)] = {}
+    # delete the old file
+    output_file = open(output_file_name, 'w+')
 
-    #for heuristic_approach in BFD_HEURISTIC_TYPES:
-    #        for mdp_heur in MDP_HEURISTIC_TYPES:
 
     for filename in os.listdir(results_folder_name):
         results_file = open(os.path.join(results_folder_name,filename), 'r')
@@ -30,16 +22,29 @@ def parse_result_file(results_folder_name, output_file,domain, is_optimal):
         lines = results_file.readlines()
         line_index = 0
         while line_index < len(lines):
-            iteration_counter = -1
-            cost = -1
-            time = -1
-            problem_name  = 'error'
-            budget = -1
-            command_type = 'error'
-            heuristic_name ='error'
+            time_out = False
+
             line = lines[line_index]
 
             if NEW_BM_DELIMINATOR in line :
+
+                cost = -1
+                time = -1
+                problem_name  = 'error'
+                budget = -1
+                command_type = 'error'
+                heuristic_name ='error'
+                solver = 'error'
+                simulated_expected_cost = -1
+                stderr = -1
+
+                Nodes_Examined = -1
+                Design_Nodes_Examined = -1
+                Nodes_Calculated = -1
+                Design_Nodes_Calculated = -1
+
+
+
                 # read 6 lines
                 #print('new benchmark found')
                 line_index = line_index + NUMBER_OF_STEPS_TO_JUMP
@@ -58,7 +63,9 @@ def parse_result_file(results_folder_name, output_file,domain, is_optimal):
                     budget =bm_name.split('-')[1]
 
                 #print('budget: %s'%budget)
-                line_index = line_index + 2
+                line_index = line_index + 1
+                solver = lines[line_index].split()[-1]
+                line_index = line_index + 1
                 command_type = lines[line_index].split()[-1]
                 #print('command_type: %s'%command_type)
                 line_index = line_index + 1
@@ -69,11 +76,14 @@ def parse_result_file(results_folder_name, output_file,domain, is_optimal):
                 eof = False
                 #look for cost
                 while 'cost' not in lines[line_index]:
+
                     # the problem timed out - break
                     if NEW_BM_DELIMINATOR in lines[line_index]:
                         time_out = True
                         break
                     line_index += 1
+
+
                     # end of file reached
                     if line_index >= len(lines):
                         eof = True
@@ -81,143 +91,155 @@ def parse_result_file(results_folder_name, output_file,domain, is_optimal):
 
                 if not (time_out or eof):
                     cost = lines[line_index].split()[-1].replace('cost::','')
-                    #print('cost: %s'%cost)
+                    cost = float(cost)
 
-                    if 'compilation' not in command_type:
-                        # get iteration counter
-                        while 'iteration_counter:' not in lines[line_index]:
+
+                    if 'FLARES' in solver:
+                        while 'Simulated expected cost' not in lines[line_index]:
+
+                            if line_index >= len(lines):
+                                eof = True
+                                break
+                            if NEW_BM_DELIMINATOR in lines[line_index]:
+                                time_out = True
+                                break
                             line_index += 1
 
-                        iteration_counter = lines[line_index].split()[-1]
-                        #print('iteration_counter: %s'%iteration_counter)
-                    else:
-                        iteration_counter = 1
+
+                        if not eof and not time_out:
+                            sim_line = lines[line_index].split('::')
+                            simulated_expected_cost = sim_line[1].replace('+/-','')
+                            simulated_expected_cost = float(simulated_expected_cost)
+                            stderr = sim_line[2].replace('\n','')
+                            stderr = float(stderr)
+
+
+                    if parse_nodes :
+
+                        while 'Nodes Examined:' not in lines[line_index]:
+                            if line_index >= len(lines):
+                                eof = True
+                                break
+                            if NEW_BM_DELIMINATOR in lines[line_index]:
+                                time_out = True
+                                break
+                            line_index += 1
+
+                        if not eof and not time_out:
+                            Nodes_Examined = int(lines[line_index].split()[-1])
+                            line_index+=1
+                            Design_Nodes_Examined =  int(lines[line_index].split()[-1])
+                            line_index+=1
+                            Nodes_Calculated = int(lines[line_index].split()[-1])
+                            line_index+=1
+                            Design_Nodes_Calculated = int(lines[line_index].split()[-1])
 
                     # get time
-                    while 'time' not in lines[line_index]:
+                    while 'Total time' not in lines[line_index]:
+
+                        if line_index >= len(lines):
+                            eof = True
+                            break
+                        if NEW_BM_DELIMINATOR in lines[line_index]:
+                            time_out = True
+                            break
                         line_index += 1
 
-                    time = lines[line_index].split()[-1]
-                    #print('time: %s'%time)
+                    if not eof and not time_out:
+                        time = lines[line_index].split()[-1]
+                        time = time.replace('::','')
+                        time = float(time)
 
-                    #print('- - - - - - - ')
-                # add to table
-                #iteration_counter = -1
-                #cost = -1
-                #time = -1
-                #problem_name  = 'error'
-
-                #budget = -1
-                #command_type = 'error'
-                #heuristic_name ='error'
                 budget = int(budget)
-                heuristic_map = heuristic_dictionary.get(heuristic_name).get(budget)
-                if not heuristic_map.get(problem_name):
-                    heuristic_map[problem_name] = {}
 
-                problem_map =  heuristic_map.get(problem_name)
-                problem_map[command_type] = [float(cost),int(iteration_counter),float(time)]
-
-
-            line_index = line_index+1
-
-
-    #print(heuristic_dictionary)
-    return heuristic_dictionary
-
-
-def analyze_dictionary(heuristic_dictionary):
-
-    #for heuristic in MDP_HEURISTIC_TYPES:
-    #    print('\nheuristic %s:'%heuristic)
-    #    print('--------------\n')
-
-    #heuristic_map = heuristic_dictionary['AM1F']
-    heuristic_map = heuristic_dictionary['hmin-heur-false']
-
-    for budget in BUDGET_ARRAY:
-        print('\nbudget: %d'%budget)
-        print('- - - -')
-
-        budget_map = heuristic_map[budget]
-
-        nodes ={}
-        time ={}
-        for method in BFD_HEURISTIC_TYPES:
-            nodes[method] = 0
-            time[method] = 0.0
-
-        instance_count = 0
-        for problem in budget_map.keys():
-            cur_problem = budget_map[problem]
-            #check that all methods have been solved
-            #print(len(cur_problem.keys()))
-            if len(cur_problem.keys())== 7:
-                instance_count = instance_count+1
-
-                nodes['rel-proc'] += cur_problem.get('rel-proc')[1]
-                time['rel-proc'] += cur_problem.get('rel-proc')[2]
-
-                nodes['rel-env'] += cur_problem.get('rel-env')[1]
-                time['rel-env'] += cur_problem.get('rel-env')[2]
-
-                nodes['compilation'] += cur_problem.get('compilation')[1]
-                time['compilation'] += cur_problem.get('compilation')[2]
-
-                nodes['bfs_design'] += cur_problem.get('bfs_design')[1]
-                time['bfs_design'] += cur_problem.get('bfs_design')[2]
-
-                nodes['rel-mod'] += cur_problem.get('rel-mod')[1]
-                time['rel-mod'] += cur_problem.get('rel-mod')[2]
-
-                nodes['rel-combined'] += cur_problem.get('rel-combined')[1]
-                time['rel-combined'] += cur_problem.get('rel-combined')[2]
-
-                nodes['combined-rel-proc'] += cur_problem.get('combined-rel-proc')[1]
-                time['combined-rel-proc'] += cur_problem.get('combined-rel-proc')[2]
+                output_line = '%s, %d, %s, %s, %s, %.2f, %.2f, %d, %d, %d, %d, %.2f, %.2f'%(problem_name,budget,solver, command_type, heuristic_name,cost,time,Nodes_Examined,Design_Nodes_Examined, Nodes_Calculated, Design_Nodes_Calculated, simulated_expected_cost, stderr)
+                print(output_line)
+                output_line = output_line.replace(' ','')
+                output_file.write(output_line)
+                output_file.write('\n')
+                output_file.flush()
 
 
 
-                #print("Solved by all")
 
-        if instance_count >0:
-
-            for method in BFD_HEURISTIC_TYPES:
-                average_time = time[method]/instance_count
-                average_nodes = nodes[method]/instance_count
-
-                print('method:: %s time:: %f nodes:: %f'%(method,average_time,average_nodes))
+            if not time_out:
+                line_index = line_index+1
 
 
-
-            #average_time_rel_env  = time['rel-env']/instance_count
-            #average_time_rel_proc  = time['rel-proc']/instance_count
-            #average_time_compilation  = time['compilation']/instance_count
-            #average_time_bfs  = time['bfs_design']/instance_count
-            #average_rel_mod  = time['rel-mod']/instance_count
-            #print('average_time_rel_env: %f'%average_time_rel_env)
-            #print('average_time_rel_proc: %f'%average_time_rel_proc)
-            #print('average_time_compilation: %f'%average_time_compilation)
-            #print('average_time_bfs: %f'%average_time_bfs)
-            #print('average_time_rel_mod: %f'%average_rel_mod)
+    output_file.close()
+    return None
 
 
-            #average_nodes_rel_env  = nodes['rel-env']/instance_count
-            #average_nodes_rel_proc  = nodes['rel-proc']/instance_count
-            #average_nodes_compilation = nodes['compilation']/instance_count
-            #average_nodes_bfs = nodes['bfs_design']/instance_count
-            #print('average_nodes_rel_env: %f'%average_nodes_rel_env)
-            #print('average_nodes_rel_proc: %f'%average_nodes_rel_proc)
-            #print('average_nodes_compilation: %f'%average_nodes_compilation)
-            #print('average_nodes_bfs: %f'%average_nodes_bfs)
+def anaylze_results_count_solved(results_file_name, domain):
+
+    results_file = open(results_file_name,'r')
+    results_lines = results_file.readlines()
+
+    # counting the number of instances solved by each method (instances: budget, method: command+heuristic)
+    count_solved_per_method_dictionary = {}
+    for solver in SOLVERS:
+        count_solved_per_method_dictionary[solver] = {}
+        for budget in range(1,6):
+            count_solved_per_method_dictionary[solver][budget] = {}
+            for mdp_heur in MDP_HEURISTIC_TYPES:
+                count_solved_per_method_dictionary[solver][budget][mdp_heur] = {}
+                for method in BFD_HEURISTIC_TYPES:
+                    entry_key = '%s'%(method)
+                    count_solved_per_method_dictionary[solver][budget][mdp_heur][entry_key] = 0
+
+
+    for line in results_lines:
+        [problem_name,budget,solver, command_type, heuristic_name,cost,time,Nodes_Examined,Design_Nodes_Examined, Nodes_Calculated, Design_Nodes_Calculated, simulated_expected_cost, stderr] = line.split(',')
+        entry_key = '%s'%(command_type)
+        if float(cost) >= 0:
+            (count_solved_per_method_dictionary[solver][int(budget)][heuristic_name])[entry_key] += 1
+
+
+
+    return count_solved_per_method_dictionary
+
+
+
+def anaylze_results_running_time_and_nodes(results_file_name, domain):
+
+    results_file = open(results_file_name,'r')
+    results_lines = results_file.readlines()
+
+    # keeping the results achieved for each instance
+    instance_dictionary = {1:{},2:{},3:{},4:{},5:{}}
+
+
+    for line in results_lines:
+
+        [problem_name,budget,solver, command_type, heuristic_name,cost,time,nodes_Examined,design_Nodes_Examined, Nodes_Calculated, Design_Nodes_Calculated, simulated_expected_cost, stderr] = line.split(',')
+        budget = int(budget)
+        entry_key = '%s:%s:%s'%(domain,problem_name,budget)
+        # enter the instance enrty if it is not there
+        if not instance_dictionary[budget].get(entry_key):
+            instance_dictionary[budget][entry_key] = {}
+            for solver_ in SOLVERS:
+                instance_dictionary[budget][entry_key][solver_] = {}
+                for heur_ in MDP_HEURISTIC_TYPES:
+                    (instance_dictionary[budget][entry_key][solver_])[heur_] = {}
+
+
+        method_entry_key = '%s'%(command_type)
+
+        ((instance_dictionary[budget][entry_key])[solver][heuristic_name])[method_entry_key] = [float(time),nodes_Examined,design_Nodes_Examined]
+
+
+    return instance_dictionary
+
+
+
 
 
 
 if __name__ == '__main__' :
 
 
-
-    for domain in  ['ex-blocksworld','boxworld','blocksworld', 'elevators', 'triangle_tire', 'vacuum']:
+    parsed_results_files = []
+    for domain in ['blocksworld', 'ex-blocksworld', 'triangle-tireworld', 'vacuum-no-fuel','elevators', 'boxworld']:# ['ex-blocksworld','boxworld','blocksworld', 'elevators', 'triangle_tire', 'vacuum']:
 
         print('\n\n\ndomain: %s \n\n\n'%domain)
 
@@ -225,10 +247,20 @@ if __name__ == '__main__' :
         #results_folder_name= '/home/sarah/Dropbox/er-umd-2018/FinalResults/Optimal/exp_results_%s'%(domain)
         #is_optimal = True
 
-        results_folder_name = '/home/sarah/Dropbox/er-umd-2018/FinalResults/Suboptimal/exp_results_%s'%domain
-        is_optimal = False
+        results_folder_name = '/home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/ER-UMD/results/%s'%domain
 
-        output_file_name  = '/home/sarah/Documents/GoalRecognitionDesign/Redesign/Code-IJCAI18/umd/results_%s.txt'%(domain)
+        output_file_name  = '/home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/ER-UMD/parsed_results/parsed_results_%s.txt'%(domain)
 
-        results_map = parse_result_file(results_folder_name, output_file_name, domain, is_optimal)
-        analyze_dictionary(results_map)
+        parse_nodes = False
+        if 'blocksworld' in domain:
+            parse_nodes = True
+
+
+        parse_result_file(results_folder_name, output_file_name, domain, parse_nodes)
+
+        anaylze_results_count_solved(output_file_name, domain)
+        anaylze_results_running_time_and_nodes(output_file_name, domain)
+
+
+
+

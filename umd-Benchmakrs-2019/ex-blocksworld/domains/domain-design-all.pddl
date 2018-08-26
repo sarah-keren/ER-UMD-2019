@@ -23,6 +23,8 @@
         (execution)
 	(current-time ?t1 - time)
 	(next ?t1 - time ?t2 - time)	
+	(enabled-put-on-table ?b1)
+	(put-on-table)
 )
 
 
@@ -71,12 +73,7 @@
 
 ;Design actions
 
- (:action design-idle
-    :parameters ( ?t - time ?tnext - time )
-    :precondition (and (not (execution)) (current-time ?t ) (next ?t ?tnext))
-    :effect (and (current-time ?tnext ) (not (current-time ?t)))
-  )
-
+ 
 
   (:action design-start-execution
     :parameters ()
@@ -95,6 +92,13 @@
     :precondition (and (not (execution))(next ?t ?tnext) (current-time ?t ))
     :effect (and (enabled-safety-put-on-block ?b1 ?b2)(safety-put-on-block ?b1)(current-time ?tnext ) (not (current-time ?t )))
   )
+
+  (:action design-put-on-table
+    :parameters (?b1 - block ?b2 - block ?t - time ?tnext - time)
+    :precondition (and (not (execution))(next ?t ?tnext)(current-time ?t )(on ?b1 ?b2))
+    :effect (and (enabled-put-on-table ?b1)(on-table ?b1)(clear ?b2)(current-time ?tnext )(not (current-time ?t ))(put-on-table))
+  )
+
   
 )
 

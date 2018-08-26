@@ -1,0 +1,2285 @@
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-1-design
+Solver :: LAO*
+Command type:: bfs_design
+Heuristic_name:: baod-heur
+Expected cost (A*):: 3.11121
+Optimal action:: (design-put-on-table b2 b3 t1 t2)
+Initial state::[ 0:(emptyhand) 6:(on-table b3) 8:(clear b1) 14:(current-time t1) 22:(on-table b1) 24:(clear b2) 34:(on b2 b3) ]
+Expanded nodes:: Execution::2724 Design::98 Total::2822
+Calculate nodes::366
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::98 Expanded nodes::98
+Total time:: 0.418286
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-1-design
+Solver :: LAO*
+Command type:: compilation
+Heuristic_name:: baod-heur
+---->Initial state:: [ 0:(emptyhand) 6:(on-table b3) 8:(clear b1) 14:(current-time t1) 22:(on-table b1) 24:(clear b2) 34:(on b2 b3) ]
+Expected cost:: 3.11131
+Best action:: (design-put-on-table b2 b3 t1 t2)
+Expanded nodes::935 
+Expanded Design nodes::592
+Calculate nodes::182
+Calculate design nodes::33
+Total time:: 0.113369
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-1-design
+Solver :: LAO*
+Command type:: rel-env
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-1-design-relaxed
+Expected cost (A*):: 3.11121
+Optimal action:: (design-put-on-table b2 b3 t1 t2)
+Initial state::[ 0:(emptyhand) 6:(on-table b3) 8:(clear b1) 14:(current-time t1) 22:(on-table b1) 24:(clear b2) 34:(on b2 b3) ]
+Expanded nodes:: Execution::2724 Design::98 Total::2822
+Calculate nodes::366
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::98 Expanded nodes::98
+Total time:: 0.497661
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-1-design
+Solver :: LAO*
+Command type:: rel-mod
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-1-design-over
+Expected cost (A*):: 3.11121
+Optimal action:: (design-put-on-table b2 b3 t1 t2)
+Initial state::[ 0:(emptyhand) 6:(on-table b3) 8:(clear b1) 14:(current-time t1) 22:(on-table b1) 24:(clear b2) 34:(on b2 b3) ]
+Expanded nodes:: Execution::2724 Design::98 Total::2822
+Calculate nodes::366
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::98 Expanded nodes::98
+Total time:: 0.460225
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-1-design
+Solver :: LAO*
+Command type:: rel-combined
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-1-design-over-relaxed
+Expected cost (A*):: 3.11121
+Optimal action:: (design-put-on-table b2 b3 t1 t2)
+Initial state::[ 0:(emptyhand) 6:(on-table b3) 8:(clear b1) 14:(current-time t1) 22:(on-table b1) 24:(clear b2) 34:(on b2 b3) ]
+Expanded nodes:: Execution::2724 Design::98 Total::2822
+Calculate nodes::366
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::98 Expanded nodes::98
+Total time:: 0.406485
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-1-design
+Solver :: LAO*
+Command type:: rel-proc
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-1-design-over
+Expected cost (A*):: 3.11121
+Optimal action:: (design-put-on-table b2 b3 t1 t2)
+Initial state::[ 0:(emptyhand) 6:(on-table b3) 8:(clear b1) 14:(current-time t1) 22:(on-table b1) 24:(clear b2) 34:(on b2 b3) ]
+Expanded nodes:: Execution::2724 Design::8 Total::2732
+Calculate nodes::366
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::98 Expanded nodes::8
+Total time:: 0.403397
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-1-design
+Solver :: LAO*
+Command type:: rel-combined-proc
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-1-design-over-relaxed
+Expected cost (A*):: 3.11121
+Optimal action:: (design-put-on-table b2 b3 t1 t2)
+Initial state::[ 0:(emptyhand) 6:(on-table b3) 8:(clear b1) 14:(current-time t1) 22:(on-table b1) 24:(clear b2) 34:(on b2 b3) ]
+Expanded nodes:: Execution::2724 Design::8 Total::2732
+Calculate nodes::366
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::98 Expanded nodes::8
+Total time:: 0.477812
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-1-design
+Solver :: LAO*
+Command type:: bfs_design
+Heuristic_name:: hmin-heur
+Expected cost (A*):: 3.11121
+Optimal action:: (design-put-on-table b2 b3 t1 t2)
+Initial state::[ 0:(emptyhand) 6:(on-table b3) 8:(clear b1) 14:(current-time t1) 22:(on-table b1) 24:(clear b2) 34:(on b2 b3) ]
+Expanded nodes:: Execution::2497 Design::98 Total::2595
+Calculate nodes::35
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::98 Expanded nodes::98
+Total time:: 0.216548
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-1-design
+Solver :: LAO*
+Command type:: compilation
+Heuristic_name:: hmin-heur
+---->Initial state:: [ 0:(emptyhand) 6:(on-table b3) 8:(clear b1) 14:(current-time t1) 22:(on-table b1) 24:(clear b2) 34:(on b2 b3) ]
+Expected cost:: 3.11131
+Best action:: (design-put-on-table b2 b3 t1 t2)
+Expanded nodes::1449 
+Expanded Design nodes::1149
+Calculate nodes::34
+Calculate design nodes::33
+Total time:: 0.219388
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-1-design
+Solver :: LAO*
+Command type:: rel-env
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-1-design-relaxed
+Expected cost (A*):: 3.11121
+Optimal action:: (design-put-on-table b2 b3 t1 t2)
+Initial state::[ 0:(emptyhand) 6:(on-table b3) 8:(clear b1) 14:(current-time t1) 22:(on-table b1) 24:(clear b2) 34:(on b2 b3) ]
+Expanded nodes:: Execution::2497 Design::98 Total::2595
+Calculate nodes::35
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::98 Expanded nodes::98
+Total time:: 0.669538
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-1-design
+Solver :: LAO*
+Command type:: rel-mod
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-1-design-over
+Expected cost (A*):: 3.11121
+Optimal action:: (design-put-on-table b2 b3 t1 t2)
+Initial state::[ 0:(emptyhand) 6:(on-table b3) 8:(clear b1) 14:(current-time t1) 22:(on-table b1) 24:(clear b2) 34:(on b2 b3) ]
+Expanded nodes:: Execution::2497 Design::98 Total::2595
+Calculate nodes::35
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::98 Expanded nodes::98
+Total time:: 0.355438
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-1-design
+Solver :: LAO*
+Command type:: rel-combined
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-1-design-over-relaxed
+Expected cost (A*):: 3.11121
+Optimal action:: (design-put-on-table b2 b3 t1 t2)
+Initial state::[ 0:(emptyhand) 6:(on-table b3) 8:(clear b1) 14:(current-time t1) 22:(on-table b1) 24:(clear b2) 34:(on b2 b3) ]
+Expanded nodes:: Execution::2497 Design::98 Total::2595
+Calculate nodes::35
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::98 Expanded nodes::98
+Total time:: 0.583398
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-1-design
+Solver :: LAO*
+Command type:: rel-proc
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-1-design-over
+Expected cost (A*):: 3.11121
+Optimal action:: (design-put-on-table b2 b3 t1 t2)
+Initial state::[ 0:(emptyhand) 6:(on-table b3) 8:(clear b1) 14:(current-time t1) 22:(on-table b1) 24:(clear b2) 34:(on b2 b3) ]
+Expanded nodes:: Execution::2497 Design::8 Total::2505
+Calculate nodes::35
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::98 Expanded nodes::8
+Total time:: 0.364942
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-1-design
+Solver :: LAO*
+Command type:: rel-combined-proc
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-1-design-over-relaxed
+Expected cost (A*):: 3.11121
+Optimal action:: (design-put-on-table b2 b3 t1 t2)
+Initial state::[ 0:(emptyhand) 6:(on-table b3) 8:(clear b1) 14:(current-time t1) 22:(on-table b1) 24:(clear b2) 34:(on b2 b3) ]
+Expanded nodes:: Execution::2497 Design::8 Total::2505
+Calculate nodes::35
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::98 Expanded nodes::8
+Total time:: 0.611391
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-1-design
+Solver :: FLARES
+Command type:: bfs_design
+Heuristic_name:: baod-heur
+Expected cost (A*):: 3.2301
+Optimal action:: (design-put-on-table b2 b3 t1 t2)
+Simulated expected cost::2.93 +/- ::0.18049
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 2.93 stderr: 0.18049 averageCost_solved::2.93 stderr_solved::0.18049
+Calculate nodes::456
+Calculate design nodes::32
+Expanded nodes:: Execution::4110 Design::196 Total::4306
+Calculate nodes::456
+Calculate design nodes::32
+UMD heuristic:: Examined nodes::196 Expanded nodes::196
+Total time:: 0.421378
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-1-design
+Solver :: FLARES
+Command type:: compilation
+Heuristic_name:: baod-heur
+Initial state::[ 0:(emptyhand) 6:(on-table b3) 8:(clear b1) 14:(current-time t1) 22:(on-table b1) 24:(clear b2) 34:(on b2 b3) ]Expanded nodes::0
+Estimated cost::2.90714
+ExpectedCost::3.0402 +/- ::0.140648
+Best action::(design-put-on-table b2 b3 t1 t2)
+Expanded nodes::3796 Expanded Design nodes::719
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 3.0402 stderr: 0.140648 averageCost_solved::3.0402 stderr_solved::0.140648
+Calculate nodes::425
+Calculate design nodes::33
+Total time:: 0.277095
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-1-design
+Solver :: FLARES
+Command type:: rel-env
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-1-design-relaxed
+Expected cost (A*):: 3.2501
+Optimal action:: (design-put-on-table b2 b3 t1 t2)
+Simulated expected cost::3.2 +/- ::0.190162
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 3.2 stderr: 0.190162 averageCost_solved::3.2 stderr_solved::0.190162
+Calculate nodes::421
+Calculate design nodes::32
+Expanded nodes:: Execution::3756 Design::160 Total::3916
+Calculate nodes::421
+Calculate design nodes::32
+UMD heuristic:: Examined nodes::160 Expanded nodes::160
+Total time:: 0.392771
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-1-design
+Solver :: FLARES
+Command type:: rel-mod
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-1-design-over
+Expected cost (A*):: 5.02
+Optimal action:: (design-start-execution)
+Simulated expected cost::5.02 +/- ::0.193312
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 5.02 stderr: 0.193312 averageCost_solved::5.02 stderr_solved::0.193312
+Calculate nodes::349
+Calculate design nodes::32
+Expanded nodes:: Execution::2939 Design::160 Total::3099
+Calculate nodes::349
+Calculate design nodes::32
+UMD heuristic:: Examined nodes::160 Expanded nodes::160
+Total time:: 0.268634
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-1-design
+Solver :: FLARES
+Command type:: rel-combined
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-1-design-over-relaxed
+Expected cost (A*):: 3.1901
+Optimal action:: (design-put-on-table b2 b3 t1 t2)
+Simulated expected cost::3.37 +/- ::0.212563
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 3.37 stderr: 0.212563 averageCost_solved::3.37 stderr_solved::0.212563
+Calculate nodes::413
+Calculate design nodes::32
+Expanded nodes:: Execution::3717 Design::160 Total::3877
+Calculate nodes::413
+Calculate design nodes::32
+UMD heuristic:: Examined nodes::160 Expanded nodes::160
+Total time:: 0.358611
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-1-design
+Solver :: FLARES
+Command type:: rel-proc
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-1-design-over
+Expected cost (A*):: 4.84
+Optimal action:: (design-start-execution)
+Simulated expected cost::4.97 +/- ::0.165423
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 4.97 stderr: 0.165423 averageCost_solved::4.97 stderr_solved::0.165423
+Calculate nodes::454
+Calculate design nodes::32
+Expanded nodes:: Execution::4211 Design::8 Total::4219
+Calculate nodes::454
+Calculate design nodes::32
+UMD heuristic:: Examined nodes::165 Expanded nodes::8
+Total time:: 0.472123
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-1-design
+Solver :: FLARES
+Command type:: rel-combined-proc
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-1-design-over-relaxed
+Expected cost (A*):: 3.0601
+Optimal action:: (design-put-on-table b2 b3 t1 t2)
+Simulated expected cost::3.14 +/- ::0.157647
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 3.14 stderr: 0.157647 averageCost_solved::3.14 stderr_solved::0.157647
+Calculate nodes::357
+Calculate design nodes::32
+Expanded nodes:: Execution::3063 Design::8 Total::3071
+Calculate nodes::357
+Calculate design nodes::32
+UMD heuristic:: Examined nodes::135 Expanded nodes::8
+Total time:: 0.441646
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-1-design
+Solver :: FLARES
+Command type:: bfs_design
+Heuristic_name:: hmin-heur
+Expected cost (A*):: 2.8401
+Optimal action:: (design-put-on-table b2 b3 t1 t2)
+Simulated expected cost::2.95 +/- ::0.150672
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 2.95 stderr: 0.150672 averageCost_solved::2.95 stderr_solved::0.150672
+Calculate nodes::34
+Calculate design nodes::32
+Expanded nodes:: Execution::4807 Design::196 Total::5003
+Calculate nodes::34
+Calculate design nodes::32
+UMD heuristic:: Examined nodes::196 Expanded nodes::196
+Total time:: 0.365449
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-1-design
+Solver :: FLARES
+Command type:: compilation
+Heuristic_name:: hmin-heur
+Initial state::[ 0:(emptyhand) 6:(on-table b3) 8:(clear b1) 14:(current-time t1) 22:(on-table b1) 24:(clear b2) 34:(on b2 b3) ]Expanded nodes::0
+Estimated cost::2.8954
+ExpectedCost::2.8502 +/- ::0.15267
+Best action::(design-put-on-table b2 b3 t1 t2)
+Expanded nodes::301 Expanded Design nodes::224
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 2.8502 stderr: 0.15267 averageCost_solved::2.8502 stderr_solved::0.15267
+Calculate nodes::34
+Calculate design nodes::33
+Total time:: 0.178165
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-1-design
+Solver :: FLARES
+Command type:: rel-env
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-1-design-relaxed
+Expected cost (A*):: 4.82
+Optimal action:: (design-start-execution)
+Simulated expected cost::4.85 +/- ::0.177169
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 4.85 stderr: 0.177169 averageCost_solved::4.85 stderr_solved::0.177169
+Calculate nodes::34
+Calculate design nodes::32
+Expanded nodes:: Execution::633 Design::134 Total::767
+Calculate nodes::34
+Calculate design nodes::32
+UMD heuristic:: Examined nodes::134 Expanded nodes::134
+Total time:: 0.588095
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-1-design
+Solver :: FLARES
+Command type:: rel-mod
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-1-design-over
+Expected cost (A*):: 4.74
+Optimal action:: (design-start-execution)
+Simulated expected cost::5.17 +/- ::0.201035
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 5.17 stderr: 0.201035 averageCost_solved::5.17 stderr_solved::0.201035
+Calculate nodes::34
+Calculate design nodes::32
+Expanded nodes:: Execution::3684 Design::166 Total::3850
+Calculate nodes::34
+Calculate design nodes::32
+UMD heuristic:: Examined nodes::166 Expanded nodes::166
+Total time:: 0.70724
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-1-design
+Solver :: FLARES
+Command type:: rel-combined
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-1-design-over-relaxed
+Expected cost (A*):: 4.86
+Optimal action:: (design-start-execution)
+Simulated expected cost::4.82 +/- ::0.183886
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 4.82 stderr: 0.183886 averageCost_solved::4.82 stderr_solved::0.183886
+Calculate nodes::34
+Calculate design nodes::32
+Expanded nodes:: Execution::609 Design::134 Total::743
+Calculate nodes::34
+Calculate design nodes::32
+UMD heuristic:: Examined nodes::134 Expanded nodes::134
+Total time:: 0.798003
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-1-design
+Solver :: FLARES
+Command type:: rel-proc
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-1-design-over
+Expected cost (A*):: 4.75
+Optimal action:: (design-start-execution)
+Simulated expected cost::5.13 +/- ::0.179029
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 5.13 stderr: 0.179029 averageCost_solved::5.13 stderr_solved::0.179029
+Calculate nodes::34
+Calculate design nodes::32
+Expanded nodes:: Execution::724 Design::8 Total::732
+Calculate nodes::34
+Calculate design nodes::32
+UMD heuristic:: Examined nodes::135 Expanded nodes::8
+Total time:: 0.425272
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-1-design
+Solver :: FLARES
+Command type:: rel-combined-proc
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-1-design-over-relaxed
+Expected cost (A*):: 4.5
+Optimal action:: (design-start-execution)
+Simulated expected cost::4.68 +/- ::0.155622
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 4.68 stderr: 0.155622 averageCost_solved::4.68 stderr_solved::0.155622
+Calculate nodes::34
+Calculate design nodes::32
+Expanded nodes:: Execution::3718 Design::8 Total::3726
+Calculate nodes::34
+Calculate design nodes::32
+UMD heuristic:: Examined nodes::165 Expanded nodes::8
+Total time:: 1.03136
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-2-design
+Solver :: LAO*
+Command type:: bfs_design
+Heuristic_name:: baod-heur
+Expected cost (A*):: 2.66687
+Optimal action:: (design-put-on-table b2 b3 t1 t2)
+Initial state::[ 0:(emptyhand) 6:(on-table b3) 8:(clear b1) 14:(current-time t1) 24:(on-table b1) 26:(clear b2) 36:(on b2 b3) ]
+Expanded nodes:: Execution::43815 Design::2643 Total::46458
+Calculate nodes::5923
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::2643 Expanded nodes::2643
+Total time:: 5.13201
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-2-design
+Solver :: LAO*
+Command type:: compilation
+Heuristic_name:: baod-heur
+---->Initial state:: [ 0:(emptyhand) 6:(on-table b3) 8:(clear b1) 14:(current-time t1) 24:(on-table b1) 26:(clear b2) 36:(on b2 b3) ]
+Expected cost:: 2.66697
+Best action:: (design-reduce-uncertainty-pickup b1 t1 t2)
+Expanded nodes::11211 
+Expanded Design nodes::9369
+Calculate nodes::1443
+Calculate design nodes::530
+Total time:: 1.4065
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-2-design
+Solver :: LAO*
+Command type:: rel-env
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-2-design-relaxed
+Expected cost (A*):: 2.66687
+Optimal action:: (design-put-on-table b2 b3 t1 t2)
+Initial state::[ 0:(emptyhand) 6:(on-table b3) 8:(clear b1) 14:(current-time t1) 24:(on-table b1) 26:(clear b2) 36:(on b2 b3) ]
+Expanded nodes:: Execution::36630 Design::2295 Total::38925
+Calculate nodes::4907
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::2295 Expanded nodes::2295
+Total time:: 5.16564
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-2-design
+Solver :: LAO*
+Command type:: rel-mod
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-2-design-over
+Expected cost (A*):: 2.66687
+Optimal action:: (design-put-on-table b2 b3 t1 t2)
+Initial state::[ 0:(emptyhand) 6:(on-table b3) 8:(clear b1) 14:(current-time t1) 24:(on-table b1) 26:(clear b2) 36:(on b2 b3) ]
+Expanded nodes:: Execution::41207 Design::2547 Total::43754
+Calculate nodes::5569
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::2547 Expanded nodes::2547
+Total time:: 6.46464
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-2-design
+Solver :: LAO*
+Command type:: rel-combined
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-2-design-over-relaxed
+Expected cost (A*):: 2.66687
+Optimal action:: (design-put-on-table b2 b3 t1 t2)
+Initial state::[ 0:(emptyhand) 6:(on-table b3) 8:(clear b1) 14:(current-time t1) 24:(on-table b1) 26:(clear b2) 36:(on b2 b3) ]
+Expanded nodes:: Execution::36630 Design::2295 Total::38925
+Calculate nodes::4907
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::2295 Expanded nodes::2295
+Total time:: 5.20682
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-2-design
+Solver :: LAO*
+Command type:: rel-proc
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-2-design-over
+Expected cost (A*):: 2.66687
+Optimal action:: (design-put-on-table b2 b3 t1 t2)
+Initial state::[ 0:(emptyhand) 6:(on-table b3) 8:(clear b1) 14:(current-time t1) 24:(on-table b1) 26:(clear b2) 36:(on b2 b3) ]
+Expanded nodes:: Execution::8584 Design::32 Total::8616
+Calculate nodes::1082
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::2208 Expanded nodes::32
+Total time:: 1.29115
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-2-design
+Solver :: LAO*
+Command type:: rel-combined-proc
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-2-design-over-relaxed
+Expected cost (A*):: 2.66687
+Optimal action:: (design-put-on-table b2 b3 t1 t2)
+Initial state::[ 0:(emptyhand) 6:(on-table b3) 8:(clear b1) 14:(current-time t1) 24:(on-table b1) 26:(clear b2) 36:(on b2 b3) ]
+Expanded nodes:: Execution::8452 Design::32 Total::8484
+Calculate nodes::1060
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::2142 Expanded nodes::32
+Total time:: 1.64776
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-2-design
+Solver :: LAO*
+Command type:: bfs_design
+Heuristic_name:: hmin-heur
+Expected cost (A*):: 2.66687
+Optimal action:: (design-put-on-table b2 b3 t1 t2)
+Initial state::[ 0:(emptyhand) 6:(on-table b3) 8:(clear b1) 14:(current-time t1) 24:(on-table b1) 26:(clear b2) 36:(on b2 b3) ]
+Expanded nodes:: Execution::40228 Design::2643 Total::42871
+Calculate nodes::594
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::2643 Expanded nodes::2643
+Total time:: 5.50264
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-2-design
+Solver :: LAO*
+Command type:: compilation
+Heuristic_name:: hmin-heur
+---->Initial state:: [ 0:(emptyhand) 6:(on-table b3) 8:(clear b1) 14:(current-time t1) 24:(on-table b1) 26:(clear b2) 36:(on b2 b3) ]
+Expected cost:: 2.66697
+Best action:: (design-reduce-uncertainty-pickup b1 t1 t2)
+Expanded nodes::7046 
+Expanded Design nodes::6054
+Calculate nodes::34
+Calculate design nodes::33
+Total time:: 2.30907
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-2-design
+Solver :: LAO*
+Command type:: rel-env
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-2-design-relaxed
+Expected cost (A*):: 2.66687
+Optimal action:: (design-put-on-table b2 b3 t1 t2)
+Initial state::[ 0:(emptyhand) 6:(on-table b3) 8:(clear b1) 14:(current-time t1) 24:(on-table b1) 26:(clear b2) 36:(on b2 b3) ]
+Expanded nodes:: Execution::37917 Design::2612 Total::40529
+Calculate nodes::563
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::2612 Expanded nodes::2612
+Total time:: 7.62357
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-2-design
+Solver :: LAO*
+Command type:: rel-mod
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-2-design-over
+Expected cost (A*):: 2.66687
+Optimal action:: (design-put-on-table b2 b3 t1 t2)
+Initial state::[ 0:(emptyhand) 6:(on-table b3) 8:(clear b1) 14:(current-time t1) 24:(on-table b1) 26:(clear b2) 36:(on b2 b3) ]
+Expanded nodes:: Execution::40228 Design::2643 Total::42871
+Calculate nodes::594
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::2643 Expanded nodes::2643
+Total time:: 6.1821
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-2-design
+Solver :: LAO*
+Command type:: rel-combined
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-2-design-over-relaxed
+Expected cost (A*):: 2.66687
+Optimal action:: (design-put-on-table b2 b3 t1 t2)
+Initial state::[ 0:(emptyhand) 6:(on-table b3) 8:(clear b1) 14:(current-time t1) 24:(on-table b1) 26:(clear b2) 36:(on b2 b3) ]
+Expanded nodes:: Execution::37917 Design::2612 Total::40529
+Calculate nodes::563
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::2612 Expanded nodes::2612
+Total time:: 9.1418
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-2-design
+Solver :: LAO*
+Command type:: rel-proc
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-2-design-over
+Expected cost (A*):: 2.66687
+Optimal action:: (design-put-on-table b2 b3 t1 t2)
+Initial state::[ 0:(emptyhand) 6:(on-table b3) 8:(clear b1) 14:(current-time t1) 24:(on-table b1) 26:(clear b2) 36:(on b2 b3) ]
+Expanded nodes:: Execution::40228 Design::32 Total::40260
+Calculate nodes::594
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::2643 Expanded nodes::32
+Total time:: 6.1394
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-2-design
+Solver :: LAO*
+Command type:: rel-combined-proc
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-2-design-over-relaxed
+Expected cost (A*):: 2.66687
+Optimal action:: (design-put-on-table b2 b3 t1 t2)
+Initial state::[ 0:(emptyhand) 6:(on-table b3) 8:(clear b1) 14:(current-time t1) 24:(on-table b1) 26:(clear b2) 36:(on b2 b3) ]
+Expanded nodes:: Execution::40228 Design::32 Total::40260
+Calculate nodes::594
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::2643 Expanded nodes::32
+Total time:: 8.9354
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-2-design
+Solver :: FLARES
+Command type:: bfs_design
+Heuristic_name:: baod-heur
+Expected cost (A*):: 2.8002
+Optimal action:: (design-put-on-table b2 b3 t1 t2)
+Simulated expected cost::2.56 +/- ::0.130516
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 2.56 stderr: 0.130516 averageCost_solved::2.56 stderr_solved::0.130516
+Calculate nodes::7076
+Calculate design nodes::529
+Expanded nodes:: Execution::65646 Design::5286 Total::70932
+Calculate nodes::7076
+Calculate design nodes::529
+UMD heuristic:: Examined nodes::5286 Expanded nodes::5286
+Total time:: 8.66762
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-2-design
+Solver :: FLARES
+Command type:: compilation
+Heuristic_name:: baod-heur
+Initial state::[ 0:(emptyhand) 6:(on-table b3) 8:(clear b1) 14:(current-time t1) 24:(on-table b1) 26:(clear b2) 36:(on b2 b3) ]Expanded nodes::0
+Estimated cost::2.64093
+ExpectedCost::2.7303 +/- ::0.146236
+Best action::(design-reduce-uncertainty-pickup b1 t1 t2)
+Expanded nodes::53132 Expanded Design nodes::12468
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 2.7303 stderr: 0.146236 averageCost_solved::2.7303 stderr_solved::0.146236
+Calculate nodes::5993
+Calculate design nodes::530
+Total time:: 4.91546
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-2-design
+Solver :: FLARES
+Command type:: rel-env
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-2-design-relaxed
+Expected cost (A*):: 4.62
+Optimal action:: (design-start-execution)
+Simulated expected cost::4.83 +/- ::0.151794
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 4.83 stderr: 0.151794 averageCost_solved::4.83 stderr_solved::0.151794
+Calculate nodes::6858
+Calculate design nodes::529
+Expanded nodes:: Execution::62790 Design::4472 Total::67262
+Calculate nodes::6858
+Calculate design nodes::529
+UMD heuristic:: Examined nodes::4472 Expanded nodes::4472
+Total time:: 8.23269
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-2-design
+Solver :: FLARES
+Command type:: rel-mod
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-2-design-over
+Expected cost (A*):: 4.2801
+Optimal action:: (design-reduce-uncertainty-pickup b1 t1 t2)
+Simulated expected cost::4.23 +/- ::0.131698
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 4.23 stderr: 0.131698 averageCost_solved::4.23 stderr_solved::0.131698
+Calculate nodes::6998
+Calculate design nodes::529
+Expanded nodes:: Execution::64631 Design::4725 Total::69356
+Calculate nodes::6998
+Calculate design nodes::529
+UMD heuristic:: Examined nodes::4725 Expanded nodes::4725
+Total time:: 8.15029
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-2-design
+Solver :: FLARES
+Command type:: rel-combined
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-2-design-over-relaxed
+Expected cost (A*):: 2.6602
+Optimal action:: (design-put-on-table b2 b3 t1 t2)
+Simulated expected cost::2.54 +/- ::0.123436
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 2.54 stderr: 0.123436 averageCost_solved::2.54 stderr_solved::0.123436
+Calculate nodes::6981
+Calculate design nodes::529
+Expanded nodes:: Execution::64255 Design::4472 Total::68727
+Calculate nodes::6981
+Calculate design nodes::529
+UMD heuristic:: Examined nodes::4472 Expanded nodes::4472
+Total time:: 7.84499
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-2-design
+Solver :: FLARES
+Command type:: rel-proc
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-2-design-over
+Expected cost (A*):: 2.6002
+Optimal action:: (design-put-on-table b2 b3 t1 t2)
+Simulated expected cost::2.68 +/- ::0.127826
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 2.68 stderr: 0.127826 averageCost_solved::2.68 stderr_solved::0.127826
+Calculate nodes::6279
+Calculate design nodes::529
+Expanded nodes:: Execution::56855 Design::32 Total::56887
+Calculate nodes::6279
+Calculate design nodes::529
+UMD heuristic:: Examined nodes::2339 Expanded nodes::32
+Total time:: 5.06394
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-2-design
+Solver :: FLARES
+Command type:: rel-combined-proc
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-2-design-over-relaxed
+Expected cost (A*):: 2.9301
+Optimal action:: (design-put-on-table b2 b3 t1 t2)
+Simulated expected cost::3.66 +/- ::0.190809
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 3.66 stderr: 0.190809 averageCost_solved::3.66 stderr_solved::0.190809
+Calculate nodes::6338
+Calculate design nodes::529
+Expanded nodes:: Execution::57333 Design::32 Total::57365
+Calculate nodes::6338
+Calculate design nodes::529
+UMD heuristic:: Examined nodes::2273 Expanded nodes::32
+Total time:: 5.2386
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-2-design
+Solver :: FLARES
+Command type:: bfs_design
+Heuristic_name:: hmin-heur
+Expected cost (A*):: 5.13
+Optimal action:: (design-start-execution)
+Simulated expected cost::4.85 +/- ::0.153987
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 4.85 stderr: 0.153987 averageCost_solved::4.85 stderr_solved::0.153987
+Calculate nodes::37
+Calculate design nodes::32
+Expanded nodes:: Execution::65609 Design::5286 Total::70895
+Calculate nodes::37
+Calculate design nodes::32
+UMD heuristic:: Examined nodes::5286 Expanded nodes::5286
+Total time:: 6.10621
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-2-design
+Solver :: FLARES
+Command type:: compilation
+Heuristic_name:: hmin-heur
+Initial state::[ 0:(emptyhand) 6:(on-table b3) 8:(clear b1) 14:(current-time t1) 24:(on-table b1) 26:(clear b2) 36:(on b2 b3) ]Expanded nodes::0
+Estimated cost::2.5003
+ExpectedCost::2.4403 +/- ::0.108544
+Best action::(design-reduce-uncertainty-pickup b1 t1 t2)
+Expanded nodes::8911 Expanded Design nodes::5814
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 2.4403 stderr: 0.108544 averageCost_solved::2.4403 stderr_solved::0.108544
+Calculate nodes::37
+Calculate design nodes::33
+Total time:: 2.37153
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-2-design
+Solver :: FLARES
+Command type:: rel-env
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-2-design-relaxed
+Expected cost (A*):: 2.9001
+Optimal action:: (design-put-on-table b2 b3 t1 t2)
+Simulated expected cost::2.76 +/- ::0.143633
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 2.76 stderr: 0.143633 averageCost_solved::2.76 stderr_solved::0.143633
+Calculate nodes::37
+Calculate design nodes::32
+Expanded nodes:: Execution::68730 Design::2808 Total::71538
+Calculate nodes::37
+Calculate design nodes::32
+UMD heuristic:: Examined nodes::2808 Expanded nodes::2808
+Total time:: 9.7289
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-2-design
+Solver :: FLARES
+Command type:: rel-mod
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-2-design-over
+Expected cost (A*):: 2.6202
+Optimal action:: (design-put-on-table b2 b3 t1 t2)
+Simulated expected cost::2.76 +/- ::0.144334
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 2.76 stderr: 0.144334 averageCost_solved::2.76 stderr_solved::0.144334
+Calculate nodes::36
+Calculate design nodes::32
+Expanded nodes:: Execution::68029 Design::2906 Total::70935
+Calculate nodes::36
+Calculate design nodes::32
+UMD heuristic:: Examined nodes::2906 Expanded nodes::2906
+Total time:: 7.04745
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-2-design
+Solver :: FLARES
+Command type:: rel-combined
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-2-design-over-relaxed
+Expected cost (A*):: 4.78
+Optimal action:: (design-start-execution)
+Simulated expected cost::4.47 +/- ::0.13292
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 4.47 stderr: 0.13292 averageCost_solved::4.47 stderr_solved::0.13292
+Calculate nodes::36
+Calculate design nodes::32
+Expanded nodes:: Execution::69330 Design::2808 Total::72138
+Calculate nodes::36
+Calculate design nodes::32
+UMD heuristic:: Examined nodes::2808 Expanded nodes::2808
+Total time:: 9.54189
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-2-design
+Solver :: FLARES
+Command type:: rel-proc
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-2-design-over
+Expected cost (A*):: 4.3601
+Optimal action:: (design-reduce-uncertainty-pickup b1 t1 t2)
+Simulated expected cost::4.22 +/- ::0.110627
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 4.22 stderr: 0.110627 averageCost_solved::4.22 stderr_solved::0.110627
+Calculate nodes::36
+Calculate design nodes::32
+Expanded nodes:: Execution::68946 Design::32 Total::68978
+Calculate nodes::36
+Calculate design nodes::32
+UMD heuristic:: Examined nodes::2907 Expanded nodes::32
+Total time:: 7.08951
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-2-design
+Solver :: FLARES
+Command type:: rel-combined-proc
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-2-design-over-relaxed
+Expected cost (A*):: 2.8701
+Optimal action:: (design-put-on-table b2 b3 t1 t2)
+Simulated expected cost::3.25 +/- ::0.158513
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 3.25 stderr: 0.158513 averageCost_solved::3.25 stderr_solved::0.158513
+Calculate nodes::36
+Calculate design nodes::32
+Expanded nodes:: Execution::68421 Design::32 Total::68453
+Calculate nodes::36
+Calculate design nodes::32
+UMD heuristic:: Examined nodes::2907 Expanded nodes::32
+Total time:: 9.4472
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-3-design
+Solver :: LAO*
+Command type:: bfs_design
+Heuristic_name:: baod-heur
+Expected cost (A*):: 2.66687
+Optimal action:: (design-put-on-table b2 b3 t1 t2)
+Initial state::[ 0:(emptyhand) 6:(on-table b3) 8:(clear b1) 14:(current-time t1) 26:(on-table b1) 28:(clear b2) 38:(on b2 b3) ]
+Expanded nodes:: Execution::458513 Design::39443 Total::497956
+Calculate nodes::62138
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::39443 Expanded nodes::39443
+Total time:: 52.979
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-3-design
+Solver :: LAO*
+Command type:: compilation
+Heuristic_name:: baod-heur
+---->Initial state:: [ 0:(emptyhand) 6:(on-table b3) 8:(clear b1) 14:(current-time t1) 26:(on-table b1) 28:(clear b2) 38:(on b2 b3) ]
+Expected cost:: 2.66697
+Best action:: (design-reduce-uncertainty-pickup b1 t1 t2)
+Expanded nodes::126338 
+Expanded Design nodes::99522
+Calculate nodes::17145
+Calculate design nodes::5522
+Total time:: 21.9304
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-3-design
+Solver :: LAO*
+Command type:: rel-env
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-3-design-relaxed
+Expected cost (A*):: 2.66687
+Optimal action:: (design-put-on-table b2 b3 t1 t2)
+Initial state::[ 0:(emptyhand) 6:(on-table b3) 8:(clear b1) 14:(current-time t1) 26:(on-table b1) 28:(clear b2) 38:(on b2 b3) ]
+Expanded nodes:: Execution::458431 Design::39442 Total::497873
+Calculate nodes::62127
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::39442 Expanded nodes::39442
+Total time:: 65.3825
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-3-design
+Solver :: LAO*
+Command type:: rel-mod
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-3-design-over
+Expected cost (A*):: 2.66687
+Optimal action:: (design-put-on-table b2 b3 t1 t2)
+Initial state::[ 0:(emptyhand) 6:(on-table b3) 8:(clear b1) 14:(current-time t1) 26:(on-table b1) 28:(clear b2) 38:(on b2 b3) ]
+Expanded nodes:: Execution::458349 Design::39377 Total::497726
+Calculate nodes::62116
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::39377 Expanded nodes::39377
+Total time:: 61.1697
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-3-design
+Solver :: LAO*
+Command type:: rel-combined
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-3-design-over-relaxed
+Expected cost (A*):: 2.66687
+Optimal action:: (design-put-on-table b2 b3 t1 t2)
+Initial state::[ 0:(emptyhand) 6:(on-table b3) 8:(clear b1) 14:(current-time t1) 26:(on-table b1) 28:(clear b2) 38:(on b2 b3) ]
+Expanded nodes:: Execution::458431 Design::39442 Total::497873
+Calculate nodes::62127
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::39442 Expanded nodes::39442
+Total time:: 65.5835
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-3-design
+Solver :: LAO*
+Command type:: rel-proc
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-3-design-over
+Expected cost (A*):: 2.66687
+Optimal action:: (design-put-on-table b2 b3 t1 t2)
+Initial state::[ 0:(emptyhand) 6:(on-table b3) 8:(clear b1) 14:(current-time t1) 26:(on-table b1) 28:(clear b2) 38:(on b2 b3) ]
+Expanded nodes:: Execution::128509 Design::88 Total::128597
+Calculate nodes::16249
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::33932 Expanded nodes::88
+Total time:: 15.5621
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-3-design
+Solver :: LAO*
+Command type:: rel-combined-proc
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-3-design-over-relaxed
+Expected cost (A*):: 2.66687
+Optimal action:: (design-put-on-table b2 b3 t1 t2)
+Initial state::[ 0:(emptyhand) 6:(on-table b3) 8:(clear b1) 14:(current-time t1) 26:(on-table b1) 28:(clear b2) 38:(on b2 b3) ]
+Expanded nodes:: Execution::130031 Design::88 Total::130119
+Calculate nodes::16488
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::34789 Expanded nodes::88
+Total time:: 15.5751
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-3-design
+Solver :: LAO*
+Command type:: bfs_design
+Heuristic_name:: hmin-heur
+Expected cost (A*):: 2.66687
+Optimal action:: (design-put-on-table b2 b3 t1 t2)
+Initial state::[ 0:(emptyhand) 6:(on-table b3) 8:(clear b1) 14:(current-time t1) 26:(on-table b1) 28:(clear b2) 38:(on b2 b3) ]
+Expanded nodes:: Execution::421797 Design::39443 Total::461240
+Calculate nodes::6516
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::39443 Expanded nodes::39443
+Total time:: 44.2919
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-3-design
+Solver :: LAO*
+Command type:: compilation
+Heuristic_name:: hmin-heur
+---->Initial state:: [ 0:(emptyhand) 6:(on-table b3) 8:(clear b1) 14:(current-time t1) 26:(on-table b1) 28:(clear b2) 38:(on b2 b3) ]
+Expected cost:: 2.66697
+Best action:: (design-reduce-uncertainty-pickup b1 t1 t2)
+Expanded nodes::255469 
+Expanded Design nodes::182315
+Calculate nodes::38
+Calculate design nodes::33
+Total time:: 26.4337
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-3-design
+Solver :: LAO*
+Command type:: rel-env
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-3-design-relaxed
+Expected cost (A*):: 2.66687
+Optimal action:: (design-reduce-uncertainty-pickup b1 t1 t2)
+Initial state::[ 0:(emptyhand) 6:(on-table b3) 8:(clear b1) 14:(current-time t1) 26:(on-table b1) 28:(clear b2) 38:(on b2 b3) ]
+Expanded nodes:: Execution::419486 Design::39412 Total::458898
+Calculate nodes::6485
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::39412 Expanded nodes::39412
+Total time:: 63.9557
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-3-design
+Solver :: LAO*
+Command type:: rel-mod
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-3-design-over
+Expected cost (A*):: 2.66687
+Optimal action:: (design-put-on-table b2 b3 t1 t2)
+Initial state::[ 0:(emptyhand) 6:(on-table b3) 8:(clear b1) 14:(current-time t1) 26:(on-table b1) 28:(clear b2) 38:(on b2 b3) ]
+Expanded nodes:: Execution::421797 Design::39443 Total::461240
+Calculate nodes::6516
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::39443 Expanded nodes::39443
+Total time:: 57.5886
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-3-design
+Solver :: LAO*
+Command type:: rel-combined
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-3-design-over-relaxed
+Expected cost (A*):: 2.66687
+Optimal action:: (design-reduce-uncertainty-pickup b1 t1 t2)
+Initial state::[ 0:(emptyhand) 6:(on-table b3) 8:(clear b1) 14:(current-time t1) 26:(on-table b1) 28:(clear b2) 38:(on b2 b3) ]
+Expanded nodes:: Execution::419486 Design::39412 Total::458898
+Calculate nodes::6485
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::39412 Expanded nodes::39412
+Total time:: 64.2302
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-3-design
+Solver :: LAO*
+Command type:: rel-proc
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-3-design-over
+Expected cost (A*):: 2.66687
+Optimal action:: (design-put-on-table b2 b3 t1 t2)
+Initial state::[ 0:(emptyhand) 6:(on-table b3) 8:(clear b1) 14:(current-time t1) 26:(on-table b1) 28:(clear b2) 38:(on b2 b3) ]
+Expanded nodes:: Execution::421797 Design::88 Total::421885
+Calculate nodes::6516
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::39443 Expanded nodes::88
+Total time:: 59.7735
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-3-design
+Solver :: LAO*
+Command type:: rel-combined-proc
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-3-design-over-relaxed
+Expected cost (A*):: 2.66687
+Optimal action:: (design-put-on-table b2 b3 t1 t2)
+Initial state::[ 0:(emptyhand) 6:(on-table b3) 8:(clear b1) 14:(current-time t1) 26:(on-table b1) 28:(clear b2) 38:(on b2 b3) ]
+Expanded nodes:: Execution::421797 Design::88 Total::421885
+Calculate nodes::6516
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::39443 Expanded nodes::88
+Total time:: 62.6997
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-3-design
+Solver :: FLARES
+Command type:: bfs_design
+Heuristic_name:: baod-heur
+Expected cost (A*):: 2.7803
+Optimal action:: (design-put-on-table b2 b3 t1 t2)
+Simulated expected cost::2.54 +/- ::0.105811
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 2.54 stderr: 0.105811 averageCost_solved::2.54 stderr_solved::0.105811
+Calculate nodes::72370
+Calculate design nodes::5521
+Expanded nodes:: Execution::681829 Design::78886 Total::760715
+Calculate nodes::72370
+Calculate design nodes::5521
+UMD heuristic:: Examined nodes::78886 Expanded nodes::78886
+Total time:: 83.6965
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-3-design
+Solver :: FLARES
+Command type:: compilation
+Heuristic_name:: baod-heur
+Initial state::[ 0:(emptyhand) 6:(on-table b3) 8:(clear b1) 14:(current-time t1) 26:(on-table b1) 28:(clear b2) 38:(on b2 b3) ]Expanded nodes::0
+Estimated cost::2.2503
+ExpectedCost::2.96035 +/- ::0.186905
+Best action::(design-reduce-uncertainty-pickup b1 t1 t2)
+Expanded nodes::542565 Expanded Design nodes::139788
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 2.96035 stderr: 0.186905 averageCost_solved::2.96035 stderr_solved::0.186905
+Calculate nodes::59807
+Calculate design nodes::5522
+Total time:: 51.9056
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-3-design
+Solver :: FLARES
+Command type:: rel-env
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-3-design-relaxed
+Expected cost (A*):: 4.4202
+Optimal action:: (design-reduce-uncertainty-pickup b1 t1 t2)
+Simulated expected cost::4.3 +/- ::0.115032
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 4.3 stderr: 0.115032 averageCost_solved::4.3 stderr_solved::0.115032
+Calculate nodes::72498
+Calculate design nodes::5521
+Expanded nodes:: Execution::683333 Design::74359 Total::757692
+Calculate nodes::72498
+Calculate design nodes::5521
+UMD heuristic:: Examined nodes::74359 Expanded nodes::74359
+Total time:: 96.1189
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-3-design
+Solver :: FLARES
+Command type:: rel-mod
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-3-design-over
+Expected cost (A*):: 2.5603
+Optimal action:: (design-put-on-table b2 b3 t1 t2)
+Simulated expected cost::2.62 +/- ::0.129318
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 2.62 stderr: 0.129318 averageCost_solved::2.62 stderr_solved::0.129318
+Calculate nodes::72788
+Calculate design nodes::5521
+Expanded nodes:: Execution::684901 Design::74294 Total::759195
+Calculate nodes::72788
+Calculate design nodes::5521
+UMD heuristic:: Examined nodes::74294 Expanded nodes::74294
+Total time:: 97.9535
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-3-design
+Solver :: FLARES
+Command type:: rel-combined
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-3-design-over-relaxed
+Expected cost (A*):: 4.5602
+Optimal action:: (design-reduce-uncertainty-pickup b1 t1 t2)
+Simulated expected cost::4.5 +/- ::0.159228
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 4.5 stderr: 0.159228 averageCost_solved::4.5 stderr_solved::0.159228
+Calculate nodes::72491
+Calculate design nodes::5521
+Expanded nodes:: Execution::682906 Design::74359 Total::757265
+Calculate nodes::72491
+Calculate design nodes::5521
+UMD heuristic:: Examined nodes::74359 Expanded nodes::74359
+Total time:: 96.6625
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-3-design
+Solver :: FLARES
+Command type:: rel-proc
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-3-design-over
+Expected cost (A*):: 2.7803
+Optimal action:: (design-put-on-table b2 b3 t1 t2)
+Simulated expected cost::2.78 +/- ::0.138957
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 2.78 stderr: 0.138957 averageCost_solved::2.78 stderr_solved::0.138957
+Calculate nodes::65480
+Calculate design nodes::5521
+Expanded nodes:: Execution::608177 Design::88 Total::608265
+Calculate nodes::65480
+Calculate design nodes::5521
+UMD heuristic:: Examined nodes::34063 Expanded nodes::88
+Total time:: 62.3638
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-3-design
+Solver :: FLARES
+Command type:: rel-combined-proc
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-3-design-over-relaxed
+Expected cost (A*):: 3.0202
+Optimal action:: (design-put-on-table b2 b3 t1 t2)
+Simulated expected cost::2.99 +/- ::0.15472
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 2.99 stderr: 0.15472 averageCost_solved::2.99 stderr_solved::0.15472
+Calculate nodes::64949
+Calculate design nodes::5521
+Expanded nodes:: Execution::601157 Design::88 Total::601245
+Calculate nodes::64949
+Calculate design nodes::5521
+UMD heuristic:: Examined nodes::35514 Expanded nodes::88
+Total time:: 61.4506
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-3-design
+Solver :: FLARES
+Command type:: bfs_design
+Heuristic_name:: hmin-heur
+Expected cost (A*):: 3.1902
+Optimal action:: (design-put-on-table b2 b3 t1 t2)
+Simulated expected cost::3.13 +/- ::0.178464
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 3.13 stderr: 0.178464 averageCost_solved::3.13 stderr_solved::0.178464
+Calculate nodes::4297
+Calculate design nodes::32
+Expanded nodes:: Execution::776637 Design::78886 Total::855523
+Calculate nodes::4297
+Calculate design nodes::32
+UMD heuristic:: Examined nodes::78886 Expanded nodes::78886
+Total time:: 71.9505
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-3-design
+Solver :: FLARES
+Command type:: compilation
+Heuristic_name:: hmin-heur
+Initial state::[ 0:(emptyhand) 6:(on-table b3) 8:(clear b1) 14:(current-time t1) 26:(on-table b1) 28:(clear b2) 38:(on b2 b3) ]Expanded nodes::0
+Estimated cost::2.5003
+ExpectedCost::2.78035 +/- ::0.147422
+Best action::(design-reduce-uncertainty-pickup b1 t1 t2)
+Expanded nodes::681234 Expanded Design nodes::167440
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 2.78035 stderr: 0.147422 averageCost_solved::2.78035 stderr_solved::0.147422
+Calculate nodes::4216
+Calculate design nodes::33
+Total time:: 47.3348
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-3-design
+Solver :: FLARES
+Command type:: rel-env
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-3-design-relaxed
+Expected cost (A*):: 2.6203
+Optimal action:: (design-reduce-uncertainty-pickup-tower b3 b3 b1 t1 t2)
+Simulated expected cost::2.92 +/- ::0.146115
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 2.92 stderr: 0.146115 averageCost_solved::2.92 stderr_solved::0.146115
+Calculate nodes::4296
+Calculate design nodes::32
+Expanded nodes:: Execution::774432 Design::74153 Total::848585
+Calculate nodes::4296
+Calculate design nodes::32
+UMD heuristic:: Examined nodes::74153 Expanded nodes::74153
+Total time:: 94.7067
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-3-design
+Solver :: FLARES
+Command type:: rel-mod
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-3-design-over
+Expected cost (A*):: 4.5102
+Optimal action:: (design-reduce-uncertainty-pickup-tower b2 b2 b1 t1 t2)
+Simulated expected cost::4.4 +/- ::0.156347
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 4.4 stderr: 0.156347 averageCost_solved::4.4 stderr_solved::0.156347
+Calculate nodes::4329
+Calculate design nodes::32
+Expanded nodes:: Execution::775701 Design::76506 Total::852207
+Calculate nodes::4329
+Calculate design nodes::32
+UMD heuristic:: Examined nodes::76506 Expanded nodes::76506
+Total time:: 87.1199
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-3-design
+Solver :: FLARES
+Command type:: rel-combined
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-3-design-over-relaxed
+Expected cost (A*):: 4.6301
+Optimal action:: (design-reduce-uncertainty-pickup-tower b2 b2 b1 t1 t2)
+Simulated expected cost::4.87 +/- ::0.203829
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 4.87 stderr: 0.203829 averageCost_solved::4.87 stderr_solved::0.203829
+Calculate nodes::4297
+Calculate design nodes::32
+Expanded nodes:: Execution::774002 Design::74153 Total::848155
+Calculate nodes::4297
+Calculate design nodes::32
+UMD heuristic:: Examined nodes::74153 Expanded nodes::74153
+Total time:: 93.7418
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-3-design
+Solver :: FLARES
+Command type:: rel-proc
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-3-design-over
+Expected cost (A*):: 3.0102
+Optimal action:: (design-put-on-table b2 b3 t1 t2)
+Simulated expected cost::3.03 +/- ::0.145959
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 3.03 stderr: 0.145959 averageCost_solved::3.03 stderr_solved::0.145959
+Calculate nodes::4268
+Calculate design nodes::32
+Expanded nodes:: Execution::775390 Design::88 Total::775478
+Calculate nodes::4268
+Calculate design nodes::32
+UMD heuristic:: Examined nodes::78370 Expanded nodes::88
+Total time:: 86.3429
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-3-design
+Solver :: FLARES
+Command type:: rel-combined-proc
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-3-design-over-relaxed
+Expected cost (A*):: 4.7101
+Optimal action:: (design-reduce-uncertainty-pickup-tower b3 b3 b2 t1 t2)
+Simulated expected cost::4.77 +/- ::0.16259
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 4.77 stderr: 0.16259 averageCost_solved::4.77 stderr_solved::0.16259
+Calculate nodes::4308
+Calculate design nodes::32
+Expanded nodes:: Execution::773652 Design::88 Total::773740
+Calculate nodes::4308
+Calculate design nodes::32
+UMD heuristic:: Examined nodes::78370 Expanded nodes::88
+Total time:: 90.7642
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-4-design
+Solver :: LAO*
+Command type:: bfs_design
+Heuristic_name:: baod-heur
+Expected cost (A*):: 2.66687
+Optimal action:: (design-put-on-table b2 b3 t1 t2)
+Initial state::[ 0:(emptyhand) 6:(on-table b3) 8:(clear b1) 14:(current-time t1) 28:(on-table b1) 30:(clear b2) 40:(on b2 b3) ]
+Expanded nodes:: Execution::3503394 Design::395388 Total::3898782
+Calculate nodes::475291
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::395388 Expanded nodes::395388
+Total time:: 424.851
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-4-design
+Solver :: LAO*
+Command type:: compilation
+Heuristic_name:: baod-heur
+---->Initial state:: [ 0:(emptyhand) 6:(on-table b3) 8:(clear b1) 14:(current-time t1) 28:(on-table b1) 30:(clear b2) 40:(on b2 b3) ]
+Expected cost:: 2.66697
+Best action:: (design-reduce-uncertainty-pickup b1 t1 t2)
+Expanded nodes::1091703 
+Expanded Design nodes::810295
+Calculate nodes::146438
+Calculate design nodes::41979
+Total time:: 252.123
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-4-design
+Solver :: LAO*
+Command type:: rel-env
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-4-design-relaxed
+Expected cost (A*):: 2.66687
+Optimal action:: (design-put-on-table b2 b3 t1 t2)
+Initial state::[ 0:(emptyhand) 6:(on-table b3) 8:(clear b1) 14:(current-time t1) 28:(on-table b1) 30:(clear b2) 40:(on b2 b3) ]
+Expanded nodes:: Execution::3503066 Design::395192 Total::3898258
+Calculate nodes::475247
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::395192 Expanded nodes::395192
+Total time:: 548.009
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-4-design
+Solver :: LAO*
+Command type:: rel-mod
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-4-design-over
+Expected cost (A*):: 2.66687
+Optimal action:: (design-put-on-table b2 b3 t1 t2)
+Initial state::[ 0:(emptyhand) 6:(on-table b3) 8:(clear b1) 14:(current-time t1) 28:(on-table b1) 30:(clear b2) 40:(on b2 b3) ]
+Expanded nodes:: Execution::3503312 Design::395387 Total::3898699
+Calculate nodes::475280
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::395387 Expanded nodes::395387
+Total time:: 528.439
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-4-design
+Solver :: LAO*
+Command type:: rel-combined
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-4-design-over-relaxed
+Expected cost (A*):: 2.66687
+Optimal action:: (design-put-on-table b2 b3 t1 t2)
+Initial state::[ 0:(emptyhand) 6:(on-table b3) 8:(clear b1) 14:(current-time t1) 28:(on-table b1) 30:(clear b2) 40:(on b2 b3) ]
+Expanded nodes:: Execution::3503066 Design::395192 Total::3898258
+Calculate nodes::475247
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::395192 Expanded nodes::395192
+Total time:: 554.758
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-4-design
+Solver :: LAO*
+Command type:: rel-proc
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-4-design-over
+Expected cost (A*):: 2.66687
+Optimal action:: (design-put-on-table b2 b3 t1 t2)
+Initial state::[ 0:(emptyhand) 6:(on-table b3) 8:(clear b1) 14:(current-time t1) 28:(on-table b1) 30:(clear b2) 40:(on b2 b3) ]
+Expanded nodes:: Execution::1259570 Design::192 Total::1259762
+Calculate nodes::159716
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::344639 Expanded nodes::192
+Total time:: 156.423
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-4-design
+Solver :: LAO*
+Command type:: rel-combined-proc
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-4-design-over-relaxed
+Expected cost (A*):: 2.66687
+Optimal action:: (design-put-on-table b2 b3 t1 t2)
+Initial state::[ 0:(emptyhand) 6:(on-table b3) 8:(clear b1) 14:(current-time t1) 28:(on-table b1) 30:(clear b2) 40:(on b2 b3) ]
+Expanded nodes:: Execution::1270429 Design::192 Total::1270621
+Calculate nodes::161773
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::351098 Expanded nodes::192
+Total time:: 159.333
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-4-design
+Solver :: LAO*
+Command type:: bfs_design
+Heuristic_name:: hmin-heur
+Expected cost (A*):: 2.66687
+Optimal action:: (design-put-on-table b2 b3 t1 t2)
+Initial state::[ 0:(emptyhand) 6:(on-table b3) 8:(clear b1) 14:(current-time t1) 28:(on-table b1) 30:(clear b2) 40:(on b2 b3) ]
+Expanded nodes:: Execution::3228615 Design::395388 Total::3624003
+Calculate nodes::51971
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::395388 Expanded nodes::395388
+Total time:: 370.37
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-4-design
+Solver :: LAO*
+Command type:: compilation
+Heuristic_name:: hmin-heur
+---->Initial state:: [ 0:(emptyhand) 6:(on-table b3) 8:(clear b1) 14:(current-time t1) 28:(on-table b1) 30:(clear b2) 40:(on b2 b3) ]
+Expected cost:: 2.66697
+Best action:: (design-reduce-uncertainty-pickup b1 t1 t2)
+Expanded nodes::3437209 
+Expanded Design nodes::2630518
+Calculate nodes::6667
+Calculate design nodes::33
+Total time:: 271.861
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-4-design
+Solver :: LAO*
+Command type:: rel-env
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-4-design-relaxed
+Expected cost (A*):: 2.66687
+Optimal action:: (design-put-on-table b2 b3 t1 t2)
+Initial state::[ 0:(emptyhand) 6:(on-table b3) 8:(clear b1) 14:(current-time t1) 28:(on-table b1) 30:(clear b2) 40:(on b2 b3) ]
+Expanded nodes:: Execution::3226304 Design::395357 Total::3621661
+Calculate nodes::51940
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::395357 Expanded nodes::395357
+Total time:: 532.79
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-4-design
+Solver :: LAO*
+Command type:: rel-mod
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-4-design-over
+Expected cost (A*):: 2.66687
+Optimal action:: (design-reduce-uncertainty-pickup b1 t1 t2)
+Initial state::[ 0:(emptyhand) 6:(on-table b3) 8:(clear b1) 14:(current-time t1) 28:(on-table b1) 30:(clear b2) 40:(on b2 b3) ]
+Expanded nodes:: Execution::3228615 Design::395388 Total::3624003
+Calculate nodes::51971
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::395388 Expanded nodes::395388
+Total time:: 502.625
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-4-design
+Solver :: LAO*
+Command type:: rel-combined
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-4-design-over-relaxed
+Expected cost (A*):: 2.66687
+Optimal action:: (design-put-on-table b2 b3 t1 t2)
+Initial state::[ 0:(emptyhand) 6:(on-table b3) 8:(clear b1) 14:(current-time t1) 28:(on-table b1) 30:(clear b2) 40:(on b2 b3) ]
+Expanded nodes:: Execution::3226304 Design::395357 Total::3621661
+Calculate nodes::51940
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::395357 Expanded nodes::395357
+Total time:: 527.928
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-4-design
+Solver :: LAO*
+Command type:: rel-proc
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-4-design-over
+Expected cost (A*):: 2.66687
+Optimal action:: (design-put-on-table b2 b3 t1 t2)
+Initial state::[ 0:(emptyhand) 6:(on-table b3) 8:(clear b1) 14:(current-time t1) 28:(on-table b1) 30:(clear b2) 40:(on b2 b3) ]
+Expanded nodes:: Execution::3228615 Design::192 Total::3228807
+Calculate nodes::51971
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::395388 Expanded nodes::192
+Total time:: 503.021
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-4-design
+Solver :: LAO*
+Command type:: rel-combined-proc
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-4-design-over-relaxed
+Expected cost (A*):: 2.66687
+Optimal action:: (design-put-on-table b2 b3 t1 t2)
+Initial state::[ 0:(emptyhand) 6:(on-table b3) 8:(clear b1) 14:(current-time t1) 28:(on-table b1) 30:(clear b2) 40:(on b2 b3) ]
+Expanded nodes:: Execution::3228615 Design::192 Total::3228807
+Calculate nodes::51971
+Calculate design nodes::0
+UMD heuristic:: Examined nodes::395388 Expanded nodes::192
+Total time:: 538.586
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-4-design
+Solver :: FLARES
+Command type:: bfs_design
+Heuristic_name:: baod-heur
+Expected cost (A*):: 2.8004
+Optimal action:: (design-reduce-uncertainty-pickup-tower b3 b2 b1 t1 t2)
+Simulated expected cost::2.8 +/- ::0.142134
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 2.8 stderr: 0.142134 averageCost_solved::2.8 stderr_solved::0.142134
+Calculate nodes::541529
+Calculate design nodes::41978
+Expanded nodes:: Execution::5245726 Design::790776 Total::6036502
+Calculate nodes::541529
+Calculate design nodes::41978
+UMD heuristic:: Examined nodes::790776 Expanded nodes::790776
+Total time:: 742.553
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-4-design
+Solver :: FLARES
+Command type:: compilation
+Heuristic_name:: baod-heur
+Initial state::[ 0:(emptyhand) 6:(on-table b3) 8:(clear b1) 14:(current-time t1) 28:(on-table b1) 30:(clear b2) 40:(on b2 b3) ]Expanded nodes::0
+Estimated cost::2.0005
+ExpectedCost::3.5305 +/- ::0.19718
+Best action::(design-reduce-uncertainty-pickup-tower b3 b2 b3 t1 t2)
+Expanded nodes::2424234 Expanded Design nodes::1024478
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 3.5305 stderr: 0.19718 averageCost_solved::3.5305 stderr_solved::0.19718
+Calculate nodes::237131
+Calculate design nodes::41979
+Total time:: 291.488
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-4-design
+Solver :: FLARES
+Command type:: rel-env
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-4-design-relaxed
+Expected cost (A*):: 6.7803
+Optimal action:: (design-reduce-uncertainty-pickup-tower b1 b2 b2 t1 t2)
+Simulated expected cost::4.29 +/- ::0.117461
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 4.29 stderr: 0.117461 averageCost_solved::4.29 stderr_solved::0.117461
+Calculate nodes::541815
+Calculate design nodes::41978
+Expanded nodes:: Execution::5245110 Design::758519 Total::6003629
+Calculate nodes::541815
+Calculate design nodes::41978
+UMD heuristic:: Examined nodes::758519 Expanded nodes::758519
+Total time:: 843.747
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-4-design
+Solver :: FLARES
+Command type:: rel-mod
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-4-design-over
+Expected cost (A*):: 4.3403
+Optimal action:: (design-reduce-uncertainty-pickup-tower b1 b2 b1 t1 t2)
+Simulated expected cost::4.21 +/- ::0.104731
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 4.21 stderr: 0.104731 averageCost_solved::4.21 stderr_solved::0.104731
+Calculate nodes::542354
+Calculate design nodes::41978
+Expanded nodes:: Execution::5247693 Design::758844 Total::6006537
+Calculate nodes::542354
+Calculate design nodes::41978
+UMD heuristic:: Examined nodes::758844 Expanded nodes::758844
+Total time:: 809.713
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-4-design
+Solver :: FLARES
+Command type:: rel-combined
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-4-design-over-relaxed
+Expected cost (A*):: 4.5603
+Optimal action:: (design-reduce-uncertainty-pickup b1 t1 t2)
+Simulated expected cost::3.98 +/- ::0.0994734
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 3.98 stderr: 0.0994734 averageCost_solved::3.98 stderr_solved::0.0994734
+Calculate nodes::542185
+Calculate design nodes::41978
+Expanded nodes:: Execution::5249275 Design::758519 Total::6007794
+Calculate nodes::542185
+Calculate design nodes::41978
+UMD heuristic:: Examined nodes::758519 Expanded nodes::758519
+Total time:: 839.337
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-4-design
+Solver :: FLARES
+Command type:: rel-proc
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-4-design-over
+Expected cost (A*):: 2.7004
+Optimal action:: (design-put-on-table b2 b3 t1 t2)
+Simulated expected cost::2.84 +/- ::0.127699
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 2.84 stderr: 0.127699 averageCost_solved::2.84 stderr_solved::0.127699
+Calculate nodes::494002
+Calculate design nodes::41978
+Expanded nodes:: Execution::4735142 Design::191 Total::4735333
+Calculate nodes::494002
+Calculate design nodes::41978
+UMD heuristic:: Examined nodes::340546 Expanded nodes::191
+Total time:: 564.698
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-4-design
+Solver :: FLARES
+Command type:: rel-combined-proc
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-4-design-over-relaxed
+Expected cost (A*):: 2.8004
+Optimal action:: (design-put-on-table b2 b3 t1 t2)
+Simulated expected cost::2.6 +/- ::0.131809
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 2.6 stderr: 0.131809 averageCost_solved::2.6 stderr_solved::0.131809
+Calculate nodes::496091
+Calculate design nodes::41978
+Expanded nodes:: Execution::4757175 Design::192 Total::4757367
+Calculate nodes::496091
+Calculate design nodes::41978
+UMD heuristic:: Examined nodes::353605 Expanded nodes::192
+Total time:: 589.997
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-4-design
+Solver :: FLARES
+Command type:: bfs_design
+Heuristic_name:: hmin-heur
+Expected cost (A*):: 4.7502
+Optimal action:: (design-reduce-uncertainty-pickup-tower b1 b3 b1 t1 t2)
+Simulated expected cost::4.82 +/- ::0.170193
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 4.82 stderr: 0.170193 averageCost_solved::4.82 stderr_solved::0.170193
+Calculate nodes::36389
+Calculate design nodes::32
+Expanded nodes:: Execution::6782614 Design::790776 Total::7573390
+Calculate nodes::36389
+Calculate design nodes::32
+UMD heuristic:: Examined nodes::790776 Expanded nodes::790776
+Total time:: 614.413
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-4-design
+Solver :: FLARES
+Command type:: compilation
+Heuristic_name:: hmin-heur
+Initial state::[ 0:(emptyhand) 6:(on-table b3) 8:(clear b1) 14:(current-time t1) 28:(on-table b1) 30:(clear b2) 40:(on b2 b3) ]Expanded nodes::0
+Estimated cost::1.0005
+ExpectedCost::33.0605 +/- ::11.8579
+Best action::(design-reduce-uncertainty-pickup-tower b2 b3 b2 t1 t2)
+Expanded nodes::3045101 Expanded Design nodes::1422473
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 33.0605 stderr: 11.8579 averageCost_solved::33.0605 stderr_solved::11.8579
+Calculate nodes::11659
+Calculate design nodes::33
+Total time:: 252.27
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-4-design
+Solver :: FLARES
+Command type:: rel-env
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-4-design-relaxed
+Expected cost (A*):: 5.0302
+Optimal action:: (design-reduce-uncertainty-pickup-tower b3 b1 b2 t1 t2)
+Simulated expected cost::5.1 +/- ::0.223607
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 5.1 stderr: 0.223607 averageCost_solved::5.1 stderr_solved::0.223607
+Calculate nodes::36376
+Calculate design nodes::32
+Expanded nodes:: Execution::6645813 Design::781525 Total::7427338
+Calculate nodes::36376
+Calculate design nodes::32
+UMD heuristic:: Examined nodes::781525 Expanded nodes::781525
+Total time:: 775.823
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-4-design
+Solver :: FLARES
+Command type:: rel-mod
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-4-design-over
+Expected cost (A*):: 2.6604
+Optimal action:: (design-reduce-uncertainty-pickup b1 t1 t2)
+Simulated expected cost::2.72 +/- ::0.140763
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 2.72 stderr: 0.140763 averageCost_solved::2.72 stderr_solved::0.140763
+Calculate nodes::36529
+Calculate design nodes::32
+Expanded nodes:: Execution::6653675 Design::780472 Total::7434147
+Calculate nodes::36529
+Calculate design nodes::32
+UMD heuristic:: Examined nodes::780472 Expanded nodes::780472
+Total time:: 747.115
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-4-design
+Solver :: FLARES
+Command type:: rel-combined
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-4-design-over-relaxed
+Expected cost (A*):: 2.9903
+Optimal action:: (design-reduce-uncertainty-pickup-tower b2 b2 b3 t1 t2)
+Simulated expected cost::3.15 +/- ::0.174295
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 3.15 stderr: 0.174295 averageCost_solved::3.15 stderr_solved::0.174295
+Calculate nodes::36505
+Calculate design nodes::32
+Expanded nodes:: Execution::6655112 Design::781525 Total::7436637
+Calculate nodes::36505
+Calculate design nodes::32
+UMD heuristic:: Examined nodes::781525 Expanded nodes::781525
+Total time:: 779.932
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-4-design
+Solver :: FLARES
+Command type:: rel-proc
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-4-design-over
+Expected cost (A*):: 2.6604
+Optimal action:: (design-put-on-table b2 b3 t1 t2)
+Simulated expected cost::2.7 +/- ::0.143196
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 2.7 stderr: 0.143196 averageCost_solved::2.7 stderr_solved::0.143196
+Calculate nodes::36306
+Calculate design nodes::32
+Expanded nodes:: Execution::6689313 Design::192 Total::6689505
+Calculate nodes::36306
+Calculate design nodes::32
+UMD heuristic:: Examined nodes::788598 Expanded nodes::192
+Total time:: 757.326
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-4-design
+Solver :: FLARES
+Command type:: rel-combined-proc
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-4-design-over-relaxed
+Expected cost (A*):: 2.6203
+Optimal action:: (design-put-on-table b2 b3 t1 t2)
+Simulated expected cost::2.52 +/- ::0.10491
+Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 2.52 stderr: 0.10491 averageCost_solved::2.52 stderr_solved::0.10491
+Calculate nodes::36510
+Calculate design nodes::32
+Expanded nodes:: Execution::6686327 Design::192 Total::6686519
+Calculate nodes::36510
+Calculate design nodes::32
+UMD heuristic:: Examined nodes::790482 Expanded nodes::192
+Total time:: 798.158
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-5-design
+Solver :: LAO*
+Command type:: bfs_design
+Heuristic_name:: baod-heur
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-5-design
+Solver :: LAO*
+Command type:: compilation
+Heuristic_name:: baod-heur
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-5-design
+Solver :: LAO*
+Command type:: rel-env
+Heuristic_name:: baod-heur
+
+* * *
+
+
+*****************************************************
+File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/blocksworld-test/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-5-design
+Solver :: LAO*
+Command type:: rel-mod
+Heuristic_name:: baod-heur
