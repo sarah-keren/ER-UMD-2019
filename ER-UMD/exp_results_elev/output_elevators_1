@@ -1,0 +1,736 @@
+
+*****************************************************
+File:: ../../umd-Benchmakrs-2019/elevators/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-1-design
+Solver :: LAO*
+Command type:: bfs_design
+Heuristic_name:: baod-heur
+Expected cost (A*):: 4
+Optimal action:: (design-start-execution)
+Initial state::[ 4:(at f1 p1) 20:(coin-at c1 f2 p1) 70:(coin-at c2 f3 p1) 84:(coin-at c3 f1 p3) 104:(current-time t1) 230:(in e1 f1) 242:(in e2 f2) ]
+Nodes Examined: 8987
+Design Nodes Examined: 170
+Nodes Calculated: 1719
+Design Nodes Calculated: 0
+Total time:: 2.53125
+
+* * *
+
+
+*****************************************************
+File:: ../../umd-Benchmakrs-2019/elevators/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-1-design
+Solver :: LAO*
+Command type:: compilation
+Heuristic_name:: baod-heur
+Initial state:: [ 4:(at f1 p1) 20:(coin-at c1 f2 p1) 70:(coin-at c2 f3 p1) 84:(coin-at c3 f1 p3) 104:(current-time t1) 230:(in e1 f1) 242:(in e2 f2) ]
+Expected cost:: 4.0001
+Best action:: (design-start-execution)
+Nodes Examined: 1918
+Design Nodes Examined: 1709
+Nodes Calculated: 143
+Design Nodes Calculated: 57
+Total time:: 0.578125
+
+* * *
+
+
+*****************************************************
+File:: ../../umd-Benchmakrs-2019/elevators/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-1-design
+Solver :: LAO*
+Command type:: rel-env
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-1-design-relaxed
+Expected cost (A*):: 4
+Optimal action:: (design-start-execution)
+Initial state::[ 4:(at f1 p1) 20:(coin-at c1 f2 p1) 70:(coin-at c2 f3 p1) 84:(coin-at c3 f1 p3) 104:(current-time t1) 230:(in e1 f1) 242:(in e2 f2) ]
+Nodes Examined: 286
+Design Nodes Examined: 114
+Nodes Calculated: 87
+Design Nodes Calculated: 57
+Total time:: 0.421875
+
+* * *
+
+
+*****************************************************
+File:: ../../umd-Benchmakrs-2019/elevators/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-1-design
+Solver :: LAO*
+Command type:: rel-mod
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-1-design-over
+Expected cost (A*):: 4
+Optimal action:: (design-start-execution)
+Initial state::[ 4:(at f1 p1) 20:(coin-at c1 f2 p1) 70:(coin-at c2 f3 p1) 84:(coin-at c3 f1 p3) 104:(current-time t1) 230:(in e1 f1) 242:(in e2 f2) ]
+Nodes Examined: 286
+Design Nodes Examined: 114
+Nodes Calculated: 87
+Design Nodes Calculated: 57
+Total time:: 0.609375
+
+* * *
+
+
+*****************************************************
+File:: ../../umd-Benchmakrs-2019/elevators/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-1-design
+Solver :: LAO*
+Command type:: rel-combined
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-1-design-over-relaxed
+Expected cost (A*):: 4
+Optimal action:: (design-start-execution)
+Initial state::[ 4:(at f1 p1) 20:(coin-at c1 f2 p1) 70:(coin-at c2 f3 p1) 84:(coin-at c3 f1 p3) 104:(current-time t1) 230:(in e1 f1) 242:(in e2 f2) ]
+Nodes Examined: 286
+Design Nodes Examined: 114
+Nodes Calculated: 87
+Design Nodes Calculated: 57
+Total time:: 0.609375
+
+* * *
+
+
+*****************************************************
+File:: ../../umd-Benchmakrs-2019/elevators/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-1-design
+Solver :: LAO*
+Command type:: rel-proc
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-1-design-over
+Expected cost (A*):: 4
+Optimal action:: (design-start-execution)
+Initial state::[ 4:(at f1 p1) 20:(coin-at c1 f2 p1) 70:(coin-at c2 f3 p1) 84:(coin-at c3 f1 p3) 104:(current-time t1) 230:(in e1 f1) 242:(in e2 f2) ]
+Nodes Examined: 178
+Design Nodes Examined: 6
+Nodes Calculated: 36
+Design Nodes Calculated: 6
+Total time:: 0.25
+
+* * *
+
+
+*****************************************************
+File:: ../../umd-Benchmakrs-2019/elevators/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-1-design
+Solver :: LAO*
+Command type:: rel-combined-proc
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-1-design-over-relaxed
+Expected cost (A*):: 4
+Optimal action:: (design-start-execution)
+Initial state::[ 4:(at f1 p1) 20:(coin-at c1 f2 p1) 70:(coin-at c2 f3 p1) 84:(coin-at c3 f1 p3) 104:(current-time t1) 230:(in e1 f1) 242:(in e2 f2) ]
+Nodes Examined: 178
+Design Nodes Examined: 6
+Nodes Calculated: 36
+Design Nodes Calculated: 6
+Total time:: 0.203125
+
+* * *
+
+
+*****************************************************
+File:: ../../umd-Benchmakrs-2019/elevators/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-1-design
+Solver :: LAO*
+Command type:: bfs_design
+Heuristic_name:: hmin-heur
+Expected cost (A*):: 4
+Optimal action:: (design-start-execution)
+Initial state::[ 4:(at f1 p1) 20:(coin-at c1 f2 p1) 70:(coin-at c2 f3 p1) 84:(coin-at c3 f1 p3) 104:(current-time t1) 230:(in e1 f1) 242:(in e2 f2) ]
+Nodes Examined: 5267
+Design Nodes Examined: 170
+Nodes Calculated: 57
+Design Nodes Calculated: 0
+Total time:: 2.875
+
+* * *
+
+
+*****************************************************
+File:: ../../umd-Benchmakrs-2019/elevators/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-1-design
+Solver :: LAO*
+Command type:: compilation
+Heuristic_name:: hmin-heur
+Initial state:: [ 4:(at f1 p1) 20:(coin-at c1 f2 p1) 70:(coin-at c2 f3 p1) 84:(coin-at c3 f1 p3) 104:(current-time t1) 230:(in e1 f1) 242:(in e2 f2) ]
+Expected cost:: 4.0001
+Best action:: (design-start-execution)
+Nodes Examined: 470
+Design Nodes Examined: 393
+Nodes Calculated: 58
+Design Nodes Calculated: 57
+Total time:: 1.67188
+
+* * *
+
+
+*****************************************************
+File:: ../../umd-Benchmakrs-2019/elevators/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-1-design
+Solver :: LAO*
+Command type:: rel-env
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-1-design-relaxed
+Expected cost (A*):: 4
+Optimal action:: (design-start-execution)
+Initial state::[ 4:(at f1 p1) 20:(coin-at c1 f2 p1) 70:(coin-at c2 f3 p1) 84:(coin-at c3 f1 p3) 104:(current-time t1) 230:(in e1 f1) 242:(in e2 f2) ]
+Nodes Examined: 5177
+Design Nodes Examined: 169
+Nodes Calculated: 57
+Design Nodes Calculated: 1
+Total time:: 3.60938
+
+* * *
+
+
+*****************************************************
+File:: ../../umd-Benchmakrs-2019/elevators/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-1-design
+Solver :: LAO*
+Command type:: rel-mod
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-1-design-over
+Expected cost (A*):: 4
+Optimal action:: (design-start-execution)
+Initial state::[ 4:(at f1 p1) 20:(coin-at c1 f2 p1) 70:(coin-at c2 f3 p1) 84:(coin-at c3 f1 p3) 104:(current-time t1) 230:(in e1 f1) 242:(in e2 f2) ]
+Nodes Examined: 786
+Design Nodes Examined: 120
+Nodes Calculated: 8
+Design Nodes Calculated: 1
+Total time:: 12.2656
+
+* * *
+
+
+*****************************************************
+File:: ../../umd-Benchmakrs-2019/elevators/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-1-design
+Solver :: LAO*
+Command type:: rel-combined
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-1-design-over-relaxed
+Expected cost (A*):: 4
+Optimal action:: (design-start-execution)
+Initial state::[ 4:(at f1 p1) 20:(coin-at c1 f2 p1) 70:(coin-at c2 f3 p1) 84:(coin-at c3 f1 p3) 104:(current-time t1) 230:(in e1 f1) 242:(in e2 f2) ]
+Nodes Examined: 946
+Design Nodes Examined: 122
+Nodes Calculated: 10
+Design Nodes Calculated: 1
+Total time:: 18.8438
+
+* * *
+
+
+*****************************************************
+File:: ../../umd-Benchmakrs-2019/elevators/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-1-design
+Solver :: LAO*
+Command type:: rel-proc
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-1-design-over
+Expected cost (A*):: 4
+Optimal action:: (design-start-execution)
+Initial state::[ 4:(at f1 p1) 20:(coin-at c1 f2 p1) 70:(coin-at c2 f3 p1) 84:(coin-at c3 f1 p3) 104:(current-time t1) 230:(in e1 f1) 242:(in e2 f2) ]
+Nodes Examined: 830
+Design Nodes Examined: 6
+Nodes Calculated: 10
+Design Nodes Calculated: 1
+Total time:: 16.6094
+
+* * *
+
+
+*****************************************************
+File:: ../../umd-Benchmakrs-2019/elevators/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-1-design
+Solver :: LAO*
+Command type:: rel-combined-proc
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-1-design-over-relaxed
+Expected cost (A*):: 4
+Optimal action:: (design-start-execution)
+Initial state::[ 4:(at f1 p1) 20:(coin-at c1 f2 p1) 70:(coin-at c2 f3 p1) 84:(coin-at c3 f1 p3) 104:(current-time t1) 230:(in e1 f1) 242:(in e2 f2) ]
+Nodes Examined: 830
+Design Nodes Examined: 6
+Nodes Calculated: 10
+Design Nodes Calculated: 1
+Total time:: 14.7656
+
+* * *
+
+
+*****************************************************
+File:: ../../umd-Benchmakrs-2019/elevators/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-2-design
+Solver :: LAO*
+Command type:: bfs_design
+Heuristic_name:: baod-heur
+Expected cost (A*):: 4
+Optimal action:: (design-start-execution)
+Initial state::[ 4:(at f1 p1) 20:(coin-at c1 f2 p1) 70:(coin-at c2 f3 p1) 84:(coin-at c3 f1 p3) 104:(current-time t1) 232:(in e1 f1) 244:(in e2 f2) ]
+Nodes Examined: 266883
+Design Nodes Examined: 8038
+Nodes Calculated: 50109
+Design Nodes Calculated: 0
+Total time:: 66.125
+
+* * *
+
+
+*****************************************************
+File:: ../../umd-Benchmakrs-2019/elevators/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-2-design
+Solver :: LAO*
+Command type:: compilation
+Heuristic_name:: baod-heur
+Initial state:: [ 4:(at f1 p1) 20:(coin-at c1 f2 p1) 70:(coin-at c2 f3 p1) 84:(coin-at c3 f1 p3) 104:(current-time t1) 232:(in e1 f1) 244:(in e2 f2) ]
+Expected cost:: 4.0001
+Best action:: (design-start-execution)
+Nodes Examined: 39496
+Design Nodes Examined: 37241
+Nodes Calculated: 3612
+Design Nodes Calculated: 1653
+Total time:: 12.375
+
+* * *
+
+
+*****************************************************
+File:: ../../umd-Benchmakrs-2019/elevators/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-2-design
+Solver :: LAO*
+Command type:: rel-env
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-2-design-relaxed
+Expected cost (A*):: 4
+Optimal action:: (design-start-execution)
+Initial state::[ 4:(at f1 p1) 20:(coin-at c1 f2 p1) 70:(coin-at c2 f3 p1) 84:(coin-at c3 f1 p3) 104:(current-time t1) 232:(in e1 f1) 244:(in e2 f2) ]
+Nodes Examined: 286
+Design Nodes Examined: 114
+Nodes Calculated: 87
+Design Nodes Calculated: 57
+Total time:: 5.0625
+
+* * *
+
+
+*****************************************************
+File:: ../../umd-Benchmakrs-2019/elevators/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-2-design
+Solver :: LAO*
+Command type:: rel-mod
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-2-design-over
+Expected cost (A*):: 4
+Optimal action:: (design-start-execution)
+Initial state::[ 4:(at f1 p1) 20:(coin-at c1 f2 p1) 70:(coin-at c2 f3 p1) 84:(coin-at c3 f1 p3) 104:(current-time t1) 232:(in e1 f1) 244:(in e2 f2) ]
+Nodes Examined: 286
+Design Nodes Examined: 114
+Nodes Calculated: 87
+Design Nodes Calculated: 57
+Total time:: 8.0625
+
+* * *
+
+
+*****************************************************
+File:: ../../umd-Benchmakrs-2019/elevators/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-2-design
+Solver :: LAO*
+Command type:: rel-combined
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-2-design-over-relaxed
+Expected cost (A*):: 4
+Optimal action:: (design-start-execution)
+Initial state::[ 4:(at f1 p1) 20:(coin-at c1 f2 p1) 70:(coin-at c2 f3 p1) 84:(coin-at c3 f1 p3) 104:(current-time t1) 232:(in e1 f1) 244:(in e2 f2) ]
+Nodes Examined: 286
+Design Nodes Examined: 114
+Nodes Calculated: 87
+Design Nodes Calculated: 57
+Total time:: 9.07812
+
+* * *
+
+
+*****************************************************
+File:: ../../umd-Benchmakrs-2019/elevators/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-2-design
+Solver :: LAO*
+Command type:: rel-proc
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-2-design-over
+Expected cost (A*):: 4
+Optimal action:: (design-start-execution)
+Initial state::[ 4:(at f1 p1) 20:(coin-at c1 f2 p1) 70:(coin-at c2 f3 p1) 84:(coin-at c3 f1 p3) 104:(current-time t1) 232:(in e1 f1) 244:(in e2 f2) ]
+Nodes Examined: 178
+Design Nodes Examined: 6
+Nodes Calculated: 36
+Design Nodes Calculated: 6
+Total time:: 1.64062
+
+* * *
+
+
+*****************************************************
+File:: ../../umd-Benchmakrs-2019/elevators/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-2-design
+Solver :: LAO*
+Command type:: rel-combined-proc
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-2-design-over-relaxed
+Expected cost (A*):: 4
+Optimal action:: (design-start-execution)
+Initial state::[ 4:(at f1 p1) 20:(coin-at c1 f2 p1) 70:(coin-at c2 f3 p1) 84:(coin-at c3 f1 p3) 104:(current-time t1) 232:(in e1 f1) 244:(in e2 f2) ]
+Nodes Examined: 178
+Design Nodes Examined: 6
+Nodes Calculated: 36
+Design Nodes Calculated: 6
+Total time:: 1.78125
+
+* * *
+
+
+*****************************************************
+File:: ../../umd-Benchmakrs-2019/elevators/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-2-design
+Solver :: LAO*
+Command type:: bfs_design
+Heuristic_name:: hmin-heur
+Expected cost (A*):: 4
+Optimal action:: (design-start-execution)
+Initial state::[ 4:(at f1 p1) 20:(coin-at c1 f2 p1) 70:(coin-at c2 f3 p1) 84:(coin-at c3 f1 p3) 104:(current-time t1) 232:(in e1 f1) 244:(in e2 f2) ]
+Nodes Examined: 155312
+Design Nodes Examined: 8038
+Nodes Calculated: 1653
+Design Nodes Calculated: 0
+Total time:: 48.5469
+
+* * *
+
+
+*****************************************************
+File:: ../../umd-Benchmakrs-2019/elevators/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-2-design
+Solver :: LAO*
+Command type:: compilation
+Heuristic_name:: hmin-heur
+Initial state:: [ 4:(at f1 p1) 20:(coin-at c1 f2 p1) 70:(coin-at c2 f3 p1) 84:(coin-at c3 f1 p3) 104:(current-time t1) 232:(in e1 f1) 244:(in e2 f2) ]
+Expected cost:: 4.0001
+Best action:: (design-start-execution)
+Nodes Examined: 308867
+Design Nodes Examined: 268290
+Nodes Calculated: 58
+Design Nodes Calculated: 57
+Total time:: 36.9375
+
+* * *
+
+
+*****************************************************
+File:: ../../umd-Benchmakrs-2019/elevators/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-2-design
+Solver :: LAO*
+Command type:: rel-env
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-2-design-relaxed
+Expected cost (A*):: 4
+Optimal action:: (design-start-execution)
+Initial state::[ 4:(at f1 p1) 20:(coin-at c1 f2 p1) 70:(coin-at c2 f3 p1) 84:(coin-at c3 f1 p3) 104:(current-time t1) 232:(in e1 f1) 244:(in e2 f2) ]
+Nodes Examined: 155222
+Design Nodes Examined: 8037
+Nodes Calculated: 1653
+Design Nodes Calculated: 1
+Total time:: 80.7344
+
+* * *
+
+
+*****************************************************
+File:: ../../umd-Benchmakrs-2019/elevators/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-2-design
+Solver :: LAO*
+Command type:: rel-mod
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-2-design-over
+Expected cost (A*):: 4
+Optimal action:: (design-start-execution)
+Initial state::[ 4:(at f1 p1) 20:(coin-at c1 f2 p1) 70:(coin-at c2 f3 p1) 84:(coin-at c3 f1 p3) 104:(current-time t1) 232:(in e1 f1) 244:(in e2 f2) ]
+Nodes Examined: 155312
+Design Nodes Examined: 8038
+Nodes Calculated: 1654
+Design Nodes Calculated: 1
+Total time:: 146.469
+
+* * *
+
+
+*****************************************************
+File:: ../../umd-Benchmakrs-2019/elevators/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-2-design
+Solver :: LAO*
+Command type:: rel-combined
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-2-design-over-relaxed
+Expected cost (A*):: 4
+Optimal action:: (design-start-execution)
+Initial state::[ 4:(at f1 p1) 20:(coin-at c1 f2 p1) 70:(coin-at c2 f3 p1) 84:(coin-at c3 f1 p3) 104:(current-time t1) 232:(in e1 f1) 244:(in e2 f2) ]
+Nodes Examined: 155312
+Design Nodes Examined: 8038
+Nodes Calculated: 1654
+Design Nodes Calculated: 1
+Total time:: 166.469
+
+* * *
+
+
+*****************************************************
+File:: ../../umd-Benchmakrs-2019/elevators/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-2-design
+Solver :: LAO*
+Command type:: rel-proc
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-2-design-over
+Expected cost (A*):: 4
+Optimal action:: (design-start-execution)
+Initial state::[ 4:(at f1 p1) 20:(coin-at c1 f2 p1) 70:(coin-at c2 f3 p1) 84:(coin-at c3 f1 p3) 104:(current-time t1) 232:(in e1 f1) 244:(in e2 f2) ]
+Nodes Examined: 147295
+Design Nodes Examined: 21
+Nodes Calculated: 1654
+Design Nodes Calculated: 1
+Total time:: 145.953
+
+* * *
+
+
+*****************************************************
+File:: ../../umd-Benchmakrs-2019/elevators/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-2-design
+Solver :: LAO*
+Command type:: rel-combined-proc
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-2-design-over-relaxed
+Expected cost (A*):: 4
+Optimal action:: (design-start-execution)
+Initial state::[ 4:(at f1 p1) 20:(coin-at c1 f2 p1) 70:(coin-at c2 f3 p1) 84:(coin-at c3 f1 p3) 104:(current-time t1) 232:(in e1 f1) 244:(in e2 f2) ]
+Nodes Examined: 147295
+Design Nodes Examined: 21
+Nodes Calculated: 1654
+Design Nodes Calculated: 1
+Total time:: 165.891
+
+* * *
+
+
+*****************************************************
+File:: ../../umd-Benchmakrs-2019/elevators/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-3-design
+Solver :: LAO*
+Command type:: bfs_design
+Heuristic_name:: baod-heur
+Expected cost (A*):: 4
+Optimal action:: (design-start-execution)
+Initial state::[ 4:(at f1 p1) 20:(coin-at c1 f2 p1) 70:(coin-at c2 f3 p1) 84:(coin-at c3 f1 p3) 104:(current-time t1) 234:(in e1 f1) 246:(in e2 f2) ]
+Nodes Examined: 5135288
+Design Nodes Examined: 216106
+Nodes Calculated: 943783
+Design Nodes Calculated: 0
+Total time:: 683.5
+
+* * *
+
+
+*****************************************************
+File:: ../../umd-Benchmakrs-2019/elevators/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-3-design
+Solver :: LAO*
+Command type:: compilation
+Heuristic_name:: baod-heur
+Initial state:: [ 4:(at f1 p1) 20:(coin-at c1 f2 p1) 70:(coin-at c2 f3 p1) 84:(coin-at c3 f1 p3) 104:(current-time t1) 234:(in e1 f1) 246:(in e2 f2) ]
+Expected cost:: 4.0001
+Best action:: (design-start-execution)
+Nodes Examined: 665805
+Design Nodes Examined: 607866
+Nodes Calculated: 78274
+Design Nodes Calculated: 30968
+Total time:: 308.859
+
+* * *
+
+
+*****************************************************
+File:: ../../umd-Benchmakrs-2019/elevators/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-3-design
+Solver :: LAO*
+Command type:: rel-env
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-3-design-relaxed
+Expected cost (A*):: 4
+Optimal action:: (design-start-execution)
+Initial state::[ 4:(at f1 p1) 20:(coin-at c1 f2 p1) 70:(coin-at c2 f3 p1) 84:(coin-at c3 f1 p3) 104:(current-time t1) 234:(in e1 f1) 246:(in e2 f2) ]
+Nodes Examined: 286
+Design Nodes Examined: 114
+Nodes Calculated: 87
+Design Nodes Calculated: 57
+Total time:: 52.7344
+
+* * *
+
+
+*****************************************************
+File:: ../../umd-Benchmakrs-2019/elevators/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-3-design
+Solver :: LAO*
+Command type:: rel-mod
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-3-design-over
+Expected cost (A*):: 4
+Optimal action:: (design-start-execution)
+Initial state::[ 4:(at f1 p1) 20:(coin-at c1 f2 p1) 70:(coin-at c2 f3 p1) 84:(coin-at c3 f1 p3) 104:(current-time t1) 234:(in e1 f1) 246:(in e2 f2) ]
+Nodes Examined: 286
+Design Nodes Examined: 114
+Nodes Calculated: 87
+Design Nodes Calculated: 57
+Total time:: 64.9531
+
+* * *
+
+
+*****************************************************
+File:: ../../umd-Benchmakrs-2019/elevators/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-3-design
+Solver :: LAO*
+Command type:: rel-combined
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-3-design-over-relaxed
+Expected cost (A*):: 4
+Optimal action:: (design-start-execution)
+Initial state::[ 4:(at f1 p1) 20:(coin-at c1 f2 p1) 70:(coin-at c2 f3 p1) 84:(coin-at c3 f1 p3) 104:(current-time t1) 234:(in e1 f1) 246:(in e2 f2) ]
+Nodes Examined: 286
+Design Nodes Examined: 114
+Nodes Calculated: 87
+Design Nodes Calculated: 57
+Total time:: 74.3906
+
+* * *
+
+
+*****************************************************
+File:: ../../umd-Benchmakrs-2019/elevators/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-3-design
+Solver :: LAO*
+Command type:: rel-proc
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-3-design-over
+Expected cost (A*):: 4
+Optimal action:: (design-start-execution)
+Initial state::[ 4:(at f1 p1) 20:(coin-at c1 f2 p1) 70:(coin-at c2 f3 p1) 84:(coin-at c3 f1 p3) 104:(current-time t1) 234:(in e1 f1) 246:(in e2 f2) ]
+Nodes Examined: 178
+Design Nodes Examined: 6
+Nodes Calculated: 36
+Design Nodes Calculated: 6
+Total time:: 11.6094
+
+* * *
+
+
+*****************************************************
+File:: ../../umd-Benchmakrs-2019/elevators/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-3-design
+Solver :: LAO*
+Command type:: rel-combined-proc
+Heuristic_name:: baod-heur
+Relaxed problem:: p1-3-design-over-relaxed
+Expected cost (A*):: 4
+Optimal action:: (design-start-execution)
+Initial state::[ 4:(at f1 p1) 20:(coin-at c1 f2 p1) 70:(coin-at c2 f3 p1) 84:(coin-at c3 f1 p3) 104:(current-time t1) 234:(in e1 f1) 246:(in e2 f2) ]
+Nodes Examined: 178
+Design Nodes Examined: 6
+Nodes Calculated: 36
+Design Nodes Calculated: 6
+Total time:: 12.4844
+
+* * *
+
+
+*****************************************************
+File:: ../../umd-Benchmakrs-2019/elevators/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-3-design
+Solver :: LAO*
+Command type:: bfs_design
+Heuristic_name:: hmin-heur
+Expected cost (A*):: 4
+Optimal action:: (design-start-execution)
+Initial state::[ 4:(at f1 p1) 20:(coin-at c1 f2 p1) 70:(coin-at c2 f3 p1) 84:(coin-at c3 f1 p3) 104:(current-time t1) 234:(in e1 f1) 246:(in e2 f2) ]
+Nodes Examined: 2979568
+Design Nodes Examined: 216106
+Nodes Calculated: 30969
+Design Nodes Calculated: 0
+Total time:: 974.453
+
+* * *
+
+
+*****************************************************
+File:: ../../umd-Benchmakrs-2019/elevators/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-3-design
+Solver :: LAO*
+Command type:: compilation
+Heuristic_name:: hmin-heur
+Initial state:: [ 4:(at f1 p1) 20:(coin-at c1 f2 p1) 70:(coin-at c2 f3 p1) 84:(coin-at c3 f1 p3) 104:(current-time t1) 234:(in e1 f1) 246:(in e2 f2) ]
+Expected cost:: 4.0001
+Best action:: (design-start-execution)
+Nodes Examined: 8633435
+Design Nodes Examined: 7750625
+Nodes Calculated: 58
+Design Nodes Calculated: 57
+Total time:: 720.328
+
+* * *
+
+
+*****************************************************
+File:: ../../umd-Benchmakrs-2019/elevators/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-3-design
+Solver :: LAO*
+Command type:: rel-env
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-3-design-relaxed
+Expected cost (A*):: 4
+Optimal action:: (design-start-execution)
+Initial state::[ 4:(at f1 p1) 20:(coin-at c1 f2 p1) 70:(coin-at c2 f3 p1) 84:(coin-at c3 f1 p3) 104:(current-time t1) 234:(in e1 f1) 246:(in e2 f2) ]
+Nodes Examined: 2974611
+Design Nodes Examined: 216051
+Nodes Calculated: 30915
+Design Nodes Calculated: 1
+Total time:: 1599.38
+
+* * *
+
+
+*****************************************************
+File:: ../../umd-Benchmakrs-2019/elevators/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-3-design
+Solver :: LAO*
+Command type:: rel-mod
+Heuristic_name:: hmin-heur
+Relaxed problem:: p1-3-design-over
+Expected cost (A*):: 4
+Optimal action:: (design-start-execution)
+Initial state::[ 4:(at f1 p1) 20:(coin-at c1 f2 p1) 70:(coin-at c2 f3 p1) 84:(coin-at c3 f1 p3) 104:(current-time t1) 234:(in e1 f1) 246:(in e2 f2) ]
+Nodes Examined: 2979568
+Design Nodes Examined: 216106
+Nodes Calculated: 30970
+Design Nodes Calculated: 1
+Total time:: 3929.59
+
+* * *
+
+
+*****************************************************
+File:: ../../umd-Benchmakrs-2019/elevators/simplified_joint/p1/p1-domain-design-all.pddl
+Problem:: p1-3-design
+Solver :: LAO*
+Command type:: rel-combined
+Heuristic_name:: hmin-heur

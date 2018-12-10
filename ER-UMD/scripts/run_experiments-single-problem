@@ -19,7 +19,7 @@
 
 
 for budget in $(seq 1 $4);do	
-	for method in LAO* FLARES; do 
+	for method in LAO* ; do 
 		for heuristic in baod-heur hmin-heur;do                         
 			#for approach in bfs_design compilation rel-env rel-env-LAO* rel-mod rel-mod-LAO* rel-combined rel-combined-LAO* rel-proc rel-proc-LAO* rel-combined-proc rel-combined-proc-LAO* rel-sol-simulate rel-sol-simulate-LAO* rel-sol rel-sol-LAO* ; do
 			for approach in bfs_design compilation rel-env rel-mod rel-combined rel-proc rel-combined-proc ; do #rel-sol-simulate rel-sol ; do
@@ -27,7 +27,7 @@ for budget in $(seq 1 $4);do
 				echo "*****************************************************"				
 				#echo "---$1/$2/$6/p$3/p$3-domain-design-all.pddl p$3\-$budget-design $method $approach $heuristic ---"
 				#ulimit -t 1800;
-				ulimit -t 600;
+				ulimit -t 1800;
 				$5/ER-UMD-2019 $1/$2/$6/p$3/p$3-domain-design-all.pddl p$3\-$budget-design $method $approach $heuristic
 				echo ""
 				echo "* * *"				

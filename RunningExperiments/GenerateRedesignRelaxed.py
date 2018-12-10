@@ -193,8 +193,8 @@ if __name__ == '__main__' :
 
 
 
-    benchmarks_location = '/home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019'
-
+    benchmarks_location = '../umd-Benchmakrs-2019-ICAPS'
+    benchmarks_location = os.path.abspath(benchmarks_location)
 
     for domain_name in domain_names:
         domains_folder= '%s/%s/domains'%(benchmarks_location,domain_name)

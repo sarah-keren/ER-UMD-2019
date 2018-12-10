@@ -835,6 +835,7 @@ Simulated expected cost::1 +/- ::0
 Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 1 stderr: 0 averageCost_solved::1 stderr_solved::0
 Calculate nodes::20199
 Calculate design nodes::5049
+
 Expanded nodes:: Execution::302608 Design::49702 Total::352310
 Calculate nodes::20199
 Calculate design nodes::5049
@@ -842,7 +843,6 @@ UMD heuristic:: Examined nodes::49702 Expanded nodes::49702
 Total time:: 17.7149
 
 * * *
-
 
 *****************************************************
 File:: /home/sarah/Documents/GoalRecognitionDesign/Redesign/ER-UMD-2019/umd-Benchmakrs-2019/vacuum-no-fuel/simplified_joint/p1/p1-domain-design-all.pddl
@@ -858,7 +858,7 @@ Expanded nodes::304430 Expanded Design nodes::213141
 Simulation results:: num_of_runs::100 num_of_solved::100 averageCost: 1.00014 stderr: 4.79372e-06 averageCost_solved::1.00014 stderr_solved::4.79372e-06
 Calculate nodes::20200
 Calculate design nodes::5050
-Total time:: 13.3883
+Total time:: 13.384
 
 * * *
 
@@ -1152,7 +1152,7 @@ Expected cost:: 1.0001
 Best action:: (design-start-execution)
 Expanded nodes::5314316 
 Expanded Design nodes::5082824
-Calculate nodes::353493
+Calculate nodes::3534934
 Calculate design nodes::166848
 Total time:: 425.998
 

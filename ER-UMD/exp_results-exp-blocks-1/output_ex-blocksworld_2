@@ -1,0 +1,119 @@
+
+*****************************************************
+File:: ../../umd-Benchmakrs-2019/ex-blocksworld/simplified_joint/p2/p2-domain-design-all.pddl
+Problem:: p2-1-design
+Solver :: LAO*
+Command type:: bfs_design
+Heuristic_name:: baod-heur
+Expected cost (A*):: 98.8001
+Optimal action:: (design-put-on-table b1 b3 t1 t2)
+Initial state::[ 0:(emptyhand) 8:(on-table b4) 10:(clear b2) 16:(current-time t1) 22:(clear b1) 30:(on b1 b3) 40:(on-table b2) 54:(on b3 b4) 116:(no-destroyed b1) 120:(no-destroyed b2) 124:(no-destroyed b3) 128:(no-destroyed b4) 132:(no-destroyed-table) 134:(no-detonated b1) 136:(no-detonated b2) 138:(no-detonated b3) 140:(no-detonated b4) ]
+Nodes Examined: 6597391
+Design Nodes Examined: 68
+Nodes Calculated: 1112110
+Design Nodes Calculated: 0
+Total time:: 7543.11
+
+* * *
+
+
+*****************************************************
+File:: ../../umd-Benchmakrs-2019/ex-blocksworld/simplified_joint/p2/p2-domain-design-all.pddl
+Problem:: p2-1-design
+Solver :: LAO*
+Command type:: compilation
+Heuristic_name:: baod-heur
+Initial state:: [ 0:(emptyhand) 8:(on-table b4) 10:(clear b2) 16:(current-time t1) 22:(clear b1) 30:(on b1 b3) 40:(on-table b2) 54:(on b3 b4) 116:(no-destroyed b1) 120:(no-destroyed b2) 124:(no-destroyed b3) 128:(no-destroyed b4) 132:(no-destroyed-table) 134:(no-detonated b1) 136:(no-detonated b2) 138:(no-detonated b3) 140:(no-detonated b4) ]
+Expected cost:: 98.8002
+Best action:: (design-put-on-table b1 b3 t1 t2)
+Nodes Examined: 5598287
+Design Nodes Examined: 423
+Nodes Calculated: 1034326
+Design Nodes Calculated: 23
+Total time:: 7372.12
+
+* * *
+
+
+*****************************************************
+File:: ../../umd-Benchmakrs-2019/ex-blocksworld/simplified_joint/p2/p2-domain-design-all.pddl
+Problem:: p2-1-design
+Solver :: LAO*
+Command type:: rel-env
+Heuristic_name:: baod-heur
+Relaxed problem:: p2-1-design-relaxed
+Expected cost (A*):: 98.8001
+Optimal action:: (design-put-on-table b1 b3 t1 t2)
+Initial state::[ 0:(emptyhand) 8:(on-table b4) 10:(clear b2) 16:(current-time t1) 22:(clear b1) 30:(on b1 b3) 40:(on-table b2) 54:(on b3 b4) 116:(no-destroyed b1) 120:(no-destroyed b2) 124:(no-destroyed b3) 128:(no-destroyed b4) 132:(no-destroyed-table) 134:(no-detonated b1) 136:(no-detonated b2) 138:(no-detonated b3) 140:(no-detonated b4) ]
+Nodes Examined: 6597391
+Design Nodes Examined: 68
+Nodes Calculated: 1112133
+Design Nodes Calculated: 23
+Total time:: 7523.5
+
+* * *
+
+
+*****************************************************
+File:: ../../umd-Benchmakrs-2019/ex-blocksworld/simplified_joint/p2/p2-domain-design-all.pddl
+Problem:: p2-1-design
+Solver :: LAO*
+Command type:: rel-mod
+Heuristic_name:: baod-heur
+Relaxed problem:: p2-1-design-over
+Expected cost (A*):: 98.8001
+Optimal action:: (design-put-on-table b1 b3 t1 t2)
+Initial state::[ 0:(emptyhand) 8:(on-table b4) 10:(clear b2) 16:(current-time t1) 22:(clear b1) 30:(on b1 b3) 40:(on-table b2) 54:(on b3 b4) 116:(no-destroyed b1) 120:(no-destroyed b2) 124:(no-destroyed b3) 128:(no-destroyed b4) 132:(no-destroyed-table) 134:(no-detonated b1) 136:(no-detonated b2) 138:(no-detonated b3) 140:(no-detonated b4) ]
+Nodes Examined: 6597391
+Design Nodes Examined: 68
+Nodes Calculated: 1112133
+Design Nodes Calculated: 23
+Total time:: 7537.98
+
+* * *
+
+
+*****************************************************
+File:: ../../umd-Benchmakrs-2019/ex-blocksworld/simplified_joint/p2/p2-domain-design-all.pddl
+Problem:: p2-1-design
+Solver :: LAO*
+Command type:: rel-combined
+Heuristic_name:: baod-heur
+Relaxed problem:: p2-1-design-over-relaxed
+Expected cost (A*):: 98.8001
+Optimal action:: (design-put-on-table b1 b3 t1 t2)
+Initial state::[ 0:(emptyhand) 8:(on-table b4) 10:(clear b2) 16:(current-time t1) 22:(clear b1) 30:(on b1 b3) 40:(on-table b2) 54:(on b3 b4) 116:(no-destroyed b1) 120:(no-destroyed b2) 124:(no-destroyed b3) 128:(no-destroyed b4) 132:(no-destroyed-table) 134:(no-detonated b1) 136:(no-detonated b2) 138:(no-detonated b3) 140:(no-detonated b4) ]
+Nodes Examined: 6597391
+Design Nodes Examined: 68
+Nodes Calculated: 1112133
+Design Nodes Calculated: 23
+Total time:: 7570.59
+
+* * *
+
+
+*****************************************************
+File:: ../../umd-Benchmakrs-2019/ex-blocksworld/simplified_joint/p2/p2-domain-design-all.pddl
+Problem:: p2-1-design
+Solver :: LAO*
+Command type:: rel-proc
+Heuristic_name:: baod-heur
+Relaxed problem:: p2-1-design-over
+Expected cost (A*):: 98.8001
+Optimal action:: (design-put-on-table b1 b3 t1 t2)
+Initial state::[ 0:(emptyhand) 8:(on-table b4) 10:(clear b2) 16:(current-time t1) 22:(clear b1) 30:(on b1 b3) 40:(on-table b2) 54:(on b3 b4) 116:(no-destroyed b1) 120:(no-destroyed b2) 124:(no-destroyed b3) 128:(no-destroyed b4) 132:(no-destroyed-table) 134:(no-detonated b1) 136:(no-detonated b2) 138:(no-detonated b3) 140:(no-detonated b4) ]
+Nodes Examined: 6597334
+Design Nodes Examined: 11
+Nodes Calculated: 1112121
+Design Nodes Calculated: 11
+Total time:: 7563.61
+
+* * *
+
+
+*****************************************************
+File:: ../../umd-Benchmakrs-2019/ex-blocksworld/simplified_joint/p2/p2-domain-design-all.pddl
+Problem:: p2-1-design
+Solver :: LAO*
+Command type:: rel-combined-proc
+Heuristic_name:: baod-heur

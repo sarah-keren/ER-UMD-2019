@@ -5,3 +5,5 @@
  valgrind --leak-check=full --show-leak-kinds=all ./run_experiments-multi-problems-simplified ../../umd-Benchmakrs-2018 vacuum-no-fuel 1 22 5 /home/sarah/Documents/GoalRecognitionDesign/Redesign/Code-IJCAI18/ER-UMD/ER-UMD/bin/Release
 
 
+
+ ./run_experiments-multi-problems-simplified ../../umd-Benchmakrs-2019 ex-blocksworld 1 10 4 ../bin/Release

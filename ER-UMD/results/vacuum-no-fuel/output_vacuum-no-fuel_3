@@ -157,7 +157,7 @@ Heuristic_name:: hmin-heur
 Initial state:: [ 6:(current-time t1) 240:(robot-at x1 y1) 242:(dirt-at d1 x1 y1) 322:(dirt-at d2 x3 y2) ]
 Expected cost:: 5.5002
 Best action:: (design-reduce-friction-x x2 y1 x3 t1 t2)
-Nodes Examined: 18052
+Nodes Examined: 	
 Design Nodes Examined: 14655
 Nodes Calculated: 100
 Design Nodes Calculated: 99
